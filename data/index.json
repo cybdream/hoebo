@@ -1,0 +1,17 @@
+{
+  "version": "20260504.0411",
+  "generatedAt": "2026-05-03T19:11:11.237Z",
+  "source": "https://webzine.daesoon.org/",
+  "issues": [
+    {
+      "webzineId": 348,
+      "issueNo": 304,
+      "issueLabel": "304호",
+      "dateLabel": "대순156년(2026) 4월",
+      "coverUrl": "https://file.daesoon.org/webzine/cover/heoho304_cover.jpg",
+      "pdfUrl": "https://file.daesoon.org/webzine/pdf/hoebo304.pdf",
+      "articleCount": 25,
+      "filePath": "issues/301-310/304.json"
+    }
+  ]
+}
