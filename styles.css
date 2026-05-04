@@ -27,7 +27,7 @@ body {
 .page-shell {
   width: min(1380px, calc(100% - 32px));
   margin: 0 auto;
-  padding: 32px 0 48px;
+  padding: 16px 0 32px;
 }
 
 .hero,
@@ -42,9 +42,9 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
-  gap: 24px;
-  padding: 28px;
-  border-radius: 28px;
+  gap: 12px;
+  padding: 14px 20px;
+  border-radius: 20px;
 }
 
 .hero-actions {
@@ -56,18 +56,13 @@ body {
 }
 
 .eyebrow {
-  margin: 0 0 8px;
-  color: var(--accent);
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  display: none;
 }
 
 .hero h1 {
   margin: 0;
   font-family: "Noto Serif KR", serif;
-  font-size: clamp(30px, 5vw, 42px);
+  font-size: clamp(18px, 2.5vw, 24px);
   line-height: 1.2;
 }
 
@@ -105,10 +100,10 @@ body {
 
 .toolbar {
   display: flex;
-  gap: 16px;
-  margin-top: 18px;
-  padding: 18px;
-  border-radius: 22px;
+  gap: 12px;
+  margin-top: 10px;
+  padding: 10px 14px;
+  border-radius: 16px;
 }
 
 .mobile-issue-toggle {
@@ -141,10 +136,10 @@ body {
 .field input,
 .field select {
   width: 100%;
-  min-height: 46px;
-  padding: 0 14px;
+  min-height: 36px;
+  padding: 0 12px;
   border: 1px solid var(--line);
-  border-radius: 14px;
+  border-radius: 10px;
   font: inherit;
   background: #fffdf8;
 }
@@ -153,7 +148,7 @@ body {
   display: grid;
   grid-template-columns: 320px minmax(0, 1fr);
   gap: 18px;
-  margin-top: 18px;
+  margin-top: 10px;
   align-items: start;
 }
 
