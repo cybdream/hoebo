@@ -103,8 +103,10 @@ body {
 }
 
 .toolbar {
-  display: flex;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(112px, 160px);
+  align-items: center;
+  gap: 8px;
   margin-top: 8px;
   padding: 8px 12px;
   border-radius: 14px;
@@ -124,28 +126,35 @@ body {
 }
 
 .field {
-  display: grid;
-  gap: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
 }
 
 .field.grow {
-  flex: 1;
+  width: 100%;
 }
 
 .field span {
-  font-size: 14px;
-  font-weight: 700;
+  display: none;
 }
 
 .field input,
 .field select {
   width: 100%;
-  min-height: 36px;
-  padding: 0 12px;
+  min-height: 34px;
+  padding: 0 10px;
   border: 1px solid var(--line);
   border-radius: 10px;
   font: inherit;
+  font-size: 14px;
   background: #fffdf8;
+}
+
+#categoryField {
+  width: 100%;
+  max-width: 160px;
 }
 
 .workspace {
@@ -583,9 +592,17 @@ body {
   }
 
   .article-top,
-  .hero,
-  .toolbar {
+  .hero {
     flex-direction: column;
+  }
+
+  .toolbar {
+    grid-template-columns: minmax(0, 1fr) minmax(104px, 132px);
+    gap: 6px;
+  }
+
+  #categoryField {
+    max-width: 132px;
   }
 
   .empty-state {
@@ -610,5 +627,21 @@ body {
 
   .article-body {
     font-size: 17px;
+  }
+
+  .toolbar {
+    grid-template-columns: minmax(0, 1fr) 108px;
+    gap: 6px;
+    padding: 10px 12px;
+  }
+
+  .field input,
+  .field select {
+    min-height: 32px;
+    font-size: 13px;
+  }
+
+  #categoryField {
+    max-width: 108px;
   }
 }
