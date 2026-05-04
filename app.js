@@ -17,9 +17,7 @@ const state = {
 
 const el = {
   heroMeta: document.querySelector("#heroMeta"),
-  issueStats: document.querySelector("#issueStats"),
   resultMeta: document.querySelector("#resultMeta"),
-  issueList: document.querySelector("#issueList"),
   articleList: document.querySelector("#articleList"),
   articleEmpty: document.querySelector("#articleEmpty"),
   articleView: document.querySelector("#articleView"),
@@ -36,10 +34,16 @@ const el = {
   tabIssue: document.querySelector("#tabIssue"),
   tabCorner: document.querySelector("#tabCorner"),
   cornerList: document.querySelector("#cornerList"),
-  asidePanelTitle: document.querySelector("#asidePanelTitle"),
   mobileIssuePanelToggle: document.querySelector("#mobileIssuePanelToggle"),
   issuePanel: document.querySelector("#issuePanel"),
-  readerPanel: document.querySelector(".reader-panel")
+  readerPanel: document.querySelector(".reader-panel"),
+  issueNav: document.querySelector("#issueNav"),
+  prevIssueBtn: document.querySelector("#prevIssueBtn"),
+  nextIssueBtn: document.querySelector("#nextIssueBtn"),
+  issueSelect: document.querySelector("#issueSelect"),
+  issueCoverWrap: document.querySelector("#issueCoverWrap"),
+  issueCoverImg: document.querySelector("#issueCoverImg"),
+  issueCoverToggle: document.querySelector("#issueCoverToggle")
 };
 
 boot();
@@ -49,9 +53,9 @@ async function boot() {
   await loadData();
   if (!state.payload) return;
   updateHero();
-  renderIssueList();
+  renderIssueNav();
   renderIssuePdfLink();
-  if (state.selectedIssueId !== "all") {
+  if (state.selectedIssueId && state.selectedIssueId !== "all") {
     await switchIssue(state.selectedIssueId);
   } else {
     renderCategoryOptions();
@@ -63,6 +67,27 @@ async function boot() {
 function bindEvents() {
   el.mobileIssuePanelToggle.addEventListener("click", () => {
     setMobileIssuePanelOpen(!state.isMobileIssuePanelOpen);
+  });
+
+  el.prevIssueBtn.addEventListener("click", async () => {
+    const idx = state.issues.findIndex((i) => String(i.webzineId) === state.selectedIssueId);
+    if (idx < state.issues.length - 1) await switchIssue(state.issues[idx + 1].webzineId);
+  });
+
+  el.nextIssueBtn.addEventListener("click", async () => {
+    const idx = state.issues.findIndex((i) => String(i.webzineId) === state.selectedIssueId);
+    if (idx > 0) await switchIssue(state.issues[idx - 1].webzineId);
+  });
+
+  el.issueSelect.addEventListener("change", async () => {
+    await switchIssue(el.issueSelect.value);
+    if (window.innerWidth <= 1100) setMobileIssuePanelOpen(false);
+  });
+
+  el.issueCoverToggle.addEventListener("click", () => {
+    const isHidden = el.issueCoverImg.hidden;
+    el.issueCoverImg.hidden = !isHidden;
+    el.issueCoverToggle.textContent = isHidden ? "표지 ▴" : "표지 ▾";
   });
 
   el.searchInput.addEventListener("input", () => {
@@ -125,7 +150,7 @@ async function switchIssue(webzineId) {
   const key = String(webzineId);
   state.selectedIssueId = key;
   state.isLoadingIssue = true;
-  renderIssueList();
+  renderIssueNav();
   renderCategoryOptions();
   renderIssuePdfLink();
   renderArticleList();
@@ -174,9 +199,8 @@ function switchViewMode(mode) {
   state.selectedArticleId = null;
   el.tabIssue.classList.toggle("is-active", mode === "issue");
   el.tabCorner.classList.toggle("is-active", mode === "corner");
-  el.asidePanelTitle.textContent = mode === "issue" ? "호수" : "코너";
-  el.issueStats.hidden = mode === "corner";
-  el.issueList.hidden = mode === "corner";
+  el.issueNav.hidden = mode === "corner";
+  el.issueCoverWrap.hidden = mode === "corner" || !currentIssue()?.coverUrl;
   el.cornerList.hidden = mode === "issue";
   if (mode === "corner") {
     renderCornerList();
@@ -258,86 +282,29 @@ function updateHero() {
   const totalArticles = state.issues.reduce((sum, i) => sum + (i.articleCount || 0), 0);
   const generatedAt = state.payload?.generatedAt ? new Date(state.payload.generatedAt).toLocaleString("ko-KR") : "알 수 없음";
   el.heroMeta.textContent = `${issueCount}개 호, 총 ${totalArticles}개 기사 · 마지막 생성 ${generatedAt}`;
-  el.issueStats.textContent = `${issueCount}개 호`;
 }
 
 function renderIssueList() {
-  el.issueList.innerHTML = "";
+function renderIssueNav() {
+  // select 옵션 채우기
+  el.issueSelect.innerHTML = state.issues
+    .map((issue) => `<option value="${escapeAttribute(String(issue.webzineId))}"${String(issue.webzineId) === state.selectedIssueId ? " selected" : ""}>${escapeHtml(issue.issueLabel)} · ${escapeHtml(issue.dateLabel)}</option>`)
+    .join("");
 
-  const allButton = document.createElement("button");
-  allButton.type = "button";
-  allButton.className = `issue-card${state.selectedIssueId === "all" ? " is-active" : ""}`;
-  allButton.innerHTML = `
-    <strong>전체 호수</strong>
-    <span class="muted">모든 회보 기사 통합 보기</span>
-  `;
-  allButton.addEventListener("click", () => {
-    state.selectedIssueId = "all";
-    state.articles = [];
-    state.selectedArticleId = null;
-    renderIssueList();
-    renderCategoryOptions();
-    renderIssuePdfLink();
-    renderArticleList();
-    renderArticleDetail();
-    if (window.innerWidth <= 1100) {
-      setMobileIssuePanelOpen(false);
-    }
-  });
-  el.issueList.appendChild(allButton);
+  // 이전/다음 버튼 활성화 (issues는 최신순 정렬: [최신, ..., 오래된])
+  const idx = state.issues.findIndex((i) => String(i.webzineId) === state.selectedIssueId);
+  el.prevIssueBtn.disabled = idx >= state.issues.length - 1; // 가장 오래된 호
+  el.nextIssueBtn.disabled = idx <= 0;                       // 가장 최신 호
 
-  state.issues.forEach((issue) => {
-    const wrapper = document.createElement("div");
-    wrapper.className = "issue-item";
-
-    const card = document.createElement("button");
-    card.type = "button";
-    card.className = `issue-card${state.selectedIssueId === String(issue.webzineId) ? " is-active" : ""}`;
-    card.innerHTML = `
-      <span class="issue-card-main">
-        <span>
-          <strong>${escapeHtml(issue.issueLabel)}</strong>
-          <span class="muted">${escapeHtml(issue.dateLabel)} · ${issue.articleCount || "?"}개 기사</span>
-        </span>
-        ${issue.coverUrl ? `<span class="issue-cover-toggle" aria-label="표지 보기" title="표지 보기/접기">▾</span>` : ""}
-      </span>
-    `;
-    card.addEventListener("click", async (e) => {
-      const toggleEl = card.querySelector(".issue-cover-toggle");
-      if (toggleEl && e.target === toggleEl) {
-        e.stopPropagation();
-        const cover = wrapper.querySelector(".issue-cover");
-        const isOpen = cover.classList.toggle("is-open");
-        toggleEl.textContent = isOpen ? "▴" : "▾";
-        toggleEl.title = isOpen ? "표지 접기" : "표지 보기";
-        return;
-      }
-      await switchIssue(issue.webzineId);
-      if (window.innerWidth <= 1100) {
-        setMobileIssuePanelOpen(false);
-      }
-    });
-    wrapper.appendChild(card);
-
-    if (issue.coverUrl) {
-      const cover = document.createElement("div");
-      cover.className = "issue-cover";
-      cover.innerHTML = `<img src="${escapeAttribute(issue.coverUrl)}" alt="${escapeAttribute(issue.issueLabel)} 표지" loading="lazy" />`;
-      wrapper.appendChild(cover);
-    }
-
-    if (hasUsablePdfUrl(issue.pdfUrl)) {
-      const pdfLink = document.createElement("a");
-      pdfLink.className = "issue-pdf-btn";
-      pdfLink.href = issue.pdfUrl;
-      pdfLink.target = "_blank";
-      pdfLink.rel = "noreferrer noopener";
-      pdfLink.textContent = "↓ PDF 다운로드";
-      wrapper.appendChild(pdfLink);
-    }
-
-    el.issueList.appendChild(wrapper);
-  });
+  // 표지 이미지
+  const issue = currentIssue();
+  if (issue?.coverUrl && state.viewMode === "issue") {
+    el.issueCoverImg.src = issue.coverUrl;
+    el.issueCoverImg.alt = `${issue.issueLabel} 표지`;
+    el.issueCoverWrap.hidden = false;
+  } else {
+    el.issueCoverWrap.hidden = true;
+  }
 }
 
 function renderCategoryOptions() {

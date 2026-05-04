@@ -43,11 +43,18 @@
           <button id="tabIssue" class="view-tab is-active" type="button">호수별</button>
           <button id="tabCorner" class="view-tab" type="button">코너별</button>
         </div>
-        <div class="panel-head">
-          <h2 id="asidePanelTitle">호수</h2>
-          <p id="issueStats" class="muted"></p>
+
+        <div id="issueNav" class="issue-nav">
+          <button id="prevIssueBtn" class="issue-nav-btn" type="button">◀ 이전호</button>
+          <select id="issueSelect" class="issue-select"></select>
+          <button id="nextIssueBtn" class="issue-nav-btn" type="button">다음호 ▶</button>
         </div>
-        <div id="issueList" class="issue-list"></div>
+
+        <div id="issueCoverWrap" class="issue-cover-wrap" hidden>
+          <button id="issueCoverToggle" class="issue-cover-toggle-btn" type="button">표지 ▾</button>
+          <img id="issueCoverImg" class="issue-cover-img" src="" alt="" loading="lazy" hidden />
+        </div>
+
         <div id="cornerList" class="corner-list" hidden></div>
       </aside>
 

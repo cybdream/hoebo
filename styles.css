@@ -229,8 +229,84 @@ body {
 }
 
 .issue-item {
-  display: grid;
+  display: none; /* 더 이상 사용 안 함 */
+}
+
+/* 호수 네비게이션 */
+.issue-nav {
+  display: flex;
+  align-items: center;
   gap: 6px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.issue-nav-btn {
+  flex-shrink: 0;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fffdf8;
+  color: var(--accent-strong);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+
+.issue-nav-btn:hover:not(:disabled) {
+  background: #f1e1d2;
+}
+
+.issue-nav-btn:disabled {
+  color: #bbb;
+  cursor: default;
+}
+
+.issue-select {
+  flex: 1;
+  min-width: 0;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font: inherit;
+  font-size: 13px;
+  background: #fffdf8;
+  cursor: pointer;
+}
+
+/* 표지 영역 */
+.issue-cover-wrap {
+  margin-bottom: 12px;
+}
+
+.issue-cover-toggle-btn {
+  width: 100%;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #f7f1e8;
+  color: var(--muted);
+  font: inherit;
+  font-size: 13px;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.issue-cover-toggle-btn:hover {
+  background: #ede4d6;
+}
+
+.issue-cover-img {
+  width: 100%;
+  margin-top: 8px;
+  border-radius: 12px;
+  aspect-ratio: 19 / 25;
+  object-fit: cover;
+  background: #efe8de;
 }
 
 .issue-pdf-btn {
