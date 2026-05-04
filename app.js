@@ -38,7 +38,8 @@ const el = {
   cornerList: document.querySelector("#cornerList"),
   asidePanelTitle: document.querySelector("#asidePanelTitle"),
   mobileIssuePanelToggle: document.querySelector("#mobileIssuePanelToggle"),
-  issuePanel: document.querySelector("#issuePanel")
+  issuePanel: document.querySelector("#issuePanel"),
+  readerPanel: document.querySelector(".reader-panel")
 };
 
 boot();
@@ -78,7 +79,7 @@ function bindEvents() {
   el.tabCorner.addEventListener("click", () => switchViewMode("corner"));
 
   window.addEventListener("resize", () => {
-    if (window.innerWidth > 1160 && state.isMobileIssuePanelOpen) {
+    if (window.innerWidth > 1100 && state.isMobileIssuePanelOpen) {
       setMobileIssuePanelOpen(false);
     }
   });
@@ -90,6 +91,16 @@ function setMobileIssuePanelOpen(isOpen) {
   document.body.classList.toggle("issue-panel-open", isOpen);
   el.mobileIssuePanelToggle.setAttribute("aria-expanded", String(isOpen));
   el.mobileIssuePanelToggle.textContent = isOpen ? "호수/코너 목록 닫기" : "호수/코너 목록 열기";
+}
+
+function scrollReaderIntoViewIfMobile() {
+  if (window.innerWidth > 1100) {
+    return;
+  }
+
+  requestAnimationFrame(() => {
+    el.readerPanel?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
 }
 
 async function loadData() {
@@ -206,7 +217,7 @@ function renderCornerList() {
     state.selectedCorner = "all";
     renderCornerList();
     renderArticleList();
-    if (window.innerWidth <= 1160) {
+    if (window.innerWidth <= 1100) {
       setMobileIssuePanelOpen(false);
     }
   });
@@ -221,7 +232,7 @@ function renderCornerList() {
       state.selectedCorner = cat;
       renderCornerList();
       renderArticleList();
-      if (window.innerWidth <= 1160) {
+      if (window.innerWidth <= 1100) {
         setMobileIssuePanelOpen(false);
       }
     });
@@ -269,7 +280,7 @@ function renderIssueList() {
     renderIssuePdfLink();
     renderArticleList();
     renderArticleDetail();
-    if (window.innerWidth <= 1160) {
+    if (window.innerWidth <= 1100) {
       setMobileIssuePanelOpen(false);
     }
   });
@@ -289,7 +300,7 @@ function renderIssueList() {
     `;
     card.addEventListener("click", async () => {
       await switchIssue(issue.webzineId);
-      if (window.innerWidth <= 1160) {
+      if (window.innerWidth <= 1100) {
         setMobileIssuePanelOpen(false);
       }
     });
@@ -385,6 +396,7 @@ function renderArticleList() {
       state.selectedArticleId = article.id;
       renderArticleList();
       renderArticleDetail();
+      scrollReaderIntoViewIfMobile();
     });
     el.articleList.appendChild(card);
   });
