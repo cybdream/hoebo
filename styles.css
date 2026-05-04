@@ -316,6 +316,10 @@ body {
   text-align: center;
 }
 
+.empty-state.is-hidden {
+  display: none;
+}
+
 .article-view.is-hidden {
   display: none;
 }
