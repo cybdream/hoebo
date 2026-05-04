@@ -195,8 +195,15 @@ body {
 .corner-list,
 .article-list,
 .article-body {
+  flex: 1;
   min-height: 0;
   overflow-y: auto;
+}
+
+.article-view {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .article-body {
