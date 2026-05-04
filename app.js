@@ -11,7 +11,8 @@ const state = {
   selectedArticleId: null,
   viewMode: "issue",
   selectedCorner: "all",
-  query: ""
+  query: "",
+  isMobileIssuePanelOpen: false
 };
 
 const el = {
@@ -35,7 +36,9 @@ const el = {
   tabIssue: document.querySelector("#tabIssue"),
   tabCorner: document.querySelector("#tabCorner"),
   cornerList: document.querySelector("#cornerList"),
-  asidePanelTitle: document.querySelector("#asidePanelTitle")
+  asidePanelTitle: document.querySelector("#asidePanelTitle"),
+  mobileIssuePanelToggle: document.querySelector("#mobileIssuePanelToggle"),
+  issuePanel: document.querySelector("#issuePanel")
 };
 
 boot();
@@ -57,6 +60,10 @@ async function boot() {
 }
 
 function bindEvents() {
+  el.mobileIssuePanelToggle.addEventListener("click", () => {
+    setMobileIssuePanelOpen(!state.isMobileIssuePanelOpen);
+  });
+
   el.searchInput.addEventListener("input", () => {
     state.query = el.searchInput.value.trim().toLowerCase();
     renderArticleList();
@@ -69,6 +76,20 @@ function bindEvents() {
 
   el.tabIssue.addEventListener("click", () => switchViewMode("issue"));
   el.tabCorner.addEventListener("click", () => switchViewMode("corner"));
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 1160 && state.isMobileIssuePanelOpen) {
+      setMobileIssuePanelOpen(false);
+    }
+  });
+}
+
+function setMobileIssuePanelOpen(isOpen) {
+  state.isMobileIssuePanelOpen = isOpen;
+  el.issuePanel.classList.toggle("is-open", isOpen);
+  document.body.classList.toggle("issue-panel-open", isOpen);
+  el.mobileIssuePanelToggle.setAttribute("aria-expanded", String(isOpen));
+  el.mobileIssuePanelToggle.textContent = isOpen ? "호수/코너 목록 닫기" : "호수/코너 목록 열기";
 }
 
 async function loadData() {
@@ -181,7 +202,14 @@ function renderCornerList() {
   allBtn.type = "button";
   allBtn.className = `corner-card${state.selectedCorner === "all" ? " is-active" : ""}`;
   allBtn.textContent = "전체";
-  allBtn.addEventListener("click", () => { state.selectedCorner = "all"; renderCornerList(); renderArticleList(); });
+  allBtn.addEventListener("click", () => {
+    state.selectedCorner = "all";
+    renderCornerList();
+    renderArticleList();
+    if (window.innerWidth <= 1160) {
+      setMobileIssuePanelOpen(false);
+    }
+  });
   el.cornerList.appendChild(allBtn);
 
   categories.forEach((cat) => {
@@ -189,9 +217,29 @@ function renderCornerList() {
     btn.type = "button";
     btn.className = `corner-card${state.selectedCorner === cat ? " is-active" : ""}`;
     btn.textContent = cat;
-    btn.addEventListener("click", () => { state.selectedCorner = cat; renderCornerList(); renderArticleList(); });
+    btn.addEventListener("click", () => {
+      state.selectedCorner = cat;
+      renderCornerList();
+      renderArticleList();
+      if (window.innerWidth <= 1160) {
+        setMobileIssuePanelOpen(false);
+      }
+    });
     el.cornerList.appendChild(btn);
   });
+}
+
+function hasUsablePdfUrl(url) {
+  if (!url) {
+    return false;
+  }
+
+  // Current scraped file.daesoon PDF URLs consistently return 404.
+  if (/^https:\/\/file\.daesoon\.org\/webzine\/pdf\/hoebo\d+\.pdf$/i.test(url)) {
+    return false;
+  }
+
+  return true;
 }
 
 function updateHero() {
@@ -221,6 +269,9 @@ function renderIssueList() {
     renderIssuePdfLink();
     renderArticleList();
     renderArticleDetail();
+    if (window.innerWidth <= 1160) {
+      setMobileIssuePanelOpen(false);
+    }
   });
   el.issueList.appendChild(allButton);
 
@@ -236,10 +287,15 @@ function renderIssueList() {
       <span class="muted">${escapeHtml(issue.dateLabel)} · ${issue.articleCount || "?"}개 기사</span>
       ${issue.coverUrl ? `<img src="${escapeAttribute(issue.coverUrl)}" alt="${escapeAttribute(issue.issueLabel)} 표지" loading="lazy" />` : ""}
     `;
-    card.addEventListener("click", () => switchIssue(issue.webzineId));
+    card.addEventListener("click", async () => {
+      await switchIssue(issue.webzineId);
+      if (window.innerWidth <= 1160) {
+        setMobileIssuePanelOpen(false);
+      }
+    });
     wrapper.appendChild(card);
 
-    if (issue.pdfUrl) {
+    if (hasUsablePdfUrl(issue.pdfUrl)) {
       const pdfLink = document.createElement("a");
       pdfLink.className = "issue-pdf-btn";
       pdfLink.href = issue.pdfUrl;
@@ -273,7 +329,7 @@ function renderIssuePdfLink() {
   }
 
   el.issuePdfLink.hidden = false;
-  if (issue?.pdfUrl) {
+  if (hasUsablePdfUrl(issue?.pdfUrl)) {
     el.issuePdfLink.href = issue.pdfUrl;
     el.issuePdfLink.textContent = "PDF 다운로드";
     el.issuePdfLink.classList.remove("is-disabled");

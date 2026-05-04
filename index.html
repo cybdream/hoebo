@@ -33,8 +33,12 @@
       </label>
     </section>
 
+    <button id="mobileIssuePanelToggle" class="mobile-issue-toggle" type="button" aria-controls="issuePanel" aria-expanded="false">
+      호수/코너 목록 열기
+    </button>
+
     <main class="workspace">
-      <aside class="panel issue-panel">
+      <aside id="issuePanel" class="panel issue-panel">
         <div class="view-tabs">
           <button id="tabIssue" class="view-tab is-active" type="button">호수별</button>
           <button id="tabCorner" class="view-tab" type="button">코너별</button>

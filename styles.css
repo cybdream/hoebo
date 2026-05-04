@@ -111,6 +111,19 @@ body {
   border-radius: 22px;
 }
 
+.mobile-issue-toggle {
+  display: none;
+  width: 100%;
+  margin-top: 14px;
+  min-height: 46px;
+  border: 1px solid rgba(92, 38, 18, 0.26);
+  border-radius: 14px;
+  background: linear-gradient(180deg, #f7e9d9 0%, #efd5bc 100%);
+  color: var(--accent-strong);
+  font: inherit;
+  font-weight: 700;
+}
+
 .field {
   display: grid;
   gap: 8px;
@@ -382,6 +395,29 @@ body {
   .workspace,
   .content-stack {
     grid-template-columns: 1fr;
+  }
+
+  .mobile-issue-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .issue-panel {
+    display: none;
+  }
+
+  .issue-panel.is-open {
+    display: block;
+    position: fixed;
+    inset: 12px;
+    z-index: 40;
+    overflow-y: auto;
+    background: rgba(255, 251, 245, 0.97);
+  }
+
+  body.issue-panel-open {
+    overflow: hidden;
   }
 
   .article-top,

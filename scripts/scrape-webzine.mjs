@@ -101,7 +101,7 @@ async function main() {
 async function parseIssue(indexHtml, issueInfo) {
   const dateLabel = normalizeText(extract(indexHtml, /<div style="height:30px; margin-top:10px; text-align:center; width:190px">([\s\S]*?)<\/div>/i));
   const coverUrl = normalizeAssetUrl(extract(indexHtml, /<img src="([^"]*webzine\/cover\/[^"]+)" width="190px" height="250px"/i));
-  const pdfUrl = normalizeAssetUrl(extract(indexHtml, /<!--a href="([^"]*\/pdf\/hoebo\d+\.pdf)"/i));
+  const pdfUrl = normalizeAssetUrl(extract(indexHtml, /<a href="([^"]*\/pdf\/hoebo\d+\.pdf)"[^>]*>\s*PDF\s*<\/a>/i));
   const links = extractArticleLinks(indexHtml);
   const articles = [];
 
