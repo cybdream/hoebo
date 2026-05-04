@@ -226,7 +226,13 @@ function allLoadedArticles() {
 
 function renderCornerList() {
   el.cornerList.innerHTML = "";
+  const pinnedCorner = "도전님 훈시";
   const categories = [...new Set(allLoadedArticles().map((a) => a.category).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ko"));
+  const pinnedIndex = categories.indexOf(pinnedCorner);
+  if (pinnedIndex > 0) {
+    categories.splice(pinnedIndex, 1);
+    categories.unshift(pinnedCorner);
+  }
 
   if (categories.length === 0) {
     el.cornerList.innerHTML = `<div class="empty-state small">호수를 먼저 선택하면<br>코너 목록이 나타납니다.</div>`;
