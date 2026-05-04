@@ -42,9 +42,10 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 12px;
-  padding: 14px 20px;
-  border-radius: 20px;
+  padding: 8px 16px;
+  border-radius: 16px;
 }
 
 .hero-actions {
@@ -62,11 +63,14 @@ body {
 .hero h1 {
   margin: 0;
   font-family: "Noto Serif KR", serif;
-  font-size: clamp(18px, 2.5vw, 24px);
+  font-size: clamp(15px, 1.8vw, 18px);
   line-height: 1.2;
 }
 
-.hero-copy,
+.hero-copy {
+  display: none;
+}
+
 .muted {
   color: var(--muted);
 }
@@ -100,10 +104,10 @@ body {
 
 .toolbar {
   display: flex;
-  gap: 12px;
-  margin-top: 10px;
-  padding: 10px 14px;
-  border-radius: 16px;
+  gap: 10px;
+  margin-top: 8px;
+  padding: 8px 12px;
+  border-radius: 14px;
 }
 
 .mobile-issue-toggle {
@@ -148,7 +152,7 @@ body {
   display: grid;
   grid-template-columns: 320px minmax(0, 1fr);
   gap: 18px;
-  margin-top: 10px;
+  margin-top: 8px;
   align-items: start;
 }
 
