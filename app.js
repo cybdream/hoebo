@@ -294,17 +294,37 @@ function renderIssueList() {
     card.type = "button";
     card.className = `issue-card${state.selectedIssueId === String(issue.webzineId) ? " is-active" : ""}`;
     card.innerHTML = `
-      <strong>${escapeHtml(issue.issueLabel)}</strong>
-      <span class="muted">${escapeHtml(issue.dateLabel)} · ${issue.articleCount || "?"}개 기사</span>
-      ${issue.coverUrl ? `<img src="${escapeAttribute(issue.coverUrl)}" alt="${escapeAttribute(issue.issueLabel)} 표지" loading="lazy" />` : ""}
+      <span class="issue-card-main">
+        <span>
+          <strong>${escapeHtml(issue.issueLabel)}</strong>
+          <span class="muted">${escapeHtml(issue.dateLabel)} · ${issue.articleCount || "?"}개 기사</span>
+        </span>
+        ${issue.coverUrl ? `<span class="issue-cover-toggle" aria-label="표지 보기" title="표지 보기/접기">▾</span>` : ""}
+      </span>
     `;
-    card.addEventListener("click", async () => {
+    card.addEventListener("click", async (e) => {
+      const toggleEl = card.querySelector(".issue-cover-toggle");
+      if (toggleEl && e.target === toggleEl) {
+        e.stopPropagation();
+        const cover = wrapper.querySelector(".issue-cover");
+        const isOpen = cover.classList.toggle("is-open");
+        toggleEl.textContent = isOpen ? "▴" : "▾";
+        toggleEl.title = isOpen ? "표지 접기" : "표지 보기";
+        return;
+      }
       await switchIssue(issue.webzineId);
       if (window.innerWidth <= 1100) {
         setMobileIssuePanelOpen(false);
       }
     });
     wrapper.appendChild(card);
+
+    if (issue.coverUrl) {
+      const cover = document.createElement("div");
+      cover.className = "issue-cover";
+      cover.innerHTML = `<img src="${escapeAttribute(issue.coverUrl)}" alt="${escapeAttribute(issue.issueLabel)} 표지" loading="lazy" />`;
+      wrapper.appendChild(cover);
+    }
 
     if (hasUsablePdfUrl(issue.pdfUrl)) {
       const pdfLink = document.createElement("a");
