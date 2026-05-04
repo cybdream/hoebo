@@ -208,7 +208,7 @@ function switchViewMode(mode) {
     renderArticleList();
     renderArticleDetail();
   } else {
-    renderIssueList();
+    renderIssueNav();
     renderCategoryOptions();
     renderIssuePdfLink();
     renderArticleList();
@@ -284,7 +284,6 @@ function updateHero() {
   el.heroMeta.textContent = `${issueCount}개 호, 총 ${totalArticles}개 기사 · 마지막 생성 ${generatedAt}`;
 }
 
-function renderIssueList() {
 function renderIssueNav() {
   // select 옵션 채우기
   el.issueSelect.innerHTML = state.issues
