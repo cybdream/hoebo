@@ -6,7 +6,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&family=Noto+Serif+KR:wght@500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=20260504" />
+  <link rel="stylesheet" href="styles.css?v=20260506g" />
 </head>
 <body>
   <div class="page-shell">
@@ -33,41 +33,42 @@
       </label>
     </section>
 
+    <div class="view-tabs">
+      <button id="tabIssue" class="view-tab is-active" type="button">호수별</button>
+      <button id="tabCorner" class="view-tab" type="button">코너별</button>
+    </div>
+
     <button id="mobileIssuePanelToggle" class="mobile-issue-toggle" type="button" aria-controls="issuePanel" aria-expanded="false">
       호수/코너 목록 열기
     </button>
 
     <main class="workspace">
-      <aside id="issuePanel" class="panel issue-panel">
-        <div class="view-tabs">
-          <button id="tabIssue" class="view-tab is-active" type="button">호수별</button>
-          <button id="tabCorner" class="view-tab" type="button">코너별</button>
-        </div>
+      <div id="issuePanel" class="panel left-panel">
+        <div class="issue-section">
+          <div id="issueNav" class="issue-nav">
+            <button id="prevIssueBtn" class="issue-nav-btn" type="button">◀ 이전호</button>
+            <select id="issueSelect" class="issue-select"></select>
+            <button id="nextIssueBtn" class="issue-nav-btn" type="button">다음호 ▶</button>
+          </div>
 
-        <div id="issueNav" class="issue-nav">
-          <button id="prevIssueBtn" class="issue-nav-btn" type="button">◀ 이전호</button>
-          <select id="issueSelect" class="issue-select"></select>
-          <button id="nextIssueBtn" class="issue-nav-btn" type="button">다음호 ▶</button>
-        </div>
-
-        <div id="issueCoverWrap" class="issue-cover-wrap" hidden>
-          <button id="issueCoverToggle" class="issue-cover-toggle-btn" type="button">표지 ▾</button>
-          <img id="issueCoverImg" class="issue-cover-img" src="" alt="" loading="lazy" hidden />
+          <div id="issueCoverWrap" class="issue-cover-wrap" hidden>
+            <button id="issueCoverToggle" class="issue-cover-toggle-btn" type="button">표지 ▾</button>
+            <img id="issueCoverImg" class="issue-cover-img" src="" alt="" loading="lazy" hidden />
+          </div>
         </div>
 
         <div id="cornerList" class="corner-list" hidden></div>
-      </aside>
 
-      <section class="content-stack">
-        <section class="panel list-panel">
+        <div class="list-section">
           <div class="panel-head">
             <h2>기사 목록</h2>
             <p id="resultMeta" class="muted"></p>
           </div>
           <div id="articleList" class="article-list"></div>
-        </section>
+        </div>
+      </div>
 
-        <article class="panel reader-panel">
+      <article class="panel reader-panel">
           <div id="articleEmpty" class="empty-state">
             기사를 선택하면 본문이 여기 표시됩니다.
           </div>
@@ -85,10 +86,9 @@
             <div id="articleBody" class="article-body"></div>
           </div>
         </article>
-      </section>
     </main>
   </div>
 
-  <script type="module" src="app.js"></script>
+  <script type="module" src="app.js?v=20260506c"></script>
 </body>
 </html>

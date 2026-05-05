@@ -49,6 +49,7 @@ const el = {
 boot();
 
 async function boot() {
+  updateIssueNavVisibility();
   bindEvents();
   await loadData();
   if (!state.payload) return;
@@ -62,6 +63,8 @@ async function boot() {
     renderArticleList();
     renderArticleDetail();
   }
+
+  updateIssueNavVisibility();
 }
 
 function bindEvents() {
@@ -107,7 +110,15 @@ function bindEvents() {
     if (window.innerWidth > 1100 && state.isMobileIssuePanelOpen) {
       setMobileIssuePanelOpen(false);
     }
+
+    updateIssueNavVisibility();
   });
+}
+
+function updateIssueNavVisibility() {
+  const show = state.viewMode === "issue";
+  el.issueNav.hidden = !show;
+  el.issueNav.style.display = show ? "flex" : "none";
 }
 
 function setMobileIssuePanelOpen(isOpen) {
@@ -150,6 +161,7 @@ async function switchIssue(webzineId) {
   const key = String(webzineId);
   state.selectedIssueId = key;
   state.isLoadingIssue = true;
+  updateIssueNavVisibility();
   renderIssueNav();
   renderCategoryOptions();
   renderIssuePdfLink();
@@ -199,7 +211,8 @@ function switchViewMode(mode) {
   state.selectedArticleId = null;
   el.tabIssue.classList.toggle("is-active", mode === "issue");
   el.tabCorner.classList.toggle("is-active", mode === "corner");
-  el.issueNav.hidden = mode === "corner";
+  el.issuePanel.classList.toggle("is-corner-mode", mode === "corner");
+  updateIssueNavVisibility();
   el.issueCoverWrap.hidden = mode === "corner" || !currentIssue()?.coverUrl;
   el.cornerList.hidden = mode === "issue";
   if (mode === "corner") {
