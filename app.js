@@ -164,6 +164,11 @@ function scrollReaderIntoViewIfMobile() {
     return;
   }
 
+  // 모바일에서 기사 선택 시 목록 오버레이를 먼저 닫아 본문을 바로 볼 수 있게 한다.
+  if (state.isMobileIssuePanelOpen) {
+    setMobileIssuePanelOpen(false);
+  }
+
   requestAnimationFrame(() => {
     el.readerPanel?.scrollIntoView({ behavior: "smooth", block: "start" });
   });

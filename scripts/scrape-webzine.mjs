@@ -139,7 +139,7 @@ function parseArticle(html, issueInfo, link, order) {
     extract(contentHtmlRaw, /<font size="5">([\s\S]*?)<\/font>/i) ||
     link.title
   );
-  const author = normalizeText(extract(contentHtmlRaw, /<p[^>]*align="right"[^>]*>([\s\S]*?)<\/p>/i));
+  const author = normalizeAuthor(extract(contentHtmlRaw, /<p[^>]*align="right"[^>]*>([\s\S]*?)<\/p>/i));
   const imageUrls = [...contentHtmlRaw.matchAll(/<img[^>]*src=["']([^"']+)["'][^>]*>/gi)]
     .map((match) => normalizeAssetUrl(match[1]))
     .filter(Boolean);
@@ -258,6 +258,14 @@ function normalizeText(value) {
   return decodeHtmlEntities(value)
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function normalizeAuthor(value) {
+  // author 필드에서 실제 HTML 태그만 제거하고, <선무ㆍ...> 같은 텍스트 표기는 유지한다.
+  const stripped = String(value || "")
+    .replace(/<\/?(?:span|font|br|b|strong|em|i|u|o:p|p)(?:\s+[^>]*)?>/gi, " ")
+    .replace(/<<\s*(?=span|font|br|b|strong|em|i|u|o:p|p)/gi, "<");
+  return normalizeText(stripped);
 }
 
 function summarize(text) {
