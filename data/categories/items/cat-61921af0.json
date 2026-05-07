@@ -1,0 +1,102 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.774Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "대순문예 홍보",
+  "categoryId": "cat-61921af0",
+  "articleCount": 7,
+  "latestIssueNo": 210,
+  "articles": [
+    {
+      "id": "w249-b7899-m4305",
+      "issueNo": 210,
+      "issueLabel": "210호",
+      "issueDateLabel": "대순148년(2018) 9월",
+      "webzineId": 249,
+      "order": 21,
+      "category": "대순문예 홍보",
+      "title": "2018 제10회 대순문예 공모전",
+      "author": "",
+      "summary": "",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=249&menu_no=4305&bno=7899&page=1"
+    },
+    {
+      "id": "w249-b7900-m4305",
+      "issueNo": 210,
+      "issueLabel": "210호",
+      "issueDateLabel": "대순148년(2018) 9월",
+      "webzineId": 249,
+      "order": 22,
+      "category": "대순문예 홍보",
+      "title": "‘대순문예’ 수필집 이름 공모",
+      "author": "",
+      "summary": "‘대순문예’ 수필집 이름 공모 제10회 대순문예 공모전 기념 ‘수필집’의 이름을 정해 주세요 대순문예 공모전 1회부터 10회까지의 수상작을 선별해 수필집을 제작합니다. 우리들의 이야기가 담겨 있는 수필집. 그 이름을 여러분이 정해주세요! 참여방법 1....",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=249&menu_no=4305&bno=7900&page=2"
+    },
+    {
+      "id": "w248-b7860-m4286",
+      "issueNo": 209,
+      "issueLabel": "209호",
+      "issueDateLabel": "대순148년(2018) 8월",
+      "webzineId": 248,
+      "order": 20,
+      "category": "대순문예 홍보",
+      "title": "2018 제10회 대순문예 공모전",
+      "author": "",
+      "summary": "",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=248&menu_no=4286&bno=7860&page=1"
+    },
+    {
+      "id": "w248-b7861-m4286",
+      "issueNo": 209,
+      "issueLabel": "209호",
+      "issueDateLabel": "대순148년(2018) 8월",
+      "webzineId": 248,
+      "order": 21,
+      "category": "대순문예 홍보",
+      "title": "‘대순문예’ 수필집 이름 공모",
+      "author": "",
+      "summary": "‘대순문예’ 수필집 이름 공모 제10회 대순문예 공모전 기념 ‘수필집’의 이름을 정해 주세요 대순문예 공모전 1회부터 10회까지의 수상작을 선별해 수필집을 제작합니다. 우리들의 이야기가 담겨 있는 수필집. 그 이름을 여러분이 정해주세요! 참여방법 1....",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=248&menu_no=4286&bno=7861&page=2"
+    },
+    {
+      "id": "w247-b7840-m4268",
+      "issueNo": 208,
+      "issueLabel": "208호",
+      "issueDateLabel": "대순148년(2018) 7월",
+      "webzineId": 247,
+      "order": 21,
+      "category": "대순문예 홍보",
+      "title": "2018 제10회 대순문예 공모전",
+      "author": "",
+      "summary": "",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=247&menu_no=4268&bno=7840&page=1"
+    },
+    {
+      "id": "w247-b7841-m4268",
+      "issueNo": 208,
+      "issueLabel": "208호",
+      "issueDateLabel": "대순148년(2018) 7월",
+      "webzineId": 247,
+      "order": 22,
+      "category": "대순문예 홍보",
+      "title": "‘대순문예’ 수필집 이름 공모",
+      "author": "",
+      "summary": "‘대순문예’ 수필집 이름 공모 제10회 대순문예 공모전 기념 ‘수필집’의 이름을 정해 주세요 대순문예 공모전 1회부터 10회까지의 수상작을 선별해 수필집을 제작합니다. 우리들의 이야기가 담겨 있는 수필집. 그 이름을 여러분이 정해주세요! 참여방법 1....",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=247&menu_no=4268&bno=7841&page=2"
+    },
+    {
+      "id": "w246-b7803-m4247",
+      "issueNo": 207,
+      "issueLabel": "207호",
+      "issueDateLabel": "대순148년(2018) 6월",
+      "webzineId": 246,
+      "order": 20,
+      "category": "대순문예 홍보",
+      "title": "2018 제10회 대순문예 공모전",
+      "author": "",
+      "summary": "2018 제10회 대순문예 공모전",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=246&menu_no=4247&bno=7803&page=1"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.761Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "화보",
+  "categoryId": "cat-004e5ee5",
+  "articleCount": 2,
+  "latestIssueNo": 219,
+  "articles": [
+    {
+      "id": "w260-b8395-m4527",
+      "issueNo": 219,
+      "issueLabel": "219호",
+      "issueDateLabel": "대순149년(2019) 6월",
+      "webzineId": 260,
+      "order": 14,
+      "category": "화보",
+      "title": "2019 대순화합한마당",
+      "author": "",
+      "summary": "2019 대순화합한마당 경합의 치열함보다 즐거웠던 상생의 자리. 승패에 상관없이 도우와 함께 웃고 즐길 수 있었기에 결과도 무승부였나 보다. “으싸!” 외침 한마디에 스트레스가 뻥! 풀리고. “화이팅” 외침 한마디에 내일을 여는 원동력이 쌓인다. 응원...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=260&menu_no=4527&bno=8395&page=1"
+    },
+    {
+      "id": "w246-b7784-m4245",
+      "issueNo": 207,
+      "issueLabel": "207호",
+      "issueDateLabel": "대순148년(2018) 6월",
+      "webzineId": 246,
+      "order": 18,
+      "category": "화보",
+      "title": "2018 대순화합한마당",
+      "author": "",
+      "summary": "2018 대순화합한마당 비 소식이 예견되어 있었던 5월 13일. 오랜 시간 이날을 준비해 온 많은 이의 노력이 물거품이 될세라 뜬눈으로 밤을 지새웠다. 염려를 들어주신 걸까? 동틀 무렵까지 줄기차게 내리던 빗줄기가 서서히 잦아들더니, 급기야 햇살이 드...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=246&menu_no=4245&bno=7784&page=1"
+    }
+  ]
+}

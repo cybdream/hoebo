@@ -1,0 +1,50 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.680Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "북카페 OPEN 안내",
+  "categoryId": "cat-22c44ea0",
+  "articleCount": 3,
+  "latestIssueNo": 291,
+  "articles": [
+    {
+      "id": "w335-b10290-m5537",
+      "issueNo": 291,
+      "issueLabel": "291호",
+      "issueDateLabel": "대순155년(2025) 4월",
+      "webzineId": 335,
+      "order": 15,
+      "category": "북카페 OPEN 안내",
+      "title": "박물관 북카페 평일 OPEN",
+      "author": "",
+      "summary": "박물관 북카페 평일 OPEN 이제 카페(박물관 1층)와 북카페(박물관 지하1층)의 이용 시간이 같습니다 ▶화~일 10:00~17:00 ▶본부성, 합강식 10:00~19:00 ▶치성 드는 날, 봉강식 10:00~22:00 ▶매주 월요일(월요일이 공휴일이...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=335&menu_no=5537&bno=10290&page=1"
+    },
+    {
+      "id": "w334-b10266-m5527",
+      "issueNo": 290,
+      "issueLabel": "290호",
+      "issueDateLabel": "대순155년(2025) 3월",
+      "webzineId": 334,
+      "order": 23,
+      "category": "북카페 OPEN 안내",
+      "title": "박물관 북카페 평일 OPEN",
+      "author": "",
+      "summary": "박물관 북카페 평일 OPEN 이제 카페(박물관 1층)와 북카페(박물관 지하1층)의 이용 시간이 같습니다 ▶화~일 10:00~17:00 ▶본부성, 합강식 10:00~19:00 ▶치성 드는 날, 봉강식 10:00~22:00 ▶매주 월요일(월요일이 공휴일이...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=334&menu_no=5527&bno=10266&page=1"
+    },
+    {
+      "id": "w333-b10230-m5511",
+      "issueNo": 289,
+      "issueLabel": "289호",
+      "issueDateLabel": "대순155년(2025) 2월",
+      "webzineId": 333,
+      "order": 20,
+      "category": "북카페 OPEN 안내",
+      "title": "박물관 북카페 평일 OPEN",
+      "author": "",
+      "summary": "박물관 북카페 평일 OPEN 이제 카페(박물관 1층)와 북카페(박물관 지하1층)의 이용 시간이 같습니다 ▶화~일 10:00~17:00 ▶본부성, 합강식 10:00~19:00 ▶치성 드는 날, 봉강식 10:00~22:00 ▶매주 월요일(월요일이 공휴일이...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=333&menu_no=5511&bno=10230&page=1"
+    }
+  ]
+}

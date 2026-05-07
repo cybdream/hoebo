@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:30.021Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "과학_그곳에서",
+  "categoryId": "cat-b5605fb8",
+  "articleCount": 2,
+  "latestIssueNo": 83,
+  "articles": [
+    {
+      "id": "w41-b848-m595",
+      "issueNo": 83,
+      "issueLabel": "83호",
+      "issueDateLabel": "대순138년(2008) 5월",
+      "webzineId": 41,
+      "order": 32,
+      "category": "과학_그곳에서",
+      "title": "엔트로피(Entropy)",
+      "author": "<span lang=\"EN-US\" style=\"FONT-SIZE: 11pt; FONT-FAMILY: 돋움; mso-hansi-font-family: 돋움; mso-fareast-font-family: 돋움\"></span>",
+      "summary": "엔트로피(Entropy) 글 교무부 엔트로피라는 말은 1850년대 초 독일의 과학자 루돌프 클라우지우스(R. Clausius)가 처음으로 사용한 개념이다. ‘energy’라는 말과 그리스어 ‘tropy(향성)’을 합성하여 만든 이 용어는 자연의 물질계...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=41&menu_no=595&bno=848&page=1"
+    },
+    {
+      "id": "w44-b1037-m1905",
+      "issueNo": 80,
+      "issueLabel": "80호",
+      "issueDateLabel": "대순138년(2008) 2월",
+      "webzineId": 44,
+      "order": 34,
+      "category": "과학_그곳에서",
+      "title": "나노 기술 (Nanotechnology)",
+      "author": "<span style=\"FONT-SIZE: 11pt\">글 교무부</span>",
+      "summary": "「과학, 그곳에서」를 시작하며 본 「과학, 그곳에서」는 『전경』에 기록된 “서양의 모든 문물은 천국의 모형을 본딴 것이라.” (교운 1장 9절)와 “용력술을 배우지 말지어다. 기차와 윤선으로 백만근을 운반하고 축지술을 배우지 말라 운거(雲車)를 타고 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=44&menu_no=1905&bno=1037&page=1"
+    }
+  ]
+}

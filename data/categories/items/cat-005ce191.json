@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:30.100Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "祝詩",
+  "categoryId": "cat-005ce191",
+  "articleCount": 2,
+  "latestIssueNo": 43,
+  "articles": [
+    {
+      "id": "w81-b2825-m1350",
+      "issueNo": 43,
+      "issueLabel": "43호",
+      "issueDateLabel": "대순124년(1994) 9월",
+      "webzineId": 81,
+      "order": 8,
+      "category": "祝詩",
+      "title": "모든 것을 다 아시는 님",
+      "author": "",
+      "summary": "모든 것을 다 아시는 님 이승립 <시인ㆍ문한과 영혼 발행인> 온누리를 깨치러 이 땅에 오신 님이시여 새 하늘과 새 땅을 주재하시러 내리신 님이시여 님의 말씀은 모든 것에 이루시고 모든 것을 다 알고 계시느니 천지조화 무궁무진한 법을 일구시도다. 태양은...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=81&menu_no=1350&bno=2825&page=1"
+    },
+    {
+      "id": "w93-b2530-m1494",
+      "issueNo": 31,
+      "issueLabel": "31호",
+      "issueDateLabel": "대순122년(1992) 4월",
+      "webzineId": 93,
+      "order": 10,
+      "category": "祝詩",
+      "title": "개벽의 새벽",
+      "author": "",
+      "summary": "개벽의 새벽 김낙영* 부풀어 터져라 어서 개벽의 순간 천지공사 진리가 번개치고 밝음이 온 세상을 덮어 어둠을 몰아내는 순간 가슴마다 가슴마다 터져라 터져라 대순진리(大巡眞理) 목타는 그리움 광명의 세계 아 너무도 길다 이 어둠의 세월 억만창생 새로 태...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=93&menu_no=1494&bno=2530&page=1"
+    }
+  ]
+}

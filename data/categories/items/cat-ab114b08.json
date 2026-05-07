@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.792Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "제주도 탐방기",
+  "categoryId": "cat-ab114b08",
+  "articleCount": 2,
+  "latestIssueNo": 199,
+  "articles": [
+    {
+      "id": "w238-b7431-m4097",
+      "issueNo": 199,
+      "issueLabel": "199호",
+      "issueDateLabel": "대순147년(2017) 10월",
+      "webzineId": 238,
+      "order": 24,
+      "category": "제주도 탐방기",
+      "title": "신화(神話)의 섬, 제주(濟州) 2",
+      "author": "",
+      "summary": "신화(神話)의 섬, 제주(濟州) 2 가장 작은 도(道), 가장 큰 도(島) 제주(濟州) 편집팀 ▲한라산 가장 작은 도(道), 세 가지 선물 제주도는 행정 구역상 8개 도(道) 가운데 가장 작은 도다. 더욱이 한라산을 지붕 삼아 펼쳐져 있는 제주도를 일...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=238&menu_no=4097&bno=7431&page=1"
+    },
+    {
+      "id": "w236-b7365-m4060",
+      "issueNo": 197,
+      "issueLabel": "197호",
+      "issueDateLabel": "대순147년(2017) 8월",
+      "webzineId": 236,
+      "order": 27,
+      "category": "제주도 탐방기",
+      "title": "신화(神話)의 섬, 제주(濟州) 1",
+      "author": "",
+      "summary": "제주도 탐방기를 소개하며 편집팀 제주는 섬 한가운데 우뚝 솟은 한라산을 중심으로 자연경관이 빚어낸 천혜의 관광 자원을 갖고 있어 한국인은 물론 세계인들의 발길이 끊이지 않는 자연 속의 명소로 각광 받고 있는 곳이다. 뿐만 아니라 제주는 무작정 걸어도 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=236&menu_no=4060&bno=7365&page=1"
+    }
+  ]
+}

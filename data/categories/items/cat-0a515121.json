@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:30.124Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "인사말",
+  "categoryId": "cat-0a515121",
+  "articleCount": 2,
+  "latestIssueNo": 37,
+  "articles": [
+    {
+      "id": "w87-b3133-m1936",
+      "issueNo": 37,
+      "issueLabel": "37호",
+      "issueDateLabel": "대순123년(1993) 5월",
+      "webzineId": 87,
+      "order": 6,
+      "category": "인사말",
+      "title": "화합 속에 혁신 이루자",
+      "author": "",
+      "summary": "和合 속에 革新 이루자 안영일 <종의회 의장> 무더위 속에서도 상제님의 덕화선양에 성경신(誠敬信)을 다하고 있는 도인 여러분의 노고에 경의를 표합니다. 엊그제 한해를 시작했던 것 같은 데 어느새 유월이 되니 세월의 빠름과 함께 년초에 세웠던 계획들을 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=87&menu_no=1936&bno=3133&page=1"
+    },
+    {
+      "id": "w87-b3134-m1936",
+      "issueNo": 37,
+      "issueLabel": "37호",
+      "issueDateLabel": "대순123년(1993) 5월",
+      "webzineId": 87,
+      "order": 7,
+      "category": "인사말",
+      "title": "일심으로 책임 다하자",
+      "author": "",
+      "summary": "一心으로 책임 다하자 정대진 <재단법인 이사장> 계유년도 성하(盛夏)의 계절로 향해가고 있습니다. 더위 속에서도 일심지성(一心至誠)으로 상제님의 대순(大巡)하신 진리(眞理)를 전세계에 펼쳐 도화낙원(道化樂園)을 이루려는 도인 여러분들의 모습이 눈앞에 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=87&menu_no=1936&bno=3134&page=2"
+    }
+  ]
+}

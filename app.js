@@ -1,16 +1,22 @@
 const INDEX_URL = "data/index.json";
+const CATEGORY_INDEX_URL = "data/categories/index.json";
 
 const state = {
   payload: null,
   issues: [],
   articles: [],
   loadedIssues: new Map(),
+  categoryIndex: null,
+  loadedCategoryArticles: new Map(),
+  categoryLoadPromises: new Map(),
   isLoadingIssue: false,
+  isLoadingCorner: false,
   selectedIssueId: "all",
   selectedCategory: "all",
+  cornerFilter: "all",
   selectedArticleId: null,
   viewMode: "issue",
-  selectedCorner: "all",
+  selectedCorner: "",
   query: "",
   isMobileIssuePanelOpen: false
 };
@@ -31,8 +37,11 @@ const el = {
   searchInput: document.querySelector("#searchInput"),
   categorySelect: document.querySelector("#categorySelect"),
   categoryField: document.querySelector("#categoryField"),
+  cornerFilterSelect: document.querySelector("#cornerFilterSelect"),
+  cornerFilterField: document.querySelector("#cornerFilterField"),
   tabIssue: document.querySelector("#tabIssue"),
   tabCorner: document.querySelector("#tabCorner"),
+  listTitle: document.querySelector("#listTitle"),
   cornerList: document.querySelector("#cornerList"),
   mobileIssuePanelToggle: document.querySelector("#mobileIssuePanelToggle"),
   issuePanel: document.querySelector("#issuePanel"),
@@ -101,6 +110,27 @@ function bindEvents() {
   el.categorySelect.addEventListener("change", () => {
     state.selectedCategory = el.categorySelect.value;
     renderArticleList();
+  });
+
+  el.cornerFilterSelect?.addEventListener("change", () => {
+    // 코너 필터 변경 시 선택 코너를 필터 범위에 맞게 재설정.
+    state.cornerFilter = el.cornerFilterSelect.value;
+    const visibleCategories = getVisibleCornerCategories();
+    const pinnedCorner = "도전님 훈시";
+    if (state.cornerFilter !== "all") {
+      // 특정 필터 선택 시 해당 코너를 우선 선택해 바로 내용을 확인할 수 있게 한다.
+      state.selectedCorner = state.cornerFilter;
+      state.selectedArticleId = null;
+    } else if (!visibleCategories.includes(state.selectedCorner)) {
+      state.selectedCorner = visibleCategories[0] || pinnedCorner;
+      state.selectedArticleId = null;
+    }
+
+    renderCornerList();
+    ensureSelectedCornerLoaded().then(() => {
+      renderCornerList();
+      renderArticleDetail();
+    });
   });
 
   el.tabIssue.addEventListener("click", () => switchViewMode("issue"));
@@ -207,19 +237,44 @@ async function loadIssueData(webzineId) {
 function switchViewMode(mode) {
   if (state.viewMode === mode) return;
   state.viewMode = mode;
-  state.selectedCorner = "all";
+  // 코너별은 category index 로드 이후 기본 코너를 정한다.
+  state.selectedCorner = "";
   state.selectedArticleId = null;
+  // 모드 전환 즉시 툴바 필드를 강제 동기화해 코너 필터 노출 조건을 확실히 유지.
+  if (el.cornerFilterField) {
+    el.cornerFilterField.hidden = mode !== "corner";
+  }
+  if (el.categoryField) {
+    el.categoryField.hidden = mode === "corner";
+  }
   el.tabIssue.classList.toggle("is-active", mode === "issue");
   el.tabCorner.classList.toggle("is-active", mode === "corner");
   el.issuePanel.classList.toggle("is-corner-mode", mode === "corner");
+  el.listTitle.textContent = mode === "corner" ? "코너별 제목" : "기사 목록";
   updateIssueNavVisibility();
   el.issueCoverWrap.hidden = mode === "corner" || !currentIssue()?.coverUrl;
   el.cornerList.hidden = mode === "issue";
   if (mode === "corner") {
+    // 코너별 진입 시 카테고리 인덱스를 먼저 읽고, 선택 코너 목록을 로드한다.
+    state.isLoadingCorner = true;
     renderCornerList();
     renderCategoryOptions();
     renderArticleList();
     renderArticleDetail();
+    initializeCornerMode().then(() => {
+      state.isLoadingCorner = false;
+      renderCornerFilterOptions();
+      renderCornerList();
+      renderArticleList();
+      renderArticleDetail();
+    }).catch(() => {
+      // categories 로드 실패 시 빈 목록 상태로 안전하게 복귀.
+      state.isLoadingCorner = false;
+      renderCornerFilterOptions();
+      renderCornerList();
+      renderArticleList();
+      renderArticleDetail();
+    });
   } else {
     renderIssueNav();
     renderCategoryOptions();
@@ -229,58 +284,254 @@ function switchViewMode(mode) {
   }
 }
 
-function allLoadedArticles() {
-  const all = [];
-  for (const articles of state.loadedIssues.values()) {
-    all.push(...articles);
+async function initializeCornerMode() {
+  // 코너 목록과 선택 코너 기사 목록을 categories 데이터에서 초기화한다.
+  await loadCategoryIndex();
+  if (!state.selectedCorner) {
+    state.selectedCorner = getDefaultCorner();
   }
-  return all.sort((a, b) => b.issueNo !== a.issueNo ? b.issueNo - a.issueNo : a.order - b.order);
+  await ensureSelectedCornerLoaded();
 }
 
-function renderCornerList() {
-  el.cornerList.innerHTML = "";
+async function loadCategoryIndex() {
+  if (state.categoryIndex) {
+    return;
+  }
+
+  const response = await fetch(`${CATEGORY_INDEX_URL}?t=${Date.now()}`);
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
+  }
+  state.categoryIndex = await response.json();
+}
+
+function getCategoryEntries() {
+  const categories = state.categoryIndex?.categories;
+  return Array.isArray(categories) ? categories : [];
+}
+
+function findCategoryEntryByName(categoryName) {
+  return getCategoryEntries().find((entry) => entry.category === categoryName) || null;
+}
+
+async function loadCategoryArticlesByName(categoryName) {
+  const normalized = String(categoryName || "").trim();
+  if (!normalized) {
+    return [];
+  }
+
+  if (state.loadedCategoryArticles.has(normalized)) {
+    return state.loadedCategoryArticles.get(normalized) || [];
+  }
+
+  if (state.categoryLoadPromises.has(normalized)) {
+    return state.categoryLoadPromises.get(normalized);
+  }
+
+  // 동일 카테고리 중복 요청을 방지하기 위해 Promise를 캐시한다.
+  const loadPromise = (async () => {
+    await loadCategoryIndex();
+    const entry = findCategoryEntryByName(normalized);
+    if (!entry?.filePath) {
+      state.loadedCategoryArticles.set(normalized, []);
+      return [];
+    }
+
+    const response = await fetch(`data/${entry.filePath}?t=${Date.now()}`);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    const payload = await response.json();
+    const articles = (Array.isArray(payload.articles) ? payload.articles : []).map((article) => ({
+      ...article,
+      searchBlob: `${article.title || ""} ${article.author || ""} ${article.category || ""} ${article.summary || ""}`.toLowerCase()
+    }));
+    state.loadedCategoryArticles.set(normalized, articles);
+    return articles;
+  })();
+
+  state.categoryLoadPromises.set(normalized, loadPromise);
+
+  try {
+    return await loadPromise;
+  } finally {
+    state.categoryLoadPromises.delete(normalized);
+  }
+}
+
+async function ensureSelectedCornerLoaded() {
+  if (!state.selectedCorner) {
+    return;
+  }
+
+  // 필터 모드에서는 도전님 훈시도 항상 펼치므로 함께 로드한다.
   const pinnedCorner = "도전님 훈시";
-  const categories = [...new Set(allLoadedArticles().map((a) => a.category).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ko"));
+  const categoriesToLoad = state.cornerFilter !== "all"
+    ? [...new Set([state.selectedCorner, pinnedCorner].filter(Boolean))]
+    : [state.selectedCorner];
+
+  const loadedLists = await Promise.all(categoriesToLoad.map((category) => loadCategoryArticlesByName(category)));
+  const list = loadedLists[0] || [];
+  if (!list.some((article) => article.id === state.selectedArticleId)) {
+    state.selectedArticleId = list[0]?.id || null;
+  }
+
+  // 상세 본문은 기존 issue 파일에 있으므로 선택 기사의 원본 호수 데이터를 지연 로드한다.
+  const selected = list.find((article) => article.id === state.selectedArticleId);
+  if (selected?.webzineId) {
+    await loadIssueData(String(selected.webzineId));
+  }
+}
+
+function getCornerCategories() {
+  // 코너 목록 정렬 규칙: 가나다순 + "도전님 훈시"를 항상 최상단으로 고정.
+  const pinnedCorner = "도전님 훈시";
+  const categories = [...new Set(getCategoryEntries().map((entry) => entry.category).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ko"));
   const pinnedIndex = categories.indexOf(pinnedCorner);
   if (pinnedIndex > 0) {
     categories.splice(pinnedIndex, 1);
     categories.unshift(pinnedCorner);
   }
+  return categories;
+}
 
-  if (categories.length === 0) {
-    el.cornerList.innerHTML = `<div class="empty-state small">호수를 먼저 선택하면<br>코너 목록이 나타납니다.</div>`;
+function getVisibleCornerCategories() {
+  // 코너 필터가 선택돼도 도전님 훈시는 항상 고정 노출한다.
+  const pinnedCorner = "도전님 훈시";
+  const categories = getCornerCategories();
+  if (state.cornerFilter === "all") {
+    return categories;
+  }
+
+  return categories.filter((category) => category === pinnedCorner || category === state.cornerFilter);
+}
+
+function shouldExpandCorner(category) {
+  const pinnedCorner = "도전님 훈시";
+  // 필터가 선택되면 도전님 훈시는 고정 펼침 + 선택 코너도 펼침.
+  return state.selectedCorner === category || (state.cornerFilter !== "all" && category === pinnedCorner);
+}
+
+function getDefaultCorner() {
+  // 기본 코너는 정렬/고정 규칙이 반영된 첫 번째 코너를 사용한다.
+  const categories = getCornerCategories();
+  return categories[0] || "";
+}
+
+function renderCornerList() {
+  el.cornerList.innerHTML = "";
+  // 아코디언: 각 코너 버튼 아래에 해당 코너의 제목 목록을 인라인으로 펼침.
+  if (state.isLoadingCorner) {
+    el.cornerList.innerHTML = `<div class="empty-state small">코너 목록을 불러오는 중입니다...</div>`;
     return;
   }
 
-  const allBtn = document.createElement("button");
-  allBtn.type = "button";
-  allBtn.className = `corner-card${state.selectedCorner === "all" ? " is-active" : ""}`;
-  allBtn.textContent = "전체";
-  allBtn.addEventListener("click", () => {
-    state.selectedCorner = "all";
-    renderCornerList();
-    renderArticleList();
-    if (window.innerWidth <= 1100) {
-      setMobileIssuePanelOpen(false);
-    }
-  });
-  el.cornerList.appendChild(allBtn);
+  const categories = getVisibleCornerCategories();
+
+  if (categories.length === 0) {
+    el.cornerList.innerHTML = `<div class="empty-state small">조건에 맞는 코너가 없습니다.<br>필터를 바꿔주세요.</div>`;
+    return;
+  }
 
   categories.forEach((cat) => {
+    // 아코디언 항목 래퍼: 버튼 + 인라인 제목 목록
+    const item = document.createElement("div");
+    item.className = "corner-item";
+
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = `corner-card${state.selectedCorner === cat ? " is-active" : ""}`;
     btn.textContent = cat;
     btn.addEventListener("click", () => {
       state.selectedCorner = cat;
+      state.selectedArticleId = null;
       renderCornerList();
-      renderArticleList();
+      renderArticleDetail();
+      // 코너 클릭 시 해당 카테고리 기사 JSON을 비동기로 로드한다.
+      ensureSelectedCornerLoaded().then(() => {
+        renderCornerList();
+        renderArticleDetail();
+      });
       if (window.innerWidth <= 1100) {
         setMobileIssuePanelOpen(false);
       }
     });
-    el.cornerList.appendChild(btn);
+    item.appendChild(btn);
+
+    // 선택 코너 또는(필터 모드의) 도전님 훈시는 인라인 목록을 펼쳐 렌더링.
+    if (shouldExpandCorner(cat)) {
+      const inlineList = document.createElement("div");
+      inlineList.className = "corner-inline-articles";
+      renderCornerInlineArticles(cat, inlineList);
+      item.appendChild(inlineList);
+    }
+
+    el.cornerList.appendChild(item);
   });
+}
+
+function renderCornerInlineArticles(cat, container) {
+  // 코너 기사 4개 미리보기 + "+ 더 보기" 버튼 (category.asp 방식).
+  const PREVIEW_COUNT = 4;
+  const list = state.loadedCategoryArticles.get(cat);
+
+  if (!list) {
+    container.innerHTML = `<div class="empty-state small">목록을 불러오는 중입니다...</div>`;
+    return;
+  }
+
+  if (list.length === 0) {
+    container.innerHTML = `<div class="empty-state small">해당 코너 기사가 없습니다.</div>`;
+    return;
+  }
+
+  // 기사 행 생성 헬퍼
+  function makeRow(article) {
+    const row = document.createElement("button");
+    row.type = "button";
+    row.className = `corner-article-row${state.selectedArticleId === article.id ? " is-active" : ""}`;
+    row.innerHTML = `
+      <span class="corner-issue">${escapeHtml(article.issueLabel)}</span>
+      <span class="corner-title">${escapeHtml(article.title)}</span>
+    `;
+    row.addEventListener("click", async () => {
+      // 상세 본문 노출을 위해 기사가 속한 issue JSON을 먼저 로드한다.
+      if (article.webzineId) {
+        await loadIssueData(String(article.webzineId));
+      }
+      state.selectedArticleId = article.id;
+      renderCornerList(); // 활성 행 강조 갱신
+      renderArticleDetail();
+      scrollReaderIntoViewIfMobile();
+    });
+    return row;
+  }
+
+  // 최초 4개 행 렌더링
+  const preview = list.slice(0, PREVIEW_COUNT);
+  preview.forEach((a) => container.appendChild(makeRow(a)));
+
+  // 4개 초과분이 있으면 숨겨두고 "+ 더 보기" 버튼 표시
+  const rest = list.slice(PREVIEW_COUNT);
+  if (rest.length > 0) {
+    // 나머지 행 컨테이너 (초기에는 숨김)
+    const moreWrap = document.createElement("div");
+    moreWrap.hidden = true;
+    rest.forEach((a) => moreWrap.appendChild(makeRow(a)));
+    container.appendChild(moreWrap);
+
+    // "+ 더 보기 (N개)" 버튼
+    const moreBtn = document.createElement("button");
+    moreBtn.type = "button";
+    moreBtn.className = "corner-more-btn";
+    moreBtn.textContent = `+ 더 보기 (${rest.length}개)`;
+    moreBtn.addEventListener("click", () => {
+      moreWrap.hidden = false;  // 나머지 행 펼치기
+      moreBtn.remove();          // 버튼 제거
+    });
+    container.appendChild(moreBtn);
+  }
 }
 
 function hasUsablePdfUrl(url) {
@@ -327,12 +578,34 @@ function renderIssueNav() {
 
 function renderCategoryOptions() {
   el.categoryField.hidden = state.viewMode === "corner";
-  if (state.viewMode === "corner") return;
+  if (el.cornerFilterField) {
+    el.cornerFilterField.hidden = state.viewMode !== "corner";
+  }
+
+  if (state.viewMode === "corner") {
+    renderCornerFilterOptions();
+    return;
+  }
+
   const categories = [...new Set(filteredArticlesForIssue().map((article) => article.category).filter(Boolean))].sort((left, right) => left.localeCompare(right, "ko"));
   const nextValue = categories.includes(state.selectedCategory) ? state.selectedCategory : "all";
   state.selectedCategory = nextValue;
   el.categorySelect.innerHTML = `<option value="all">전체</option>${categories.map((category) => `<option value="${escapeAttribute(category)}">${escapeHtml(category)}</option>`).join("")}`;
   el.categorySelect.value = state.selectedCategory;
+}
+
+function renderCornerFilterOptions() {
+  if (!el.cornerFilterSelect) {
+    return;
+  }
+
+  const pinnedCorner = "도전님 훈시";
+  // 도전님 훈시는 필터 항목에서 제외하고 선택 목록만 제공한다.
+  const filterOptions = getCornerCategories().filter((category) => category !== pinnedCorner);
+  const nextValue = filterOptions.includes(state.cornerFilter) ? state.cornerFilter : "all";
+  state.cornerFilter = nextValue;
+  el.cornerFilterSelect.innerHTML = `<option value="all">전체 코너</option>${filterOptions.map((category) => `<option value="${escapeAttribute(category)}">${escapeHtml(category)}</option>`).join("")}`;
+  el.cornerFilterSelect.value = state.cornerFilter;
 }
 
 function renderIssuePdfLink() {
@@ -357,7 +630,14 @@ function renderIssuePdfLink() {
 }
 
 function renderArticleList() {
+  // 코너별 모드: renderCornerList()가 아코디언 인라인 목록을 처리하므로 건너뜀.
+  if (state.viewMode === "corner") {
+    renderArticleDetail();
+    return;
+  }
+
   el.articleList.innerHTML = "";
+  el.articleList.classList.remove("corner-article-list");
 
   if (state.viewMode === "issue" && state.selectedIssueId === "all") {
     el.resultMeta.textContent = "";
@@ -372,8 +652,16 @@ function renderArticleList() {
     return;
   }
 
+  if (state.viewMode === "corner" && !state.selectedCorner) {
+    el.resultMeta.textContent = "";
+    el.articleList.innerHTML = `<div class="empty-state">← 좌측에서 코너를 선택하면<br>호수별 제목이 표시됩니다.</div>`;
+    state.selectedArticleId = null;
+    renderArticleDetail();
+    return;
+  }
+
   const list = filteredArticles();
-  el.resultMeta.textContent = `${list.length}개 기사`;
+  el.resultMeta.textContent = state.viewMode === "corner" ? "" : `${list.length}개 기사`;
 
   if (list.length === 0) {
     const msg = state.viewMode === "corner" ? "불러온 호수에 해당 코너 기사가 없습니다." : "조건에 맞는 기사가 없습니다.";
@@ -387,16 +675,48 @@ function renderArticleList() {
     state.selectedArticleId = list[0].id;
   }
 
+  if (state.viewMode === "corner") {
+    // 코너별 모드: 상단 헤더 + 호수/제목 행 리스트 형태로 렌더링.
+    el.articleList.classList.add("corner-article-list");
+
+    const header = document.createElement("div");
+    header.className = "corner-article-head";
+    header.innerHTML = `
+      <strong>${escapeHtml(state.selectedCorner)} <span>(${list.length})</span></strong>
+      <button type="button" class="corner-head-action">전체목록 보기</button>
+    `;
+
+    const clearBtn = header.querySelector(".corner-head-action");
+    clearBtn?.addEventListener("click", () => {
+      state.selectedCorner = getDefaultCorner();
+      state.selectedArticleId = null;
+      renderCornerList();
+      renderArticleList();
+      renderArticleDetail();
+    });
+
+    el.articleList.appendChild(header);
+  }
+
   list.forEach((article) => {
     const card = document.createElement("button");
     card.type = "button";
-    card.className = `article-card${state.selectedArticleId === article.id ? " is-active" : ""}`;
-    card.innerHTML = `
-      <div class="article-meta">${escapeHtml(article.issueLabel)} · ${escapeHtml(article.category || "미분류")}</div>
-      <strong>${escapeHtml(article.title)}</strong>
-      <div class="article-author">${escapeHtml(article.author || "필자 정보 없음")}</div>
-      <p class="article-summary">${escapeHtml(article.summary)}</p>
-    `;
+    card.className = state.viewMode === "corner"
+      ? `corner-article-row${state.selectedArticleId === article.id ? " is-active" : ""}`
+      : `article-card${state.selectedArticleId === article.id ? " is-active" : ""}`;
+    if (state.viewMode === "corner") {
+      card.innerHTML = `
+        <span class="corner-issue">${escapeHtml(article.issueLabel)}</span>
+        <span class="corner-title">${escapeHtml(article.title)}</span>
+      `;
+    } else {
+      card.innerHTML = `
+        <div class="article-meta">${escapeHtml(article.issueLabel)} · ${escapeHtml(article.category || "미분류")}</div>
+        <strong>${escapeHtml(article.title)}</strong>
+        <div class="article-author">${escapeHtml(article.author || "필자 정보 없음")}</div>
+        <p class="article-summary">${escapeHtml(article.summary)}</p>
+      `;
+    }
     card.addEventListener("click", () => {
       state.selectedArticleId = article.id;
       renderArticleList();
@@ -449,8 +769,10 @@ function currentIssue() {
 
 function filteredArticlesForIssue() {
   if (state.viewMode === "corner") {
-    const all = allLoadedArticles();
-    return state.selectedCorner === "all" ? all : all.filter((a) => a.category === state.selectedCorner);
+    if (!state.selectedCorner) {
+      return [];
+    }
+    return state.loadedCategoryArticles.get(state.selectedCorner) || [];
   }
   return state.articles;
 }

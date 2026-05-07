@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.785Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "종운",
+  "categoryId": "cat-0052e794",
+  "articleCount": 2,
+  "latestIssueNo": 206,
+  "articles": [
+    {
+      "id": "w245-b7751-m4231",
+      "issueNo": 206,
+      "issueLabel": "206호",
+      "issueDateLabel": "대순148년(2018) 5월",
+      "webzineId": 245,
+      "order": 27,
+      "category": "종운",
+      "title": "종운(鍾韻)",
+      "author": "",
+      "summary": "종운(鍾韻) 鍾聲鳴兮여 宇宙警應이로다. 第一鳴兮여 天氣下降하고 第二鳴兮여 地氣上昇하고 第三鳴兮여 人道中正하고 第四鳴兮여 造化始定하니 萬有具備로다. 鍾聲이 幾何오 十五相續이라 其理如何오 八卦相&#30442;하고 九宮成數로다. 縱橫運用하여 十五成眞이라 眞...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=245&menu_no=4231&bno=7751&page=1"
+    },
+    {
+      "id": "w138-b3999-m2233",
+      "issueNo": 107,
+      "issueLabel": "107호",
+      "issueDateLabel": "대순140년(2010) 5월",
+      "webzineId": 138,
+      "order": 19,
+      "category": "종운",
+      "title": "종운",
+      "author": "",
+      "summary": "종운 종성(鐘聲)명(鳴)혜(兮)여 우주(宇宙)경응(警應)이로다. 제일(第一)명(鳴)혜(兮)여 천기(天氣)하강(下降)하고 제이(第二)명(鳴)혜(兮)여 지기(地氣)상승(上昇)하고 제삼(第三)명(鳴)혜(兮)여 인도(人道)중정(中正)하고 제사(第四)명(鳴)혜...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=138&menu_no=2233&bno=3999&page=1"
+    }
+  ]
+}

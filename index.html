@@ -6,21 +6,29 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&family=Noto+Serif+KR:wght@500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=20260506g" />
+  <link rel="stylesheet" href="styles.css?v=20260508n" />
 </head>
 <body>
   <div class="page-shell">
     <header class="hero">
-      <div>
-        <p class="eyebrow">Daesoon Webzine Archive</p>
-        <h1>대순회보를 로컬에서 탐색하고 읽기</h1>
-        <p id="heroMeta" class="hero-copy">데이터를 불러오는 중입니다.</p>
+      <div class="hero-brand">
+        <img class="hero-logo" src="assets/daesoon-logo-transparent.png" alt="대순회보 로고" loading="eager" decoding="async" />
+        <div class="hero-brand-copy">
+          <p class="eyebrow">Daesoon Webzine Archive</p>
+          <h1>대순회보를 로컬에서 탐색하고 읽기</h1>
+          <p id="heroMeta" class="hero-copy">데이터를 불러오는 중입니다.</p>
+        </div>
       </div>
       <div class="hero-actions">
         <a id="issuePdfLink" class="hero-link small" href="#" target="_blank" rel="noreferrer noopener" hidden>PDF 다운로드</a>
         <a class="hero-link" href="https://webzine.daesoon.org/" target="_blank" rel="noreferrer noopener">원 사이트 열기</a>
       </div>
     </header>
+
+    <div class="view-tabs">
+      <button id="tabIssue" class="view-tab is-active" type="button">호수별</button>
+      <button id="tabCorner" class="view-tab" type="button">코너별</button>
+    </div>
 
     <section class="toolbar panel">
       <label class="field grow">
@@ -31,12 +39,11 @@
         <span>카테고리</span>
         <select id="categorySelect"></select>
       </label>
+      <label id="cornerFilterField" class="field" hidden>
+        <span>코너 필터</span>
+        <select id="cornerFilterSelect"></select>
+      </label>
     </section>
-
-    <div class="view-tabs">
-      <button id="tabIssue" class="view-tab is-active" type="button">호수별</button>
-      <button id="tabCorner" class="view-tab" type="button">코너별</button>
-    </div>
 
     <button id="mobileIssuePanelToggle" class="mobile-issue-toggle" type="button" aria-controls="issuePanel" aria-expanded="false">
       호수/코너 목록 열기
@@ -47,7 +54,7 @@
         <div class="issue-section">
           <div id="issueNav" class="issue-nav">
             <button id="prevIssueBtn" class="issue-nav-btn" type="button">◀ 이전호</button>
-            <select id="issueSelect" class="issue-select"></select>
+            <select id="issueSelect" class="issue-select" aria-label="호수 선택" title="호수 선택"></select>
             <button id="nextIssueBtn" class="issue-nav-btn" type="button">다음호 ▶</button>
           </div>
 
@@ -61,7 +68,7 @@
 
         <div class="list-section">
           <div class="panel-head">
-            <h2>기사 목록</h2>
+            <h2 id="listTitle">기사 목록</h2>
             <p id="resultMeta" class="muted"></p>
           </div>
           <div id="articleList" class="article-list"></div>
@@ -89,6 +96,6 @@
     </main>
   </div>
 
-  <script type="module" src="app.js?v=20260506c"></script>
+  <script type="module" src="app.js?v=20260508e"></script>
 </body>
 </html>

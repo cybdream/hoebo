@@ -4,11 +4,12 @@
   "version": "0.1.0",
   "description": "대순회보 웹진 뷰어와 데이터 수집 스크립트",
   "scripts": {
-    "build:data": "node scripts/scrape-webzine.mjs --latest 1 --output data",
-    "build:data:latest3": "node scripts/scrape-webzine.mjs --latest 3 --output data",
-    "build:data:latest6": "node scripts/scrape-webzine.mjs --latest 6 --output data",
-    "build:data:latest12": "node scripts/scrape-webzine.mjs --latest 12 --output data",
-    "build:data:all": "node scripts/scrape-webzine.mjs --latest 999 --output data",
+    "build:data": "node scripts/scrape-webzine.mjs --latest 1 --output data && node scripts/build-categories.mjs --output data",
+    "build:data:latest3": "node scripts/scrape-webzine.mjs --latest 3 --output data && node scripts/build-categories.mjs --output data",
+    "build:data:latest6": "node scripts/scrape-webzine.mjs --latest 6 --output data && node scripts/build-categories.mjs --output data",
+    "build:data:latest12": "node scripts/scrape-webzine.mjs --latest 12 --output data && node scripts/build-categories.mjs --output data",
+    "build:data:all": "node scripts/scrape-webzine.mjs --latest 999 --output data && node scripts/build-categories.mjs --output data",
+    "build:categories": "node scripts/build-categories.mjs --output data",
     "verify:data": "node scripts/scrape-webzine.mjs --latest 1 --output data --check-only"
   }
 }

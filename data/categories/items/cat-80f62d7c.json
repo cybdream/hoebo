@@ -1,0 +1,50 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.813Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "여름캠프 공고",
+  "categoryId": "cat-80f62d7c",
+  "articleCount": 3,
+  "latestIssueNo": 183,
+  "articles": [
+    {
+      "id": "w222-b6801-m3763",
+      "issueNo": 183,
+      "issueLabel": "183호",
+      "issueDateLabel": "대순146년(2016) 7월",
+      "webzineId": 222,
+      "order": 25,
+      "category": "여름캠프 공고",
+      "title": "제22회 대순청소년 여름캠프",
+      "author": "",
+      "summary": "제22회 대순청소년 여름캠프 교무부에서는 제22회 대순청소년 여름캠프를 개최합니다. 이번 캠프 주제는 ‘마음을 속이지 말라’입니다. ‘마음’ 어디에 있는 걸까요? 대순청소년들과 함께 ‘마음’을 찾아보려 합니다. ‘마음찾기’ 훈회 실천 활동을 통해 마음...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=222&menu_no=3763&bno=6801&page=1"
+    },
+    {
+      "id": "w221-b6760-m3741",
+      "issueNo": 182,
+      "issueLabel": "182호",
+      "issueDateLabel": "대순146년(2016) 6월",
+      "webzineId": 221,
+      "order": 22,
+      "category": "여름캠프 공고",
+      "title": "제22회 대순청소년 여름캠프",
+      "author": "",
+      "summary": "제22회 대순청소년 여름캠프 교무부에서는 제22회 대순청소년 여름캠프를 개최합니다. 이번 캠프는 훈회 중 ‘마음을 속이지 말라’를 중심으로 기획되었습니다. 연극을 통해 우리가 생각하는 양심(良心)과 사심(私心)에 대해 생각해보고 토론해 보는 시간을 가...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=221&menu_no=3741&bno=6760&page=1"
+    },
+    {
+      "id": "w220-b6719-m3718",
+      "issueNo": 181,
+      "issueLabel": "181호",
+      "issueDateLabel": "대순146년(2016) 5월",
+      "webzineId": 220,
+      "order": 23,
+      "category": "여름캠프 공고",
+      "title": "제22회 대순청소년 여름캠프",
+      "author": "",
+      "summary": "제22회 대순청소년 여름캠프 교무부에서는 제22회 대순청소년 여름캠프를 개최합니다. 이번 캠프는 훈회 중 ‘마음을 속이지 말라’를 중심으로 기획되었습니다. 연극을 통해 우리가 생각하는 양심(良心)과 사심(私心)에 대해 생각해보고 토론해 보는 시간을 가...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=220&menu_no=3718&bno=6719&page=1"
+    }
+  ]
+}

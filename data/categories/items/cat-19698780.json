@@ -1,0 +1,63 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.876Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "춘계체육대회",
+  "categoryId": "cat-19698780",
+  "articleCount": 4,
+  "latestIssueNo": 145,
+  "articles": [
+    {
+      "id": "w182-b5317-m3004",
+      "issueNo": 145,
+      "issueLabel": "145호",
+      "issueDateLabel": "대순143년(2013) 6월",
+      "webzineId": 182,
+      "order": 26,
+      "category": "춘계체육대회",
+      "title": "2013년 종단 춘계체육대회",
+      "author": "",
+      "summary": "2013년 종단 대순진리회춘계체육대회 2013.5.7(화), 장소: 여주본부도장",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=182&menu_no=3004&bno=5317&page=1"
+    },
+    {
+      "id": "w170-b4927-m2752",
+      "issueNo": 133,
+      "issueLabel": "133호",
+      "issueDateLabel": "대순142년(2012) 6월",
+      "webzineId": 170,
+      "order": 24,
+      "category": "춘계체육대회",
+      "title": "2012 여주본부도장 춘계체육대회",
+      "author": "",
+      "summary": "2012 여주본부도장 춘계체육대회",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=170&menu_no=2752&bno=4927&page=1"
+    },
+    {
+      "id": "w157-b7102-m3926",
+      "issueNo": 121,
+      "issueLabel": "121호",
+      "issueDateLabel": "대순141년(2011) 6월",
+      "webzineId": 157,
+      "order": 23,
+      "category": "춘계체육대회",
+      "title": "사진으로 보는 2011 여주본부도장 춘계체육대회",
+      "author": "",
+      "summary": "",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=157&menu_no=3926&bno=7102&page=1"
+    },
+    {
+      "id": "w127-b3536-m2001",
+      "issueNo": 96,
+      "issueLabel": "96호",
+      "issueDateLabel": "대순139년(2009) 6월",
+      "webzineId": 127,
+      "order": 14,
+      "category": "춘계체육대회",
+      "title": "2009 여주본부도장 춘계체육대회",
+      "author": "",
+      "summary": "2009 여주본부도장 춘계체육대회 ①체육대회 전체 입장 ②대순풍물단으로 대회 시작 ③연합 방면 율동 공연 ④안동 방면 코믹연기 공연 ⑤연합2 방면 율동 공연",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=127&menu_no=2001&bno=3536&page=1"
+    }
+  ]
+}

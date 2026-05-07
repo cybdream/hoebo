@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:30.123Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "도장벽화",
+  "categoryId": "cat-19047e6d",
+  "articleCount": 2,
+  "latestIssueNo": 37,
+  "articles": [
+    {
+      "id": "w87-b8176-m4428",
+      "issueNo": 37,
+      "issueLabel": "37호",
+      "issueDateLabel": "대순123년(1993) 5월",
+      "webzineId": 87,
+      "order": 11,
+      "category": "도장벽화",
+      "title": "상부상조(相扶相助)",
+      "author": "",
+      "summary": "▲도장벽화 상부상조(相扶相助)",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=87&menu_no=4428&bno=8176&page=1"
+    },
+    {
+      "id": "w105-b8326-m4497",
+      "issueNo": 19,
+      "issueLabel": "19호",
+      "issueDateLabel": "대순120년(1990) 9월",
+      "webzineId": 105,
+      "order": 23,
+      "category": "도장벽화",
+      "title": "무병장수의 후천선경",
+      "author": "",
+      "summary": "▲ 본부벽화: 無病長壽의 후천선경",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=105&menu_no=4497&bno=8326&page=1"
+    }
+  ]
+}

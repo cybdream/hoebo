@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:30.156Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "칼럼",
+  "categoryId": "cat-00514105",
+  "articleCount": 2,
+  "latestIssueNo": 26,
+  "articles": [
+    {
+      "id": "w98-b3082-m1571",
+      "issueNo": 26,
+      "issueLabel": "26호",
+      "issueDateLabel": "대순121년(1991) 9월",
+      "webzineId": 98,
+      "order": 3,
+      "category": "칼럼",
+      "title": "「정음정양(正陰正陽)」의 새문화",
+      "author": "<font size=\"3\"> <br>조태룡 <교무부장><br><br></font>",
+      "summary": "「정음정양(正陰正陽)」의 새문화 「大巡 종교문화 」로 우리문화의 우수성을 펼쳐야 할 때 조태룡 <교무부장> 언제부터인가 포스트모더니즘(Post Modernism)이라는 용어가 어색하게 들리지 않고 있다. 폐쇄적이고 비과학적이고 비합리적이던 전근대사회는...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=98&menu_no=1571&bno=3082&page=1"
+    },
+    {
+      "id": "w99-b3055-m1596",
+      "issueNo": 25,
+      "issueLabel": "25호",
+      "issueDateLabel": "대순121년(1991) 8월",
+      "webzineId": 99,
+      "order": 29,
+      "category": "칼럼",
+      "title": "大巡宗敎文化의 定着",
+      "author": "<font size=\"3\">曺泰龍<교무부장> </font>",
+      "summary": "大巡宗敎文化의 定着 종교는 그 나라의 정신문화를 주도하며 정신문화는 그 국민의 진로를 결정 曺泰龍<교무부장> 외제 물품이 이 땅에 산재해 있는 것은 어제 오늘의 일은 아니다. 그런데 7월 1일부터 「수입시장개방」의 대대적인 바람이 일어 사람들의 거리거...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=99&menu_no=1596&bno=3055&page=1"
+    }
+  ]
+}

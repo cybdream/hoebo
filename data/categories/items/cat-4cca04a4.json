@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.790Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "겨울캠프 공지",
+  "categoryId": "cat-4cca04a4",
+  "articleCount": 2,
+  "latestIssueNo": 201,
+  "articles": [
+    {
+      "id": "w240-b7509-m4128",
+      "issueNo": 201,
+      "issueLabel": "201호",
+      "issueDateLabel": "대순147년(2017) 12월",
+      "webzineId": 240,
+      "order": 23,
+      "category": "겨울캠프 공지",
+      "title": "제25회 대순청소년 겨울캠프",
+      "author": "",
+      "summary": "제25회 대순청소년 겨울캠프 교무부에서는 제25회 대순청소년 겨울캠프를 개최합니다. 이번 겨울캠프의 주제는 훈회 중 ‘은혜를 저버리지 말라’입니다. 일상에서 놓치기 쉬운 은혜에 대한 감사함을 되새겨보는 시간을 가져 볼 것입니다. 방면 도인들의 많은 관...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=240&menu_no=4128&bno=7509&page=1"
+    },
+    {
+      "id": "w239-b7469-m4114",
+      "issueNo": 200,
+      "issueLabel": "200호",
+      "issueDateLabel": "대순147년(2017) 11월",
+      "webzineId": 239,
+      "order": 28,
+      "category": "겨울캠프 공지",
+      "title": "제25회 대순청소년 겨울캠프",
+      "author": "",
+      "summary": "제25회 대순청소년 겨울캠프 교무부에서는 제25회 대순청소년 겨울캠프를 개최합니다. 이번 캠프의 주제는 훈회 ‘은혜를 저버리지 말라’입니다. 일상에서 놓치기 쉬운 은혜에 대한 감사함을 되새겨보는 시간을 가져 볼 것입니다. 수도인들의 많은 관심과 더불어...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=239&menu_no=4114&bno=7469&page=1"
+    }
+  ]
+}

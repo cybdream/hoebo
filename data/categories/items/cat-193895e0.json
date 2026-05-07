@@ -1,0 +1,50 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:30.128Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "대순탐방",
+  "categoryId": "cat-193895e0",
+  "articleCount": 3,
+  "latestIssueNo": 32,
+  "articles": [
+    {
+      "id": "w92-b2664-m1481",
+      "issueNo": 32,
+      "issueLabel": "32호",
+      "issueDateLabel": "대순122년(1992) 5월",
+      "webzineId": 92,
+      "order": 10,
+      "category": "대순탐방",
+      "title": "대순탐방-보은방면 민병록 선감",
+      "author": "",
+      "summary": "대순탐방-보은방면 민병록 선감 報恩相生 새겨 德化 펼쳐야... 『갑오(甲午)세 갑오(甲午)세 을미(乙未)적 을미(乙未)적 을미(乙未)적 가보세. 병신(丙申)되면 못 가리.』, 1894년 갑오(甲午) 동학(東學)혁명이 일어난 후 오랜 세월이 흐른 뒤에도...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=92&menu_no=1481&bno=2664&page=1"
+    },
+    {
+      "id": "w93-b2531-m1495",
+      "issueNo": 31,
+      "issueLabel": "31호",
+      "issueDateLabel": "대순122년(1992) 4월",
+      "webzineId": 93,
+      "order": 11,
+      "category": "대순탐방",
+      "title": "청주방면 권종진 선감",
+      "author": "",
+      "summary": "청주방면 권종진 선감 大巡眞理로 하나되어야 『옛날에는 (태극도 시절)시계가 귀했었기 때문에 기도모실 때 별을 보고 시간을 판단했어요.』 여주도장(驪州道場) 수련공부반의 지도감독을 담당하는 임무인 사수를 보아온 청주방면 권종진(權鍾珍) 선감(74세)은 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=93&menu_no=1495&bno=2531&page=1"
+    },
+    {
+      "id": "w93-b8222-m1495",
+      "issueNo": 31,
+      "issueLabel": "31호",
+      "issueDateLabel": "대순122년(1992) 4월",
+      "webzineId": 93,
+      "order": 12,
+      "category": "대순탐방",
+      "title": "도장벽화 - 무병장수",
+      "author": "",
+      "summary": "道場벽화 무병장수(無病長壽)",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=93&menu_no=1495&bno=8222&page=2"
+    }
+  ]
+}

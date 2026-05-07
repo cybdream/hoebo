@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:30.230Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "학술논문",
+  "categoryId": "cat-4cdd6b98",
+  "articleCount": 2,
+  "latestIssueNo": 10,
+  "articles": [
+    {
+      "id": "w114-b2108-m1763",
+      "issueNo": 10,
+      "issueLabel": "10호",
+      "issueDateLabel": "대순118년(1988) 10월",
+      "webzineId": 114,
+      "order": 18,
+      "category": "학술논문",
+      "title": "九天上帝님 降世의 象數學的 考察",
+      "author": "수도부장겸 연구실장 선감 이채원",
+      "summary": "九天上帝님 降世의 象數學的 考察 십년을 앞선 사람은 십년동안 욕을 얻어 먹는다. 수도부장겸 연구실장 선감 이채원 밤하늘에 점점이 빛나는 성수들을 보고 있노라면 자신도 모르는 사이에 하느님의 무한한 조화에 절로 마음이 숙연해지고 다시 한 번 더 넓은 우...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=114&menu_no=1763&bno=2108&page=1"
+    },
+    {
+      "id": "w115-b3507-m1994",
+      "issueNo": 9,
+      "issueLabel": "9호",
+      "issueDateLabel": "대순118년(1988) 7월",
+      "webzineId": 115,
+      "order": 24,
+      "category": "학술논문",
+      "title": "冥府公事에 관한 一分析",
+      "author": "연구위원 교령 김 홍 철",
+      "summary": "冥府公事에 관한 一分析 - 特히 朝鮮冥府 公事를 中心으로 - 명부공사중 조선명부가 중심, 이것은 조선을 최상등국으로 부상시킬 것을 의미하는 것 연구위원 교령 김 홍 철 1. 序 상제(上帝)님께서 행(行)하신 천지공사(天地公事) 중에서 명부공사(冥府公事...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=115&menu_no=1994&bno=3507&page=1"
+    }
+  ]
+}

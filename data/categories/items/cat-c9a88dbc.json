@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.867Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "동양고전읽기의 즐거움",
+  "categoryId": "cat-c9a88dbc",
+  "articleCount": 2,
+  "latestIssueNo": 149,
+  "articles": [
+    {
+      "id": "w186-b5443-m3077",
+      "issueNo": 149,
+      "issueLabel": "149호",
+      "issueDateLabel": "대순143년(2013) 10월",
+      "webzineId": 186,
+      "order": 20,
+      "category": "동양고전읽기의 즐거움",
+      "title": "『격몽요결(擊蒙要訣)』인간의 변화 가능성에 대한 신뢰와 전략",
+      "author": "",
+      "summary": "『격몽요결(擊蒙要訣)』 인간의 변화 가능성에 대한 신뢰와 전략 글 신정근 동양고전은 중국고전을 생각한다. 아마도 중국철학이 동양철학을 대표하기에 그렇게 생각할 것이다. 하지만 동양고전은 중국고전에 한정되지 않는다. 한국고전이나 일본고전만이 아니라 베트...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=186&menu_no=3077&bno=5443&page=1"
+    },
+    {
+      "id": "w158-b4555-m2540",
+      "issueNo": 122,
+      "issueLabel": "122호",
+      "issueDateLabel": "대순141년(2011) 7월",
+      "webzineId": 158,
+      "order": 31,
+      "category": "동양고전읽기의 즐거움",
+      "title": "『주역(周易)』의 자강 불식과 자력 구원",
+      "author": "<br><font size=\"3\" face=\"돋움\">글 신정근</font>",
+      "summary": "『주역(周易)』의 자강 불식과 자력 구원 글 신정근 후회(後悔)란 시간이 지난 뒤에 하고 싶은 것을 하지 못했거나 하지 말아야 할 것을 한 경우에 겪는 사람의 정서적 반응이다. 사람은 누구나 후회 없는 삶을 살기를 바란다. 후회를 하지 않으려면 우리가...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=158&menu_no=2540&bno=4555&page=1"
+    }
+  ]
+}

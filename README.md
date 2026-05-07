@@ -110,7 +110,15 @@ python -m http.server 5600
 
 - `npm run build:data`: 최신 1개 호수 수집
 - `npm run build:data:latest3`: 최신 3개 호수 수집
+- `npm run build:categories`: 현재 `data/issues` 기반 카테고리 묶음 데이터 생성
 - `npm run verify:data`: 최신 1개 호수 수집 검증만 수행
+
+## 카테고리 데이터
+
+`npm run build:categories` 실행 시 아래 파일이 생성됩니다.
+
+- `data/categories/index.json`: 카테고리 인덱스
+- `data/categories/items/*.json`: 카테고리별 기사 목록
 
 ## 데이터 형식
 

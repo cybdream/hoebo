@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:30.306Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "창간사",
+  "categoryId": "cat-0a71d4b0",
+  "articleCount": 2,
+  "latestIssueNo": 1,
+  "articles": [
+    {
+      "id": "w123-b1178-m1885",
+      "issueNo": 1,
+      "issueLabel": "1호",
+      "issueDateLabel": "대순113년(1983) 7월",
+      "webzineId": 123,
+      "order": 4,
+      "category": "창간사",
+      "title": "창간사",
+      "author": "<font face=\"굴림\"><font size=\"2\"><font size=\"3\"><span style=\"background: rgb(255, 255, 255); mso-fareast-font-family: 함초롬바탕;\">慶 錫 圭 </span><span lang=\"EN-US\" style=\"background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: 함초롬바탕; mso-font-width: 100%; mso-text-raise: 0pt;\"><</span><span style=\"background: rgb(255, 255, 255); mso-fareast-font-family: 함초롬바탕;\">발행인</span></font><span lang=\"EN-US\" style=\"background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: 함초롬바탕; mso-font-width: 100%; mso-text-raise: 0pt;\"><font size=\"3\">></font> </span></font></font>",
+      "summary": "창간사 현대병을 치유할 良藥 으로 닿는 곳마다 相生 의 은혜를 慶 錫 圭 < 발행인 > 현대사회는 커다란 관심하나가 있다 . 그것은 인간의 존엄을 다시 묻고 어떻게 인간성의 존중을 실현할 것인가의 문제이다 . 인간성의 회복이나 계발 , 또는 삶의 보람...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=123&menu_no=1885&bno=1178&page=1"
+    },
+    {
+      "id": "w123-b1179-m1885",
+      "issueNo": 1,
+      "issueLabel": "1호",
+      "issueDateLabel": "대순113년(1983) 7월",
+      "webzineId": 123,
+      "order": 5,
+      "category": "창간사",
+      "title": "창간을 축하합니다",
+      "author": "<font size=\"3\">李 世 基<국회의원> </font>",
+      "summary": "創刊을 祝賀합니다 각계人士들의 祝辭<無順> 정신개혁의 큰 사명 감당을 李 世 基<국회의원> 20세기말에 처한 오늘의 세계는 과학문명의 발달이 그 극에 달하여 만물의 영장을 자처하는 인간이 오히려 그 문명에서 소외되어 하나의 「기계인간」이 되어버린 감이...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=123&menu_no=1885&bno=1179&page=2"
+    }
+  ]
+}

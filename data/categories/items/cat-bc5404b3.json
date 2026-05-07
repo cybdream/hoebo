@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.762Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "Q&A게시판",
+  "categoryId": "cat-bc5404b3",
+  "articleCount": 2,
+  "latestIssueNo": 219,
+  "articles": [
+    {
+      "id": "w260-b8400-m4531",
+      "issueNo": 219,
+      "issueLabel": "219호",
+      "issueDateLabel": "대순149년(2019) 6월",
+      "webzineId": 260,
+      "order": 19,
+      "category": "Q&A게시판",
+      "title": "수련 시 유의 사항에 대해 설명해주세요",
+      "author": "",
+      "summary": "수련 시 유의 사항에 대해 설명해주세요 연구원 윤미정 Q : 수련 시 유의 사항에 대해 설명해주세요. A : 수련(修鍊)이란 ‘닦을 수(修)’에 ‘쇠 녹일 련(鍊)’으로 ‘닦고 단련한다’라는 의미입니다. 수련은 ‘대순진리로 심신을 갈고 닦아 도통의 경...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=260&menu_no=4531&bno=8400&page=1"
+    },
+    {
+      "id": "w172-b4998-m2797",
+      "issueNo": 135,
+      "issueLabel": "135호",
+      "issueDateLabel": "대순142년(2012) 8월",
+      "webzineId": 172,
+      "order": 25,
+      "category": "Q&A게시판",
+      "title": "연원과 연운의 차이는 뭔가요?",
+      "author": "<span style=\"font-family: 바탕;\"><font face=\"굴림\" size=\"3\">글 교무부</font></span>",
+      "summary": "Q 연원과 연운의 차이는 뭔가요? 글 교무부 A 도전님께서는 “본 도의 연원(淵源)은 상제님의 계시(봉서)를 받으셔서 종통을 세우신 도주님으로부터 이어 내려 왔다.”고 하셨고, 나아가 “이 연원은 바꿀 수도 고칠 수도 없으므로 연운(緣運)과 혼돈해서는...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=172&menu_no=2797&bno=4998&page=1"
+    }
+  ]
+}

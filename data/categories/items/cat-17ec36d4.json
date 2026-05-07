@@ -1,0 +1,50 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.828Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "벽화 이야기",
+  "categoryId": "cat-17ec36d4",
+  "articleCount": 3,
+  "latestIssueNo": 173,
+  "articles": [
+    {
+      "id": "w212-b6326-m3546",
+      "issueNo": 173,
+      "issueLabel": "173호",
+      "issueDateLabel": "대순145년(2015) 9월",
+      "webzineId": 212,
+      "order": 19,
+      "category": "벽화 이야기",
+      "title": "겁액(劫厄)을 극복하라",
+      "author": "",
+      "summary": "겁액(劫厄)을 극복하라 글 교무부 여주본부도장 정각원 2층 벽화 이 벽화는 한 사람이 험준한 벼랑을 힘들게 올라가는 장면입니다. 어떤 일을 이루어 가는 과정에 닥치는 겁액을 극복하기 위해 노력하는 과정을 형상화한 것입니다. 겁액(劫厄)이란 어떤 일을 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=212&menu_no=3546&bno=6326&page=1"
+    },
+    {
+      "id": "w169-b4879-m2725",
+      "issueNo": 132,
+      "issueLabel": "132호",
+      "issueDateLabel": "대순142년(2012) 5월",
+      "webzineId": 169,
+      "order": 12,
+      "category": "벽화 이야기",
+      "title": "상호이해(相互理解)",
+      "author": "<span style=\"FONT-FAMILY: 바탕\"><font size=\"3\" face=\"굴림\">글 교무부</font></span>",
+      "summary": "상호이해(相互理解) 글 교무부 트집을 잡고 싸우려는 사람에게 마음을 누그리고 지는 사람이 상등 사람이고 복된 사람이니라. 분에 이기지 못하여 어울려 싸우는 자는 하등 사람이니 신명의 도움을 받지 못하리라. 어찌 잘 되기를 바라리오. (교법 1장 55절...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=169&menu_no=2725&bno=4879&page=1"
+    },
+    {
+      "id": "w164-b4742-m2645",
+      "issueNo": 128,
+      "issueLabel": "128호",
+      "issueDateLabel": "대순142년(2012) 1월",
+      "webzineId": 164,
+      "order": 14,
+      "category": "벽화 이야기",
+      "title": "해원상생(解&#20900;相生)",
+      "author": "<span style=\"FONT-FAMILY: 돋움체; mso-ascii-font-family: 돋움체; mso-hansi-font-family: 돋움체\"><font size=\"3\" face=\"돋움\">글 교무부 연구실</font></span>",
+      "summary": "해원상생(解 &#20900; 相生) 글 교무부 연구실 우리 도장에는 많은 벽화가 있습니다. 인류의 문화유산에서 벽화나 그림이 차지하는 비중은 적지 않습니다. 세계적으로 유명한 벽화와 그림은 일일이 헤아릴 수 없을 정도로 많습니다. 벽화와 그림은 인류의...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=164&menu_no=2645&bno=4742&page=1"
+    }
+  ]
+}

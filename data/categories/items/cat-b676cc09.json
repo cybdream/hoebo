@@ -1,0 +1,50 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:30.134Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "대진대학교 입학식",
+  "categoryId": "cat-b676cc09",
+  "articleCount": 3,
+  "latestIssueNo": 30,
+  "articles": [
+    {
+      "id": "w94-b2496-m1507",
+      "issueNo": 30,
+      "issueLabel": "30호",
+      "issueDateLabel": "대순122년(1992) 2월",
+      "webzineId": 94,
+      "order": 2,
+      "category": "대진대학교 입학식",
+      "title": "「성실. 경건. 신념」의 건학정신 실천 全人的 大學人 되어야",
+      "author": "",
+      "summary": "대진대학교 입학식, 이사장 격려사 「 성실ㆍ경건ㆍ신념」의 건학정신 실천 全人的 大學人 되어야 오늘 대진대학교의 첫 신입생을 맞이하는 이 자리에서 본인은 실로 감개무량함을 느끼지 않을 수 없습니다. 왜냐하면 10개월 전만 해도 旺方山 아래 넓은 땅에는 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=94&menu_no=1507&bno=2496&page=1"
+    },
+    {
+      "id": "w94-b2508-m1507",
+      "issueNo": 30,
+      "issueLabel": "30호",
+      "issueDateLabel": "대순122년(1992) 2월",
+      "webzineId": 94,
+      "order": 3,
+      "category": "대진대학교 입학식",
+      "title": "대진대학교 입학식 현장을 가다",
+      "author": "",
+      "summary": "",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=94&menu_no=1507&bno=2508&page=2"
+    },
+    {
+      "id": "w94-b2509-m1507",
+      "issueNo": 30,
+      "issueLabel": "30호",
+      "issueDateLabel": "대순122년(1992) 2월",
+      "webzineId": 94,
+      "order": 4,
+      "category": "대진대학교 입학식",
+      "title": "총장 입학식사",
+      "author": "",
+      "summary": "",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=94&menu_no=1507&bno=2509&page=3"
+    }
+  ]
+}

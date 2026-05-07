@@ -1,0 +1,50 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.758Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "대순청소년캠프 알림",
+  "categoryId": "cat-a7e3bb68",
+  "articleCount": 3,
+  "latestIssueNo": 224,
+  "articles": [
+    {
+      "id": "w268-b8618-m4635",
+      "issueNo": 224,
+      "issueLabel": "224호",
+      "issueDateLabel": "대순149년(2019) 10월",
+      "webzineId": 268,
+      "order": 27,
+      "category": "대순청소년캠프 알림",
+      "title": "제29회 대순청소년 겨울캠프",
+      "author": "",
+      "summary": "제29회 대순청소년 겨울캠프 교무부에서는 제29회 대순청소년 겨울캠프를 개최합니다. 이번 캠프의 주제는 ‘훈회 2. 언덕을 잘 가지라’ 입니다. 캠프에서 학생들이 서로 배려하는 대화의 시간을 가질 수 있도록 준비하였습니다. 수도인들의 많은 관심과 더불...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=268&menu_no=4635&bno=8618&page=1"
+    },
+    {
+      "id": "w262-b8453-m4555",
+      "issueNo": 220,
+      "issueLabel": "220호",
+      "issueDateLabel": "대순149년(2019) 7월",
+      "webzineId": 262,
+      "order": 16,
+      "category": "대순청소년캠프 알림",
+      "title": "제28회 대순청소년 여름캠프",
+      "author": "",
+      "summary": "제28회 대순청소년 여름캠프 교무부에서는 제28회 대순청소년 여름캠프를 개최합니다. 이번 여름캠프의 주제는 ‘훈회 1. 마음을 속이지 말라’ 입니다. 나와 상대방의 참된 마음을 알고 배려함으로써 서로가 잘 어우러질 수 있는 시간이 되도록 준비 하였습니...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=262&menu_no=4555&bno=8453&page=1"
+    },
+    {
+      "id": "w260-b8402-m4533",
+      "issueNo": 219,
+      "issueLabel": "219호",
+      "issueDateLabel": "대순149년(2019) 6월",
+      "webzineId": 260,
+      "order": 21,
+      "category": "대순청소년캠프 알림",
+      "title": "제28회 대순청소년 여름캠프",
+      "author": "",
+      "summary": "제28회 대순청소년 여름캠프 교무부에서는 제28회 대순청소년 여름캠프를 개최합니다. 이번 여름캠프의 주제는 ‘훈회 1. 마음을 속이지 말라’ 입니다. 나와 상대방의 참된 마음을 알고 배려함으로써 서로가 잘 어우러질 수 있는 시간이 되도록 준비 하였습니...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=260&menu_no=4533&bno=8402&page=1"
+    }
+  ]
+}

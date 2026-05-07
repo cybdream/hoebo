@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.732Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "대순문예 심사평",
+  "categoryId": "cat-93a9a140",
+  "articleCount": 2,
+  "latestIssueNo": 249,
+  "articles": [
+    {
+      "id": "w293-b9228-m4980",
+      "issueNo": 249,
+      "issueLabel": "249호",
+      "issueDateLabel": "대순151년(2021) 11월",
+      "webzineId": 293,
+      "order": 19,
+      "category": "대순문예 심사평",
+      "title": "‘소통, 배려, 공존의 멋과 맛’으로 전하는 글",
+      "author": "",
+      "summary": "제13회 대순문예공모전 심사평 13회 대순문예 공모전 심사는 코로나19 대응 정국으로 비대면이라는 새로운 방법으로 실시했습니다. 심사위원으로는 대진대 신유식 교수, 대진고 진로상담부장 김곤선 교사, 국어 담당 임지예 교사가 맡아 주셨습니다. ‘문예’라...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=293&menu_no=4980&bno=9228&page=1"
+    },
+    {
+      "id": "w281-b8956-m4828",
+      "issueNo": 237,
+      "issueLabel": "237호",
+      "issueDateLabel": "대순150년(2020) 11월",
+      "webzineId": 281,
+      "order": 20,
+      "category": "대순문예 심사평",
+      "title": "문득, 글로 물어보는 길道",
+      "author": "<br>신유식(문학박사, 대진고 수석교사)",
+      "summary": "문득, 글로 물어보는 길道 12회 대순문예 공모전 최우수 수상작을 ‘장몽(長夢)’으로 결정하는 데에는 모든 심사위원이 쉽게 찬성했다. 코로나19 시대에 늪 같은 일상 속에서 ‘문득, 글로 물어보는 길’이라는 하나의 가능성으로 높이 평가받았기 때문이다....",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=281&menu_no=4828&bno=8956&page=1"
+    }
+  ]
+}

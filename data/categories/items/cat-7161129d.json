@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.793Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "내가 읽는 책",
+  "categoryId": "cat-7161129d",
+  "articleCount": 2,
+  "latestIssueNo": 198,
+  "articles": [
+    {
+      "id": "w237-b7400-m4081",
+      "issueNo": 198,
+      "issueLabel": "198호",
+      "issueDateLabel": "대순147년(2017) 9월",
+      "webzineId": 237,
+      "order": 29,
+      "category": "내가 읽는 책",
+      "title": "감사 노트로 이루어진 변화",
+      "author": "",
+      "summary": "감사 노트로 이루어진 변화 연구원 강남규 며칠 전 지인의 소개로 우연히 읽게 된 책은 『100감사로 행복해진 지미 이야기』였다. 이 책은 저자 유지미의 감사 노트를 쓰게 된 계기와 경험담 그리고 여러 다른 사람들의 감사 노트 경험담을 함께 수록하고 있...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=237&menu_no=4081&bno=7400&page=1"
+    },
+    {
+      "id": "w236-b7368-m4062",
+      "issueNo": 197,
+      "issueLabel": "197호",
+      "issueDateLabel": "대순147년(2017) 8월",
+      "webzineId": 236,
+      "order": 30,
+      "category": "내가 읽는 책",
+      "title": "『비 오는 날』",
+      "author": "",
+      "summary": "『비 오는 날』 연구위원 김영일 『비 오는 날』의 작가 손창섭은 1922년 평양에서 태어났다. 1935년 만주로 건너갔다가, 이듬해에는 다시 일본으로 건너가 공부를 했다. 1946년에 귀국하여, 「공휴일」(1952), 「사연기」(1953)가 『문예』 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=236&menu_no=4062&bno=7368&page=1"
+    }
+  ]
+}

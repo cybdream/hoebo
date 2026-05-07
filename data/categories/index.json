@@ -1,0 +1,4243 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:30.307Z",
+  "source": "https://webzine.daesoon.org/",
+  "totalCategories": 605,
+  "categories": [
+    {
+      "category": "글로벌 대순",
+      "categoryId": "cat-abed72a9",
+      "articleCount": 3,
+      "latestIssueNo": 304,
+      "filePath": "categories/items/cat-abed72a9.json"
+    },
+    {
+      "category": "기획 연재",
+      "categoryId": "cat-06d353c4",
+      "articleCount": 1,
+      "latestIssueNo": 304,
+      "filePath": "categories/items/cat-06d353c4.json"
+    },
+    {
+      "category": "나누고 싶은 이야기",
+      "categoryId": "cat-60ba5977",
+      "articleCount": 295,
+      "latestIssueNo": 304,
+      "filePath": "categories/items/cat-60ba5977.json"
+    },
+    {
+      "category": "내가 읽은 책",
+      "categoryId": "cat-710d6449",
+      "articleCount": 40,
+      "latestIssueNo": 304,
+      "filePath": "categories/items/cat-710d6449.json"
+    },
+    {
+      "category": "대순광장",
+      "categoryId": "cat-1943d1cd",
+      "articleCount": 192,
+      "latestIssueNo": 304,
+      "filePath": "categories/items/cat-1943d1cd.json"
+    },
+    {
+      "category": "대순칼럼",
+      "categoryId": "cat-19367d59",
+      "articleCount": 76,
+      "latestIssueNo": 304,
+      "filePath": "categories/items/cat-19367d59.json"
+    },
+    {
+      "category": "도전님 훈시",
+      "categoryId": "cat-6df5b8e9",
+      "articleCount": 251,
+      "latestIssueNo": 304,
+      "filePath": "categories/items/cat-6df5b8e9.json"
+    },
+    {
+      "category": "생각이 있는 풍경",
+      "categoryId": "cat-429aafe1",
+      "articleCount": 78,
+      "latestIssueNo": 304,
+      "filePath": "categories/items/cat-429aafe1.json"
+    },
+    {
+      "category": "알립니다",
+      "categoryId": "cat-554b8e98",
+      "articleCount": 857,
+      "latestIssueNo": 304,
+      "filePath": "categories/items/cat-554b8e98.json"
+    },
+    {
+      "category": "울타리",
+      "categoryId": "cat-0a506fb1",
+      "articleCount": 37,
+      "latestIssueNo": 304,
+      "filePath": "categories/items/cat-0a506fb1.json"
+    },
+    {
+      "category": "종단 역사",
+      "categoryId": "cat-48132c09",
+      "articleCount": 5,
+      "latestIssueNo": 304,
+      "filePath": "categories/items/cat-48132c09.json"
+    },
+    {
+      "category": "종단소식",
+      "categoryId": "cat-5f5fb719",
+      "articleCount": 3132,
+      "latestIssueNo": 304,
+      "filePath": "categories/items/cat-5f5fb719.json"
+    },
+    {
+      "category": "철학과의 만남",
+      "categoryId": "cat-6db0fe1c",
+      "articleCount": 34,
+      "latestIssueNo": 304,
+      "filePath": "categories/items/cat-6db0fe1c.json"
+    },
+    {
+      "category": "기자 수첩",
+      "categoryId": "cat-fe8f6014",
+      "articleCount": 18,
+      "latestIssueNo": 303,
+      "filePath": "categories/items/cat-fe8f6014.json"
+    },
+    {
+      "category": "도장은 지금",
+      "categoryId": "cat-af80e48c",
+      "articleCount": 23,
+      "latestIssueNo": 303,
+      "filePath": "categories/items/cat-af80e48c.json"
+    },
+    {
+      "category": "새해 인사",
+      "categoryId": "cat-f1e1ef6d",
+      "articleCount": 1,
+      "latestIssueNo": 303,
+      "filePath": "categories/items/cat-f1e1ef6d.json"
+    },
+    {
+      "category": "전경 속 이야기",
+      "categoryId": "cat-7059d749",
+      "articleCount": 33,
+      "latestIssueNo": 303,
+      "filePath": "categories/items/cat-7059d749.json"
+    },
+    {
+      "category": "제 35회 대순청소년 겨울캠프",
+      "categoryId": "cat-0530447e",
+      "articleCount": 2,
+      "latestIssueNo": 303,
+      "filePath": "categories/items/cat-0530447e.json"
+    },
+    {
+      "category": "참관기",
+      "categoryId": "cat-0a71a9ed",
+      "articleCount": 6,
+      "latestIssueNo": 303,
+      "filePath": "categories/items/cat-0a71a9ed.json"
+    },
+    {
+      "category": "청계탑",
+      "categoryId": "cat-0a78c09d",
+      "articleCount": 126,
+      "latestIssueNo": 303,
+      "filePath": "categories/items/cat-0a78c09d.json"
+    },
+    {
+      "category": "기획연재",
+      "categoryId": "cat-270534e4",
+      "articleCount": 9,
+      "latestIssueNo": 302,
+      "filePath": "categories/items/cat-270534e4.json"
+    },
+    {
+      "category": "대순문예공모전 안내",
+      "categoryId": "cat-1663f70c",
+      "articleCount": 3,
+      "latestIssueNo": 302,
+      "filePath": "categories/items/cat-1663f70c.json"
+    },
+    {
+      "category": "대순캠프",
+      "categoryId": "cat-193630fd",
+      "articleCount": 26,
+      "latestIssueNo": 302,
+      "filePath": "categories/items/cat-193630fd.json"
+    },
+    {
+      "category": "신선 이야기",
+      "categoryId": "cat-fab5c75d",
+      "articleCount": 9,
+      "latestIssueNo": 302,
+      "filePath": "categories/items/cat-fab5c75d.json"
+    },
+    {
+      "category": "정심원",
+      "categoryId": "cat-0ab1da0c",
+      "articleCount": 24,
+      "latestIssueNo": 302,
+      "filePath": "categories/items/cat-0ab1da0c.json"
+    },
+    {
+      "category": "대순청소년 겨울캠프 일정표",
+      "categoryId": "cat-2585b63d",
+      "articleCount": 1,
+      "latestIssueNo": 301,
+      "filePath": "categories/items/cat-2585b63d.json"
+    },
+    {
+      "category": "특별기획",
+      "categoryId": "cat-541c8ae5",
+      "articleCount": 29,
+      "latestIssueNo": 301,
+      "filePath": "categories/items/cat-541c8ae5.json"
+    },
+    {
+      "category": "2025 대순청소년 겨울캠프 일정",
+      "categoryId": "cat-6c501d04",
+      "articleCount": 2,
+      "latestIssueNo": 300,
+      "filePath": "categories/items/cat-6c501d04.json"
+    },
+    {
+      "category": "내가 본 대순진리회",
+      "categoryId": "cat-d3e184f1",
+      "articleCount": 30,
+      "latestIssueNo": 300,
+      "filePath": "categories/items/cat-d3e184f1.json"
+    },
+    {
+      "category": "대순포커스",
+      "categoryId": "cat-40401c55",
+      "articleCount": 30,
+      "latestIssueNo": 300,
+      "filePath": "categories/items/cat-40401c55.json"
+    },
+    {
+      "category": "역사 문화와 함께 읽는 전경",
+      "categoryId": "cat-7b5b3c28",
+      "articleCount": 17,
+      "latestIssueNo": 300,
+      "filePath": "categories/items/cat-7b5b3c28.json"
+    },
+    {
+      "category": "대순청소년 겨울캠프 접수 안내",
+      "categoryId": "cat-a70fdd7d",
+      "articleCount": 1,
+      "latestIssueNo": 299,
+      "filePath": "categories/items/cat-a70fdd7d.json"
+    },
+    {
+      "category": "도장 둘러보기",
+      "categoryId": "cat-7cf65f74",
+      "articleCount": 52,
+      "latestIssueNo": 299,
+      "filePath": "categories/items/cat-7cf65f74.json"
+    },
+    {
+      "category": "대원종",
+      "categoryId": "cat-088518b0",
+      "articleCount": 98,
+      "latestIssueNo": 298,
+      "filePath": "categories/items/cat-088518b0.json"
+    },
+    {
+      "category": "상생스테이 소감문",
+      "categoryId": "cat-0cdc0d41",
+      "articleCount": 2,
+      "latestIssueNo": 298,
+      "filePath": "categories/items/cat-0cdc0d41.json"
+    },
+    {
+      "category": "고전에세이",
+      "categoryId": "cat-1e8e929d",
+      "articleCount": 8,
+      "latestIssueNo": 297,
+      "filePath": "categories/items/cat-1e8e929d.json"
+    },
+    {
+      "category": "대순문예공모전",
+      "categoryId": "cat-63f73dd0",
+      "articleCount": 23,
+      "latestIssueNo": 297,
+      "filePath": "categories/items/cat-63f73dd0.json"
+    },
+    {
+      "category": "분당제생병원 자원봉사자 모집",
+      "categoryId": "cat-57a580b4",
+      "articleCount": 1,
+      "latestIssueNo": 297,
+      "filePath": "categories/items/cat-57a580b4.json"
+    },
+    {
+      "category": "이슈터치",
+      "categoryId": "cat-54726f91",
+      "articleCount": 10,
+      "latestIssueNo": 297,
+      "filePath": "categories/items/cat-54726f91.json"
+    },
+    {
+      "category": "2026학년도 대순종학과 수시모집",
+      "categoryId": "cat-2fd6ec5b",
+      "articleCount": 2,
+      "latestIssueNo": 296,
+      "filePath": "categories/items/cat-2fd6ec5b.json"
+    },
+    {
+      "category": "대순 포커스",
+      "categoryId": "cat-18dc5955",
+      "articleCount": 5,
+      "latestIssueNo": 296,
+      "filePath": "categories/items/cat-18dc5955.json"
+    },
+    {
+      "category": "대순청소년 여름캠프 일정안내",
+      "categoryId": "cat-bac1a005",
+      "articleCount": 2,
+      "latestIssueNo": 295,
+      "filePath": "categories/items/cat-bac1a005.json"
+    },
+    {
+      "category": "대순학생회",
+      "categoryId": "cat-4026e311",
+      "articleCount": 65,
+      "latestIssueNo": 295,
+      "filePath": "categories/items/cat-4026e311.json"
+    },
+    {
+      "category": "상생의 길",
+      "categoryId": "cat-e97e2119",
+      "articleCount": 53,
+      "latestIssueNo": 295,
+      "filePath": "categories/items/cat-e97e2119.json"
+    },
+    {
+      "category": "학회소식",
+      "categoryId": "cat-4d586621",
+      "articleCount": 10,
+      "latestIssueNo": 295,
+      "filePath": "categories/items/cat-4d586621.json"
+    },
+    {
+      "category": "대순 학생회",
+      "categoryId": "cat-18e4a811",
+      "articleCount": 4,
+      "latestIssueNo": 293,
+      "filePath": "categories/items/cat-18e4a811.json"
+    },
+    {
+      "category": "대순문예공모전 심사평",
+      "categoryId": "cat-e300f3f9",
+      "articleCount": 1,
+      "latestIssueNo": 293,
+      "filePath": "categories/items/cat-e300f3f9.json"
+    },
+    {
+      "category": "대순청소년 여름캠프 접수안내",
+      "categoryId": "cat-b9848e45",
+      "articleCount": 1,
+      "latestIssueNo": 293,
+      "filePath": "categories/items/cat-b9848e45.json"
+    },
+    {
+      "category": "대순문예공모전 입상자 발표",
+      "categoryId": "cat-59d9cfa4",
+      "articleCount": 1,
+      "latestIssueNo": 292,
+      "filePath": "categories/items/cat-59d9cfa4.json"
+    },
+    {
+      "category": "돋보기",
+      "categoryId": "cat-088f2a2a",
+      "articleCount": 44,
+      "latestIssueNo": 292,
+      "filePath": "categories/items/cat-088f2a2a.json"
+    },
+    {
+      "category": "영화 속으로",
+      "categoryId": "cat-1117a43d",
+      "articleCount": 59,
+      "latestIssueNo": 292,
+      "filePath": "categories/items/cat-1117a43d.json"
+    },
+    {
+      "category": "북카페 OPEN 안내",
+      "categoryId": "cat-22c44ea0",
+      "articleCount": 3,
+      "latestIssueNo": 291,
+      "filePath": "categories/items/cat-22c44ea0.json"
+    },
+    {
+      "category": "특별 기획",
+      "categoryId": "cat-d8f2f1c5",
+      "articleCount": 17,
+      "latestIssueNo": 291,
+      "filePath": "categories/items/cat-d8f2f1c5.json"
+    },
+    {
+      "category": "2025대순문예공모전 안내",
+      "categoryId": "cat-fe15cc89",
+      "articleCount": 1,
+      "latestIssueNo": 290,
+      "filePath": "categories/items/cat-fe15cc89.json"
+    },
+    {
+      "category": "2025대순청소년 겨울캠프",
+      "categoryId": "cat-c65e254d",
+      "articleCount": 3,
+      "latestIssueNo": 290,
+      "filePath": "categories/items/cat-c65e254d.json"
+    },
+    {
+      "category": "대순문예 공모전",
+      "categoryId": "cat-923f8690",
+      "articleCount": 42,
+      "latestIssueNo": 290,
+      "filePath": "categories/items/cat-923f8690.json"
+    },
+    {
+      "category": "2025 대순문예공모전",
+      "categoryId": "cat-7382a5d5",
+      "articleCount": 5,
+      "latestIssueNo": 289,
+      "filePath": "categories/items/cat-7382a5d5.json"
+    },
+    {
+      "category": "과학 그곳에서",
+      "categoryId": "cat-d482d007",
+      "articleCount": 14,
+      "latestIssueNo": 289,
+      "filePath": "categories/items/cat-d482d007.json"
+    },
+    {
+      "category": "교리 소개",
+      "categoryId": "cat-243bcba9",
+      "articleCount": 7,
+      "latestIssueNo": 289,
+      "filePath": "categories/items/cat-243bcba9.json"
+    },
+    {
+      "category": "전경 지명 답사기",
+      "categoryId": "cat-afd51250",
+      "articleCount": 37,
+      "latestIssueNo": 289,
+      "filePath": "categories/items/cat-afd51250.json"
+    },
+    {
+      "category": "2025 대순문예 공모전",
+      "categoryId": "cat-3455c1f5",
+      "articleCount": 1,
+      "latestIssueNo": 288,
+      "filePath": "categories/items/cat-3455c1f5.json"
+    },
+    {
+      "category": "교리소개",
+      "categoryId": "cat-27ea8369",
+      "articleCount": 28,
+      "latestIssueNo": 287,
+      "filePath": "categories/items/cat-27ea8369.json"
+    },
+    {
+      "category": "일각문",
+      "categoryId": "cat-0a5c1bc0",
+      "articleCount": 65,
+      "latestIssueNo": 287,
+      "filePath": "categories/items/cat-0a5c1bc0.json"
+    },
+    {
+      "category": "2025 대순청소년 겨울캠프 모집",
+      "categoryId": "cat-6c422614",
+      "articleCount": 1,
+      "latestIssueNo": 286,
+      "filePath": "categories/items/cat-6c422614.json"
+    },
+    {
+      "category": "대순캠프 소감문",
+      "categoryId": "cat-3bc5f739",
+      "articleCount": 1,
+      "latestIssueNo": 286,
+      "filePath": "categories/items/cat-3bc5f739.json"
+    },
+    {
+      "category": "종단역사",
+      "categoryId": "cat-5f5e2d69",
+      "articleCount": 1,
+      "latestIssueNo": 286,
+      "filePath": "categories/items/cat-5f5e2d69.json"
+    },
+    {
+      "category": "학술 답사기",
+      "categoryId": "cat-2b0e9e95",
+      "articleCount": 3,
+      "latestIssueNo": 286,
+      "filePath": "categories/items/cat-2b0e9e95.json"
+    },
+    {
+      "category": "대순 캠프",
+      "categoryId": "cat-3ecde9fd",
+      "articleCount": 3,
+      "latestIssueNo": 285,
+      "filePath": "categories/items/cat-3ecde9fd.json"
+    },
+    {
+      "category": "문화 탐방",
+      "categoryId": "cat-da055510",
+      "articleCount": 1,
+      "latestIssueNo": 285,
+      "filePath": "categories/items/cat-da055510.json"
+    },
+    {
+      "category": "이슈 터치",
+      "categoryId": "cat-e636cd51",
+      "articleCount": 14,
+      "latestIssueNo": 285,
+      "filePath": "categories/items/cat-e636cd51.json"
+    },
+    {
+      "category": "2024년 제16회 대순문예공모전",
+      "categoryId": "cat-e5cce867",
+      "articleCount": 2,
+      "latestIssueNo": 284,
+      "filePath": "categories/items/cat-e5cce867.json"
+    },
+    {
+      "category": "대순종학과 신입생 수시모집",
+      "categoryId": "cat-2188653c",
+      "articleCount": 3,
+      "latestIssueNo": 284,
+      "filePath": "categories/items/cat-2188653c.json"
+    },
+    {
+      "category": "지방 회관 소개",
+      "categoryId": "cat-9c4c63b0",
+      "articleCount": 47,
+      "latestIssueNo": 284,
+      "filePath": "categories/items/cat-9c4c63b0.json"
+    },
+    {
+      "category": "대순청소년 여름캠프 일정표",
+      "categoryId": "cat-c7992f85",
+      "articleCount": 1,
+      "latestIssueNo": 282,
+      "filePath": "categories/items/cat-c7992f85.json"
+    },
+    {
+      "category": "제16회 대순문예공모전",
+      "categoryId": "cat-a9ce7f47",
+      "articleCount": 1,
+      "latestIssueNo": 282,
+      "filePath": "categories/items/cat-a9ce7f47.json"
+    },
+    {
+      "category": "Q&A 게시판",
+      "categoryId": "cat-7780e673",
+      "articleCount": 39,
+      "latestIssueNo": 282,
+      "filePath": "categories/items/cat-7780e673.json"
+    },
+    {
+      "category": "고전 에세이",
+      "categoryId": "cat-58e956dd",
+      "articleCount": 21,
+      "latestIssueNo": 281,
+      "filePath": "categories/items/cat-58e956dd.json"
+    },
+    {
+      "category": "대순청소년 여름캠프 안내",
+      "categoryId": "cat-89edd8ac",
+      "articleCount": 4,
+      "latestIssueNo": 281,
+      "filePath": "categories/items/cat-89edd8ac.json"
+    },
+    {
+      "category": "전경 성구",
+      "categoryId": "cat-4d54fa61",
+      "articleCount": 75,
+      "latestIssueNo": 280,
+      "filePath": "categories/items/cat-4d54fa61.json"
+    },
+    {
+      "category": "대순문예",
+      "categoryId": "cat-19452169",
+      "articleCount": 199,
+      "latestIssueNo": 279,
+      "filePath": "categories/items/cat-19452169.json"
+    },
+    {
+      "category": "바자회 개최 안내",
+      "categoryId": "cat-f72e4ed1",
+      "articleCount": 1,
+      "latestIssueNo": 279,
+      "filePath": "categories/items/cat-f72e4ed1.json"
+    },
+    {
+      "category": "대순포커스Ⅰ",
+      "categoryId": "cat-48438795",
+      "articleCount": 1,
+      "latestIssueNo": 277,
+      "filePath": "categories/items/cat-48438795.json"
+    },
+    {
+      "category": "대순포커스Ⅱ",
+      "categoryId": "cat-48438794",
+      "articleCount": 1,
+      "latestIssueNo": 277,
+      "filePath": "categories/items/cat-48438794.json"
+    },
+    {
+      "category": "세상을 구한 발자국",
+      "categoryId": "cat-f94ee969",
+      "articleCount": 10,
+      "latestIssueNo": 277,
+      "filePath": "categories/items/cat-f94ee969.json"
+    },
+    {
+      "category": "학회 소식",
+      "categoryId": "cat-f5203801",
+      "articleCount": 1,
+      "latestIssueNo": 274,
+      "filePath": "categories/items/cat-f5203801.json"
+    },
+    {
+      "category": "대순종학과 신입생 모집",
+      "categoryId": "cat-5cb55c38",
+      "articleCount": 3,
+      "latestIssueNo": 272,
+      "filePath": "categories/items/cat-5cb55c38.json"
+    },
+    {
+      "category": "대순문예 공모전 안내",
+      "categoryId": "cat-27b19a4c",
+      "articleCount": 2,
+      "latestIssueNo": 271,
+      "filePath": "categories/items/cat-27b19a4c.json"
+    },
+    {
+      "category": "역사 문화와 함께 읽는 『전경』",
+      "categoryId": "cat-ed891249",
+      "articleCount": 1,
+      "latestIssueNo": 270,
+      "filePath": "categories/items/cat-ed891249.json"
+    },
+    {
+      "category": "전경 다시 읽기",
+      "categoryId": "cat-c648a869",
+      "articleCount": 17,
+      "latestIssueNo": 268,
+      "filePath": "categories/items/cat-c648a869.json"
+    },
+    {
+      "category": "도서관 소식",
+      "categoryId": "cat-8125b0ec",
+      "articleCount": 18,
+      "latestIssueNo": 265,
+      "filePath": "categories/items/cat-8125b0ec.json"
+    },
+    {
+      "category": "도장둘러보기",
+      "categoryId": "cat-7042d2d4",
+      "articleCount": 1,
+      "latestIssueNo": 265,
+      "filePath": "categories/items/cat-7042d2d4.json"
+    },
+    {
+      "category": "독자 코너",
+      "categoryId": "cat-3d0f620c",
+      "articleCount": 14,
+      "latestIssueNo": 263,
+      "filePath": "categories/items/cat-3d0f620c.json"
+    },
+    {
+      "category": "문화 산책",
+      "categoryId": "cat-da08c9dc",
+      "articleCount": 3,
+      "latestIssueNo": 263,
+      "filePath": "categories/items/cat-da08c9dc.json"
+    },
+    {
+      "category": "학술원 소식",
+      "categoryId": "cat-0385357d",
+      "articleCount": 1,
+      "latestIssueNo": 263,
+      "filePath": "categories/items/cat-0385357d.json"
+    },
+    {
+      "category": "기자수첩",
+      "categoryId": "cat-26c68b54",
+      "articleCount": 29,
+      "latestIssueNo": 262,
+      "filePath": "categories/items/cat-26c68b54.json"
+    },
+    {
+      "category": "지방 회관 소식",
+      "categoryId": "cat-9c4c0d71",
+      "articleCount": 1,
+      "latestIssueNo": 257,
+      "filePath": "categories/items/cat-9c4c0d71.json"
+    },
+    {
+      "category": "이야기 속 도담",
+      "categoryId": "cat-1ac56220",
+      "articleCount": 1,
+      "latestIssueNo": 256,
+      "filePath": "categories/items/cat-1ac56220.json"
+    },
+    {
+      "category": "대순 광장",
+      "categoryId": "cat-3ed968cd",
+      "articleCount": 4,
+      "latestIssueNo": 253,
+      "filePath": "categories/items/cat-3ed968cd.json"
+    },
+    {
+      "category": "대순 문예",
+      "categoryId": "cat-3edb3a69",
+      "articleCount": 4,
+      "latestIssueNo": 252,
+      "filePath": "categories/items/cat-3edb3a69.json"
+    },
+    {
+      "category": "영화속으로",
+      "categoryId": "cat-03bb269d",
+      "articleCount": 2,
+      "latestIssueNo": 252,
+      "filePath": "categories/items/cat-03bb269d.json"
+    },
+    {
+      "category": "대순문예 수상작 발표",
+      "categoryId": "cat-4de9bae1",
+      "articleCount": 1,
+      "latestIssueNo": 249,
+      "filePath": "categories/items/cat-4de9bae1.json"
+    },
+    {
+      "category": "대순문예 심사평",
+      "categoryId": "cat-93a9a140",
+      "articleCount": 2,
+      "latestIssueNo": 249,
+      "filePath": "categories/items/cat-93a9a140.json"
+    },
+    {
+      "category": "대순문예 공모전 광고",
+      "categoryId": "cat-27b49b21",
+      "articleCount": 3,
+      "latestIssueNo": 248,
+      "filePath": "categories/items/cat-27b49b21.json"
+    },
+    {
+      "category": "대순종학과신입생수시모집",
+      "categoryId": "cat-a2091cfc",
+      "articleCount": 1,
+      "latestIssueNo": 246,
+      "filePath": "categories/items/cat-a2091cfc.json"
+    },
+    {
+      "category": "종단역사코너",
+      "categoryId": "cat-af856075",
+      "articleCount": 14,
+      "latestIssueNo": 246,
+      "filePath": "categories/items/cat-af856075.json"
+    },
+    {
+      "category": "대순문예 광고",
+      "categoryId": "cat-6185c538",
+      "articleCount": 1,
+      "latestIssueNo": 245,
+      "filePath": "categories/items/cat-6185c538.json"
+    },
+    {
+      "category": "답사기",
+      "categoryId": "cat-0888df4c",
+      "articleCount": 43,
+      "latestIssueNo": 242,
+      "filePath": "categories/items/cat-0888df4c.json"
+    },
+    {
+      "category": "문화산책",
+      "categoryId": "cat-1dc9e41c",
+      "articleCount": 1,
+      "latestIssueNo": 242,
+      "filePath": "categories/items/cat-1dc9e41c.json"
+    },
+    {
+      "category": "엽서톡톡",
+      "categoryId": "cat-578391a4",
+      "articleCount": 25,
+      "latestIssueNo": 242,
+      "filePath": "categories/items/cat-578391a4.json"
+    },
+    {
+      "category": "신년기획",
+      "categoryId": "cat-5c7ddd9c",
+      "articleCount": 11,
+      "latestIssueNo": 241,
+      "filePath": "categories/items/cat-5c7ddd9c.json"
+    },
+    {
+      "category": "다시 보는 우리 문화",
+      "categoryId": "cat-01139a6d",
+      "articleCount": 1,
+      "latestIssueNo": 239,
+      "filePath": "categories/items/cat-01139a6d.json"
+    },
+    {
+      "category": "대순종학과 정시모집",
+      "categoryId": "cat-01481fa9",
+      "articleCount": 2,
+      "latestIssueNo": 239,
+      "filePath": "categories/items/cat-01481fa9.json"
+    },
+    {
+      "category": "대순문예 산문",
+      "categoryId": "cat-6190e9a1",
+      "articleCount": 3,
+      "latestIssueNo": 237,
+      "filePath": "categories/items/cat-6190e9a1.json"
+    },
+    {
+      "category": "대순문예 운문",
+      "categoryId": "cat-61902e25",
+      "articleCount": 3,
+      "latestIssueNo": 237,
+      "filePath": "categories/items/cat-61902e25.json"
+    },
+    {
+      "category": "다시 보는 우리문화",
+      "categoryId": "cat-1762da6d",
+      "articleCount": 13,
+      "latestIssueNo": 235,
+      "filePath": "categories/items/cat-1762da6d.json"
+    },
+    {
+      "category": "뇌화고",
+      "categoryId": "cat-088bef9d",
+      "articleCount": 15,
+      "latestIssueNo": 234,
+      "filePath": "categories/items/cat-088bef9d.json"
+    },
+    {
+      "category": "독자기고",
+      "categoryId": "cat-19149920",
+      "articleCount": 27,
+      "latestIssueNo": 234,
+      "filePath": "categories/items/cat-19149920.json"
+    },
+    {
+      "category": "전경성구",
+      "categoryId": "cat-5f78ea01",
+      "articleCount": 2,
+      "latestIssueNo": 234,
+      "filePath": "categories/items/cat-5f78ea01.json"
+    },
+    {
+      "category": "독자코너",
+      "categoryId": "cat-1907002c",
+      "articleCount": 79,
+      "latestIssueNo": 233,
+      "filePath": "categories/items/cat-1907002c.json"
+    },
+    {
+      "category": "전경 속 역사인물",
+      "categoryId": "cat-7c50f474",
+      "articleCount": 28,
+      "latestIssueNo": 228,
+      "filePath": "categories/items/cat-7c50f474.json"
+    },
+    {
+      "category": "지남거",
+      "categoryId": "cat-0aa9433d",
+      "articleCount": 12,
+      "latestIssueNo": 228,
+      "filePath": "categories/items/cat-0aa9433d.json"
+    },
+    {
+      "category": "정각원",
+      "categoryId": "cat-0aa65301",
+      "articleCount": 31,
+      "latestIssueNo": 227,
+      "filePath": "categories/items/cat-0aa65301.json"
+    },
+    {
+      "category": "겨울 캠프 일정",
+      "categoryId": "cat-1aba7298",
+      "articleCount": 1,
+      "latestIssueNo": 226,
+      "filePath": "categories/items/cat-1aba7298.json"
+    },
+    {
+      "category": "포토에세이",
+      "categoryId": "cat-da6463f5",
+      "articleCount": 66,
+      "latestIssueNo": 226,
+      "filePath": "categories/items/cat-da6463f5.json"
+    },
+    {
+      "category": "도인 탐방",
+      "categoryId": "cat-3d158180",
+      "articleCount": 3,
+      "latestIssueNo": 225,
+      "filePath": "categories/items/cat-3d158180.json"
+    },
+    {
+      "category": "대순문예 공모전 수상작",
+      "categoryId": "cat-1de16918",
+      "articleCount": 6,
+      "latestIssueNo": 224,
+      "filePath": "categories/items/cat-1de16918.json"
+    },
+    {
+      "category": "대순청소년캠프 알림",
+      "categoryId": "cat-a7e3bb68",
+      "articleCount": 3,
+      "latestIssueNo": 224,
+      "filePath": "categories/items/cat-a7e3bb68.json"
+    },
+    {
+      "category": "특별기고",
+      "categoryId": "cat-541cf088",
+      "articleCount": 18,
+      "latestIssueNo": 223,
+      "filePath": "categories/items/cat-541cf088.json"
+    },
+    {
+      "category": "2019 대순문예공모전",
+      "categoryId": "cat-af2b533a",
+      "articleCount": 1,
+      "latestIssueNo": 221,
+      "filePath": "categories/items/cat-af2b533a.json"
+    },
+    {
+      "category": "2019대순문예 공모전 알림",
+      "categoryId": "cat-c303076a",
+      "articleCount": 1,
+      "latestIssueNo": 220,
+      "filePath": "categories/items/cat-c303076a.json"
+    },
+    {
+      "category": "2019대순문예공모전 알림",
+      "categoryId": "cat-1d82202a",
+      "articleCount": 1,
+      "latestIssueNo": 219,
+      "filePath": "categories/items/cat-1d82202a.json"
+    },
+    {
+      "category": "화보",
+      "categoryId": "cat-004e5ee5",
+      "articleCount": 2,
+      "latestIssueNo": 219,
+      "filePath": "categories/items/cat-004e5ee5.json"
+    },
+    {
+      "category": "Q&A게시판",
+      "categoryId": "cat-bc5404b3",
+      "articleCount": 2,
+      "latestIssueNo": 219,
+      "filePath": "categories/items/cat-bc5404b3.json"
+    },
+    {
+      "category": "퀴즈 및 퀴즈 정답",
+      "categoryId": "cat-874358aa",
+      "articleCount": 5,
+      "latestIssueNo": 218,
+      "filePath": "categories/items/cat-874358aa.json"
+    },
+    {
+      "category": "포토 에세이",
+      "categoryId": "cat-8f1ceef5",
+      "articleCount": 4,
+      "latestIssueNo": 218,
+      "filePath": "categories/items/cat-8f1ceef5.json"
+    },
+    {
+      "category": "행복한 상생",
+      "categoryId": "cat-44917a19",
+      "articleCount": 4,
+      "latestIssueNo": 218,
+      "filePath": "categories/items/cat-44917a19.json"
+    },
+    {
+      "category": "고사 한마디",
+      "categoryId": "cat-bab84da9",
+      "articleCount": 74,
+      "latestIssueNo": 217,
+      "filePath": "categories/items/cat-bab84da9.json"
+    },
+    {
+      "category": "시",
+      "categoryId": "cat-00027779",
+      "articleCount": 68,
+      "latestIssueNo": 216,
+      "filePath": "categories/items/cat-00027779.json"
+    },
+    {
+      "category": "대순청소년 캠프",
+      "categoryId": "cat-5fa45998",
+      "articleCount": 5,
+      "latestIssueNo": 214,
+      "filePath": "categories/items/cat-5fa45998.json"
+    },
+    {
+      "category": "외부기고",
+      "categoryId": "cat-559d1ead",
+      "articleCount": 4,
+      "latestIssueNo": 214,
+      "filePath": "categories/items/cat-559d1ead.json"
+    },
+    {
+      "category": "퀴즈 및 퀴즈 정답자",
+      "categoryId": "cat-6faeaa7a",
+      "articleCount": 83,
+      "latestIssueNo": 214,
+      "filePath": "categories/items/cat-6faeaa7a.json"
+    },
+    {
+      "category": "상생포럼 홍보",
+      "categoryId": "cat-79ff4a30",
+      "articleCount": 1,
+      "latestIssueNo": 211,
+      "filePath": "categories/items/cat-79ff4a30.json"
+    },
+    {
+      "category": "답방기",
+      "categoryId": "cat-088b52a9",
+      "articleCount": 1,
+      "latestIssueNo": 210,
+      "filePath": "categories/items/cat-088b52a9.json"
+    },
+    {
+      "category": "대순문예 홍보",
+      "categoryId": "cat-61921af0",
+      "articleCount": 7,
+      "latestIssueNo": 210,
+      "filePath": "categories/items/cat-61921af0.json"
+    },
+    {
+      "category": "대순종학과 알림",
+      "categoryId": "cat-c9ecc4c9",
+      "articleCount": 1,
+      "latestIssueNo": 210,
+      "filePath": "categories/items/cat-c9ecc4c9.json"
+    },
+    {
+      "category": "안내문",
+      "categoryId": "cat-0a58be61",
+      "articleCount": 1,
+      "latestIssueNo": 209,
+      "filePath": "categories/items/cat-0a58be61.json"
+    },
+    {
+      "category": "치성 이야기",
+      "categoryId": "cat-e594af34",
+      "articleCount": 11,
+      "latestIssueNo": 209,
+      "filePath": "categories/items/cat-e594af34.json"
+    },
+    {
+      "category": "대순문답",
+      "categoryId": "cat-19455594",
+      "articleCount": 3,
+      "latestIssueNo": 208,
+      "filePath": "categories/items/cat-19455594.json"
+    },
+    {
+      "category": "청소년 여름캠프",
+      "categoryId": "cat-bab2762c",
+      "articleCount": 1,
+      "latestIssueNo": 208,
+      "filePath": "categories/items/cat-bab2762c.json"
+    },
+    {
+      "category": "포정문 벽면 글",
+      "categoryId": "cat-0f9d382d",
+      "articleCount": 1,
+      "latestIssueNo": 208,
+      "filePath": "categories/items/cat-0f9d382d.json"
+    },
+    {
+      "category": "돌병풍",
+      "categoryId": "cat-08908ed5",
+      "articleCount": 1,
+      "latestIssueNo": 207,
+      "filePath": "categories/items/cat-08908ed5.json"
+    },
+    {
+      "category": "지명 이야기",
+      "categoryId": "cat-886ddd18",
+      "articleCount": 8,
+      "latestIssueNo": 207,
+      "filePath": "categories/items/cat-886ddd18.json"
+    },
+    {
+      "category": "청소년 여름캠프 홍보",
+      "categoryId": "cat-56375f95",
+      "articleCount": 1,
+      "latestIssueNo": 207,
+      "filePath": "categories/items/cat-56375f95.json"
+    },
+    {
+      "category": "대순문예전 홍보",
+      "categoryId": "cat-af173714",
+      "articleCount": 7,
+      "latestIssueNo": 206,
+      "filePath": "categories/items/cat-af173714.json"
+    },
+    {
+      "category": "종운",
+      "categoryId": "cat-0052e794",
+      "articleCount": 2,
+      "latestIssueNo": 206,
+      "filePath": "categories/items/cat-0052e794.json"
+    },
+    {
+      "category": "청소년여름캠프 홍보",
+      "categoryId": "cat-7c82d375",
+      "articleCount": 1,
+      "latestIssueNo": 206,
+      "filePath": "categories/items/cat-7c82d375.json"
+    },
+    {
+      "category": "만화",
+      "categoryId": "cat-00434fdd",
+      "articleCount": 26,
+      "latestIssueNo": 205,
+      "filePath": "categories/items/cat-00434fdd.json"
+    },
+    {
+      "category": "대순논단",
+      "categoryId": "cat-1944274d",
+      "articleCount": 36,
+      "latestIssueNo": 204,
+      "filePath": "categories/items/cat-1944274d.json"
+    },
+    {
+      "category": "치성이야기",
+      "categoryId": "cat-89f4c594",
+      "articleCount": 9,
+      "latestIssueNo": 204,
+      "filePath": "categories/items/cat-89f4c594.json"
+    },
+    {
+      "category": "해외소식",
+      "categoryId": "cat-4ef8d218",
+      "articleCount": 3,
+      "latestIssueNo": 202,
+      "filePath": "categories/items/cat-4ef8d218.json"
+    },
+    {
+      "category": "겨울캠프 공지",
+      "categoryId": "cat-4cca04a4",
+      "articleCount": 2,
+      "latestIssueNo": 201,
+      "filePath": "categories/items/cat-4cca04a4.json"
+    },
+    {
+      "category": "도인탐방",
+      "categoryId": "cat-190402c0",
+      "articleCount": 28,
+      "latestIssueNo": 200,
+      "filePath": "categories/items/cat-190402c0.json"
+    },
+    {
+      "category": "학술대회 소식",
+      "categoryId": "cat-f876f621",
+      "articleCount": 1,
+      "latestIssueNo": 200,
+      "filePath": "categories/items/cat-f876f621.json"
+    },
+    {
+      "category": "제주도 탐방기",
+      "categoryId": "cat-ab114b08",
+      "articleCount": 2,
+      "latestIssueNo": 199,
+      "filePath": "categories/items/cat-ab114b08.json"
+    },
+    {
+      "category": "내가 읽는 책",
+      "categoryId": "cat-7161129d",
+      "articleCount": 2,
+      "latestIssueNo": 198,
+      "filePath": "categories/items/cat-7161129d.json"
+    },
+    {
+      "category": "대진대학교 신입생 모집 공고",
+      "categoryId": "cat-ecec699c",
+      "articleCount": 1,
+      "latestIssueNo": 198,
+      "filePath": "categories/items/cat-ecec699c.json"
+    },
+    {
+      "category": "학술대회 참관기",
+      "categoryId": "cat-07370bf8",
+      "articleCount": 5,
+      "latestIssueNo": 198,
+      "filePath": "categories/items/cat-07370bf8.json"
+    },
+    {
+      "category": "대학생 답사기",
+      "categoryId": "cat-cc18f388",
+      "articleCount": 4,
+      "latestIssueNo": 197,
+      "filePath": "categories/items/cat-cc18f388.json"
+    },
+    {
+      "category": "대순청소년 여름캠프 홍보",
+      "categoryId": "cat-89ef2549",
+      "articleCount": 1,
+      "latestIssueNo": 196,
+      "filePath": "categories/items/cat-89ef2549.json"
+    },
+    {
+      "category": "대순청소년 여름캠프 공고",
+      "categoryId": "cat-89eaeda5",
+      "articleCount": 2,
+      "latestIssueNo": 195,
+      "filePath": "categories/items/cat-89eaeda5.json"
+    },
+    {
+      "category": "대학생 종교문화답사 공고",
+      "categoryId": "cat-db6e25d4",
+      "articleCount": 2,
+      "latestIssueNo": 195,
+      "filePath": "categories/items/cat-db6e25d4.json"
+    },
+    {
+      "category": "학술대회소식",
+      "categoryId": "cat-ffcd5001",
+      "articleCount": 1,
+      "latestIssueNo": 195,
+      "filePath": "categories/items/cat-ffcd5001.json"
+    },
+    {
+      "category": "전경속 역사인물",
+      "categoryId": "cat-6e9f1c54",
+      "articleCount": 13,
+      "latestIssueNo": 194,
+      "filePath": "categories/items/cat-6e9f1c54.json"
+    },
+    {
+      "category": "지명답사기",
+      "categoryId": "cat-5b3bb9e9",
+      "articleCount": 1,
+      "latestIssueNo": 194,
+      "filePath": "categories/items/cat-5b3bb9e9.json"
+    },
+    {
+      "category": "지명 답사기",
+      "categoryId": "cat-87925449",
+      "articleCount": 2,
+      "latestIssueNo": 193,
+      "filePath": "categories/items/cat-87925449.json"
+    },
+    {
+      "category": "종교문화답사 공고",
+      "categoryId": "cat-b8022990",
+      "articleCount": 1,
+      "latestIssueNo": 190,
+      "filePath": "categories/items/cat-b8022990.json"
+    },
+    {
+      "category": "DIVA 국제봉사활동",
+      "categoryId": "cat-6d10ea4e",
+      "articleCount": 1,
+      "latestIssueNo": 189,
+      "filePath": "categories/items/cat-6d10ea4e.json"
+    },
+    {
+      "category": "겨울캠프 공고",
+      "categoryId": "cat-4cca6184",
+      "articleCount": 2,
+      "latestIssueNo": 188,
+      "filePath": "categories/items/cat-4cca6184.json"
+    },
+    {
+      "category": "28수(宿) 신명",
+      "categoryId": "cat-af6fdbec",
+      "articleCount": 35,
+      "latestIssueNo": 187,
+      "filePath": "categories/items/cat-af6fdbec.json"
+    },
+    {
+      "category": "대진포커스",
+      "categoryId": "cat-3c5c578d",
+      "articleCount": 7,
+      "latestIssueNo": 186,
+      "filePath": "categories/items/cat-3c5c578d.json"
+    },
+    {
+      "category": "독자 기고",
+      "categoryId": "cat-3d1cf300",
+      "articleCount": 1,
+      "latestIssueNo": 186,
+      "filePath": "categories/items/cat-3d1cf300.json"
+    },
+    {
+      "category": "세계신종교학회 참관기②",
+      "categoryId": "cat-7aca0c10",
+      "articleCount": 1,
+      "latestIssueNo": 186,
+      "filePath": "categories/items/cat-7aca0c10.json"
+    },
+    {
+      "category": "회상기",
+      "categoryId": "cat-0a0fb7b8",
+      "articleCount": 1,
+      "latestIssueNo": 186,
+      "filePath": "categories/items/cat-0a0fb7b8.json"
+    },
+    {
+      "category": "벽화이야기",
+      "categoryId": "cat-47d01974",
+      "articleCount": 11,
+      "latestIssueNo": 185,
+      "filePath": "categories/items/cat-47d01974.json"
+    },
+    {
+      "category": "세계신종교학회 참관기①",
+      "categoryId": "cat-7aca0c11",
+      "articleCount": 1,
+      "latestIssueNo": 185,
+      "filePath": "categories/items/cat-7aca0c11.json"
+    },
+    {
+      "category": "포정문",
+      "categoryId": "cat-0a4c6dc4",
+      "articleCount": 11,
+      "latestIssueNo": 185,
+      "filePath": "categories/items/cat-0a4c6dc4.json"
+    },
+    {
+      "category": "2016년 대순회보 공모전",
+      "categoryId": "cat-9c4fd719",
+      "articleCount": 1,
+      "latestIssueNo": 184,
+      "filePath": "categories/items/cat-9c4fd719.json"
+    },
+    {
+      "category": "고사한마디",
+      "categoryId": "cat-1c61eaa9",
+      "articleCount": 8,
+      "latestIssueNo": 184,
+      "filePath": "categories/items/cat-1c61eaa9.json"
+    },
+    {
+      "category": "DIVA 베트남 해외봉사 동행기",
+      "categoryId": "cat-f3c2fb66",
+      "articleCount": 1,
+      "latestIssueNo": 184,
+      "filePath": "categories/items/cat-f3c2fb66.json"
+    },
+    {
+      "category": "여름캠프 공고",
+      "categoryId": "cat-80f62d7c",
+      "articleCount": 3,
+      "latestIssueNo": 183,
+      "filePath": "categories/items/cat-80f62d7c.json"
+    },
+    {
+      "category": "전경지명답사기",
+      "categoryId": "cat-94cc7bb0",
+      "articleCount": 2,
+      "latestIssueNo": 183,
+      "filePath": "categories/items/cat-94cc7bb0.json"
+    },
+    {
+      "category": "대순 화합 한마당",
+      "categoryId": "cat-d04a59e9",
+      "articleCount": 2,
+      "latestIssueNo": 182,
+      "filePath": "categories/items/cat-d04a59e9.json"
+    },
+    {
+      "category": "신생활관",
+      "categoryId": "cat-5b2ff1e4",
+      "articleCount": 10,
+      "latestIssueNo": 181,
+      "filePath": "categories/items/cat-5b2ff1e4.json"
+    },
+    {
+      "category": "DIVA 후원 안내",
+      "categoryId": "cat-f5d85877",
+      "articleCount": 1,
+      "latestIssueNo": 181,
+      "filePath": "categories/items/cat-f5d85877.json"
+    },
+    {
+      "category": "상생을 꿈꾸는 소통",
+      "categoryId": "cat-f9a9c520",
+      "articleCount": 1,
+      "latestIssueNo": 180,
+      "filePath": "categories/items/cat-f9a9c520.json"
+    },
+    {
+      "category": "전경 다시 읽기(13)",
+      "categoryId": "cat-91d6a00a",
+      "articleCount": 1,
+      "latestIssueNo": 180,
+      "filePath": "categories/items/cat-91d6a00a.json"
+    },
+    {
+      "category": "전경 다시 읽기(12)",
+      "categoryId": "cat-91d6a02b",
+      "articleCount": 1,
+      "latestIssueNo": 179,
+      "filePath": "categories/items/cat-91d6a02b.json"
+    },
+    {
+      "category": "전경속 역사 인물",
+      "categoryId": "cat-43b9b674",
+      "articleCount": 1,
+      "latestIssueNo": 179,
+      "filePath": "categories/items/cat-43b9b674.json"
+    },
+    {
+      "category": "부녀회 홍보",
+      "categoryId": "cat-f818b930",
+      "articleCount": 1,
+      "latestIssueNo": 178,
+      "filePath": "categories/items/cat-f818b930.json"
+    },
+    {
+      "category": "2015 종단소식 모음",
+      "categoryId": "cat-fb82585b",
+      "articleCount": 1,
+      "latestIssueNo": 177,
+      "filePath": "categories/items/cat-fb82585b.json"
+    },
+    {
+      "category": "2015년 겨울캠프 공고",
+      "categoryId": "cat-04066a86",
+      "articleCount": 2,
+      "latestIssueNo": 176,
+      "filePath": "categories/items/cat-04066a86.json"
+    },
+    {
+      "category": "전경 속 역사 인물",
+      "categoryId": "cat-053c8a54",
+      "articleCount": 7,
+      "latestIssueNo": 174,
+      "filePath": "categories/items/cat-053c8a54.json"
+    },
+    {
+      "category": "치성음식 이야기",
+      "categoryId": "cat-8b97b3a5",
+      "articleCount": 3,
+      "latestIssueNo": 174,
+      "filePath": "categories/items/cat-8b97b3a5.json"
+    },
+    {
+      "category": "학술답사기",
+      "categoryId": "cat-e8bb2fb5",
+      "articleCount": 1,
+      "latestIssueNo": 174,
+      "filePath": "categories/items/cat-e8bb2fb5.json"
+    },
+    {
+      "category": "2015 대순문예공모전",
+      "categoryId": "cat-9bbc7936",
+      "articleCount": 3,
+      "latestIssueNo": 173,
+      "filePath": "categories/items/cat-9bbc7936.json"
+    },
+    {
+      "category": "벽화 이야기",
+      "categoryId": "cat-17ec36d4",
+      "articleCount": 3,
+      "latestIssueNo": 173,
+      "filePath": "categories/items/cat-17ec36d4.json"
+    },
+    {
+      "category": "전경 지명 이야기",
+      "categoryId": "cat-b19e0501",
+      "articleCount": 1,
+      "latestIssueNo": 172,
+      "filePath": "categories/items/cat-b19e0501.json"
+    },
+    {
+      "category": "전경용어",
+      "categoryId": "cat-5f771141",
+      "articleCount": 3,
+      "latestIssueNo": 169,
+      "filePath": "categories/items/cat-5f771141.json"
+    },
+    {
+      "category": "제20회 대순청소년여름캠프 공고",
+      "categoryId": "cat-4239d357",
+      "articleCount": 1,
+      "latestIssueNo": 169,
+      "filePath": "categories/items/cat-4239d357.json"
+    },
+    {
+      "category": "2015년 대학생 종교문화답사",
+      "categoryId": "cat-dc369da3",
+      "articleCount": 1,
+      "latestIssueNo": 168,
+      "filePath": "categories/items/cat-dc369da3.json"
+    },
+    {
+      "category": "독자사연",
+      "categoryId": "cat-1906bb2c",
+      "articleCount": 38,
+      "latestIssueNo": 168,
+      "filePath": "categories/items/cat-1906bb2c.json"
+    },
+    {
+      "category": "제20회 대순청소년여름캠프 안내",
+      "categoryId": "cat-422e8a1e",
+      "articleCount": 1,
+      "latestIssueNo": 168,
+      "filePath": "categories/items/cat-422e8a1e.json"
+    },
+    {
+      "category": "대순문예 수기외 부분 금상",
+      "categoryId": "cat-68677a54",
+      "articleCount": 1,
+      "latestIssueNo": 166,
+      "filePath": "categories/items/cat-68677a54.json"
+    },
+    {
+      "category": "2014 종단소식 모음",
+      "categoryId": "cat-fc4d8fda",
+      "articleCount": 1,
+      "latestIssueNo": 165,
+      "filePath": "categories/items/cat-fc4d8fda.json"
+    },
+    {
+      "category": "해외소식-중국 도교에 소개된 대순진리회",
+      "categoryId": "cat-877e3479",
+      "articleCount": 1,
+      "latestIssueNo": 165,
+      "filePath": "categories/items/cat-877e3479.json"
+    },
+    {
+      "category": "대순문예 논문부분 대상",
+      "categoryId": "cat-f5a8f7e8",
+      "articleCount": 1,
+      "latestIssueNo": 164,
+      "filePath": "categories/items/cat-f5a8f7e8.json"
+    },
+    {
+      "category": "대순문예 수기부분 대상",
+      "categoryId": "cat-861de504",
+      "articleCount": 1,
+      "latestIssueNo": 164,
+      "filePath": "categories/items/cat-861de504.json"
+    },
+    {
+      "category": "『典經』속 역사인물",
+      "categoryId": "cat-3a482427",
+      "articleCount": 27,
+      "latestIssueNo": 162,
+      "filePath": "categories/items/cat-3a482427.json"
+    },
+    {
+      "category": "『典經』용어",
+      "categoryId": "cat-7ebd37f2",
+      "articleCount": 35,
+      "latestIssueNo": 162,
+      "filePath": "categories/items/cat-7ebd37f2.json"
+    },
+    {
+      "category": "대순문예- 입선(독후감)",
+      "categoryId": "cat-ad578d91",
+      "articleCount": 1,
+      "latestIssueNo": 162,
+      "filePath": "categories/items/cat-ad578d91.json"
+    },
+    {
+      "category": "대순진리회기 게이트볼",
+      "categoryId": "cat-e26f5071",
+      "articleCount": 1,
+      "latestIssueNo": 162,
+      "filePath": "categories/items/cat-e26f5071.json"
+    },
+    {
+      "category": "제19회 대순청소년 겨울캠프",
+      "categoryId": "cat-7d472e70",
+      "articleCount": 1,
+      "latestIssueNo": 162,
+      "filePath": "categories/items/cat-7d472e70.json"
+    },
+    {
+      "category": "청소년 캠프 소감문",
+      "categoryId": "cat-7b111540",
+      "articleCount": 4,
+      "latestIssueNo": 162,
+      "filePath": "categories/items/cat-7b111540.json"
+    },
+    {
+      "category": "『典經』지명답사기",
+      "categoryId": "cat-84cb3263",
+      "articleCount": 1,
+      "latestIssueNo": 161,
+      "filePath": "categories/items/cat-84cb3263.json"
+    },
+    {
+      "category": "대순동화",
+      "categoryId": "cat-19443df4",
+      "articleCount": 1,
+      "latestIssueNo": 161,
+      "filePath": "categories/items/cat-19443df4.json"
+    },
+    {
+      "category": "동양고전 읽기의 즐거움",
+      "categoryId": "cat-b11340bc",
+      "articleCount": 23,
+      "latestIssueNo": 161,
+      "filePath": "categories/items/cat-b11340bc.json"
+    },
+    {
+      "category": "『전경』속 역사인물",
+      "categoryId": "cat-c22077f5",
+      "articleCount": 9,
+      "latestIssueNo": 160,
+      "filePath": "categories/items/cat-c22077f5.json"
+    },
+    {
+      "category": "대학생 종교문화답사기",
+      "categoryId": "cat-36bdf431",
+      "articleCount": 5,
+      "latestIssueNo": 160,
+      "filePath": "categories/items/cat-36bdf431.json"
+    },
+    {
+      "category": "종교산책-한국종교편",
+      "categoryId": "cat-d760f0b4",
+      "articleCount": 1,
+      "latestIssueNo": 160,
+      "filePath": "categories/items/cat-d760f0b4.json"
+    },
+    {
+      "category": "대순문예공모 안내",
+      "categoryId": "cat-41c42808",
+      "articleCount": 1,
+      "latestIssueNo": 159,
+      "filePath": "categories/items/cat-41c42808.json"
+    },
+    {
+      "category": "당신이어서 감사합니다!",
+      "categoryId": "cat-409160b8",
+      "articleCount": 1,
+      "latestIssueNo": 157,
+      "filePath": "categories/items/cat-409160b8.json"
+    },
+    {
+      "category": "도장 지명 이야기",
+      "categoryId": "cat-1df50459",
+      "articleCount": 1,
+      "latestIssueNo": 157,
+      "filePath": "categories/items/cat-1df50459.json"
+    },
+    {
+      "category": "지명소개(상제님 편)",
+      "categoryId": "cat-0159b6ac",
+      "articleCount": 5,
+      "latestIssueNo": 157,
+      "filePath": "categories/items/cat-0159b6ac.json"
+    },
+    {
+      "category": "시_나의보석",
+      "categoryId": "cat-3163f1ef",
+      "articleCount": 1,
+      "latestIssueNo": 156,
+      "filePath": "categories/items/cat-3163f1ef.json"
+    },
+    {
+      "category": "시_외견(外見)",
+      "categoryId": "cat-e48891ae",
+      "articleCount": 1,
+      "latestIssueNo": 156,
+      "filePath": "categories/items/cat-e48891ae.json"
+    },
+    {
+      "category": "민간신앙",
+      "categoryId": "cat-1f0f22c4",
+      "articleCount": 12,
+      "latestIssueNo": 155,
+      "filePath": "categories/items/cat-1f0f22c4.json"
+    },
+    {
+      "category": "전경 속 인물",
+      "categoryId": "cat-f3e3d095",
+      "articleCount": 1,
+      "latestIssueNo": 154,
+      "filePath": "categories/items/cat-f3e3d095.json"
+    },
+    {
+      "category": "지명 소개(상제님 편)",
+      "categoryId": "cat-aa74a2cc",
+      "articleCount": 1,
+      "latestIssueNo": 154,
+      "filePath": "categories/items/cat-aa74a2cc.json"
+    },
+    {
+      "category": "연두 훈시",
+      "categoryId": "cat-4fb862b1",
+      "articleCount": 1,
+      "latestIssueNo": 153,
+      "filePath": "categories/items/cat-4fb862b1.json"
+    },
+    {
+      "category": "포덕교화기본원리Ⅱ",
+      "categoryId": "cat-bdae7a6d",
+      "articleCount": 1,
+      "latestIssueNo": 153,
+      "filePath": "categories/items/cat-bdae7a6d.json"
+    },
+    {
+      "category": "대순종학과 문화답사 소감문",
+      "categoryId": "cat-f005d2e8",
+      "articleCount": 6,
+      "latestIssueNo": 152,
+      "filePath": "categories/items/cat-f005d2e8.json"
+    },
+    {
+      "category": "전경지명답사",
+      "categoryId": "cat-1bc82580",
+      "articleCount": 7,
+      "latestIssueNo": 152,
+      "filePath": "categories/items/cat-1bc82580.json"
+    },
+    {
+      "category": "지명소개(상제님편)",
+      "categoryId": "cat-0010a5ec",
+      "articleCount": 2,
+      "latestIssueNo": 152,
+      "filePath": "categories/items/cat-0010a5ec.json"
+    },
+    {
+      "category": "퀴즈및퀴즈정답자",
+      "categoryId": "cat-5bf81cba",
+      "articleCount": 1,
+      "latestIssueNo": 152,
+      "filePath": "categories/items/cat-5bf81cba.json"
+    },
+    {
+      "category": "『典經』 용어",
+      "categoryId": "cat-534a32b2",
+      "articleCount": 1,
+      "latestIssueNo": 151,
+      "filePath": "categories/items/cat-534a32b2.json"
+    },
+    {
+      "category": "종교산책",
+      "categoryId": "cat-5f40fe85",
+      "articleCount": 32,
+      "latestIssueNo": 151,
+      "filePath": "categories/items/cat-5f40fe85.json"
+    },
+    {
+      "category": "특별기사",
+      "categoryId": "cat-541c9cc4",
+      "articleCount": 1,
+      "latestIssueNo": 151,
+      "filePath": "categories/items/cat-541c9cc4.json"
+    },
+    {
+      "category": "금강산 이야기",
+      "categoryId": "cat-7fd79270",
+      "articleCount": 90,
+      "latestIssueNo": 150,
+      "filePath": "categories/items/cat-7fd79270.json"
+    },
+    {
+      "category": "동양고전읽기의 즐거움",
+      "categoryId": "cat-c9a88dbc",
+      "articleCount": 2,
+      "latestIssueNo": 149,
+      "filePath": "categories/items/cat-c9a88dbc.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(85)",
+      "categoryId": "cat-d422b0ea",
+      "articleCount": 1,
+      "latestIssueNo": 149,
+      "filePath": "categories/items/cat-d422b0ea.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(84)",
+      "categoryId": "cat-d422b08b",
+      "articleCount": 1,
+      "latestIssueNo": 148,
+      "filePath": "categories/items/cat-d422b08b.json"
+    },
+    {
+      "category": "인문고전 산책",
+      "categoryId": "cat-405cec94",
+      "articleCount": 3,
+      "latestIssueNo": 148,
+      "filePath": "categories/items/cat-405cec94.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(83)",
+      "categoryId": "cat-d422b12c",
+      "articleCount": 1,
+      "latestIssueNo": 147,
+      "filePath": "categories/items/cat-d422b12c.json"
+    },
+    {
+      "category": "대순광장①",
+      "categoryId": "cat-41be2f0d",
+      "articleCount": 1,
+      "latestIssueNo": 146,
+      "filePath": "categories/items/cat-41be2f0d.json"
+    },
+    {
+      "category": "대순광장②",
+      "categoryId": "cat-41be2f0c",
+      "articleCount": 1,
+      "latestIssueNo": 146,
+      "filePath": "categories/items/cat-41be2f0c.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(82)",
+      "categoryId": "cat-d422b0cd",
+      "articleCount": 1,
+      "latestIssueNo": 146,
+      "filePath": "categories/items/cat-d422b0cd.json"
+    },
+    {
+      "category": "대순청소년 여름캠프",
+      "categoryId": "cat-d4a82870",
+      "articleCount": 1,
+      "latestIssueNo": 145,
+      "filePath": "categories/items/cat-d4a82870.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(81)",
+      "categoryId": "cat-d422b16e",
+      "articleCount": 1,
+      "latestIssueNo": 145,
+      "filePath": "categories/items/cat-d422b16e.json"
+    },
+    {
+      "category": "춘계체육대회",
+      "categoryId": "cat-19698780",
+      "articleCount": 4,
+      "latestIssueNo": 145,
+      "filePath": "categories/items/cat-19698780.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(80)",
+      "categoryId": "cat-d422b10f",
+      "articleCount": 1,
+      "latestIssueNo": 144,
+      "filePath": "categories/items/cat-d422b10f.json"
+    },
+    {
+      "category": "종교산책(한국종교편)",
+      "categoryId": "cat-3fe10258",
+      "articleCount": 4,
+      "latestIssueNo": 144,
+      "filePath": "categories/items/cat-3fe10258.json"
+    },
+    {
+      "category": "대순문예(가작)",
+      "categoryId": "cat-9239cf59",
+      "articleCount": 1,
+      "latestIssueNo": 143,
+      "filePath": "categories/items/cat-9239cf59.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(79)",
+      "categoryId": "cat-d422b4a9",
+      "articleCount": 1,
+      "latestIssueNo": 143,
+      "filePath": "categories/items/cat-d422b4a9.json"
+    },
+    {
+      "category": "대순문예(동상)",
+      "categoryId": "cat-92340fd0",
+      "articleCount": 1,
+      "latestIssueNo": 142,
+      "filePath": "categories/items/cat-92340fd0.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(78)",
+      "categoryId": "cat-d422b488",
+      "articleCount": 1,
+      "latestIssueNo": 142,
+      "filePath": "categories/items/cat-d422b488.json"
+    },
+    {
+      "category": "일각문(一覺文)",
+      "categoryId": "cat-ce87bb9c",
+      "articleCount": 24,
+      "latestIssueNo": 142,
+      "filePath": "categories/items/cat-ce87bb9c.json"
+    },
+    {
+      "category": "대순문예(은상)",
+      "categoryId": "cat-939b0149",
+      "articleCount": 1,
+      "latestIssueNo": 141,
+      "filePath": "categories/items/cat-939b0149.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(77)",
+      "categoryId": "cat-d422b667",
+      "articleCount": 1,
+      "latestIssueNo": 141,
+      "filePath": "categories/items/cat-d422b667.json"
+    },
+    {
+      "category": "신년사",
+      "categoryId": "cat-0a8f026d",
+      "articleCount": 28,
+      "latestIssueNo": 141,
+      "filePath": "categories/items/cat-0a8f026d.json"
+    },
+    {
+      "category": "참관기(학술세미나)",
+      "categoryId": "cat-e4b8c7cd",
+      "articleCount": 1,
+      "latestIssueNo": 141,
+      "filePath": "categories/items/cat-e4b8c7cd.json"
+    },
+    {
+      "category": "기획코너",
+      "categoryId": "cat-27040f64",
+      "articleCount": 1,
+      "latestIssueNo": 140,
+      "filePath": "categories/items/cat-27040f64.json"
+    },
+    {
+      "category": "대순문예(금상)",
+      "categoryId": "cat-92428a01",
+      "articleCount": 1,
+      "latestIssueNo": 140,
+      "filePath": "categories/items/cat-92428a01.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(76)",
+      "categoryId": "cat-d422b646",
+      "articleCount": 1,
+      "latestIssueNo": 140,
+      "filePath": "categories/items/cat-d422b646.json"
+    },
+    {
+      "category": "대순문예(대상)",
+      "categoryId": "cat-92262d09",
+      "articleCount": 1,
+      "latestIssueNo": 139,
+      "filePath": "categories/items/cat-92262d09.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(75)",
+      "categoryId": "cat-d422b625",
+      "articleCount": 1,
+      "latestIssueNo": 139,
+      "filePath": "categories/items/cat-d422b625.json"
+    },
+    {
+      "category": "인문학 고전산책",
+      "categoryId": "cat-4b7f720d",
+      "articleCount": 1,
+      "latestIssueNo": 139,
+      "filePath": "categories/items/cat-4b7f720d.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(74)",
+      "categoryId": "cat-d422b604",
+      "articleCount": 1,
+      "latestIssueNo": 138,
+      "filePath": "categories/items/cat-d422b604.json"
+    },
+    {
+      "category": "외부기고(한글날 특집)",
+      "categoryId": "cat-9309d038",
+      "articleCount": 2,
+      "latestIssueNo": 138,
+      "filePath": "categories/items/cat-9309d038.json"
+    },
+    {
+      "category": "답사기(학술답사)",
+      "categoryId": "cat-f2e8cd6d",
+      "articleCount": 2,
+      "latestIssueNo": 137,
+      "filePath": "categories/items/cat-f2e8cd6d.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(73)",
+      "categoryId": "cat-d422b5e3",
+      "articleCount": 1,
+      "latestIssueNo": 137,
+      "filePath": "categories/items/cat-d422b5e3.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(72)",
+      "categoryId": "cat-d422b5c2",
+      "articleCount": 1,
+      "latestIssueNo": 136,
+      "filePath": "categories/items/cat-d422b5c2.json"
+    },
+    {
+      "category": "온고지신",
+      "categoryId": "cat-558262ad",
+      "articleCount": 14,
+      "latestIssueNo": 136,
+      "filePath": "categories/items/cat-558262ad.json"
+    },
+    {
+      "category": "참관기(학술대회)",
+      "categoryId": "cat-850b1019",
+      "articleCount": 1,
+      "latestIssueNo": 136,
+      "filePath": "categories/items/cat-850b1019.json"
+    },
+    {
+      "category": "『典經』지명 답사기",
+      "categoryId": "cat-57e8bd83",
+      "articleCount": 3,
+      "latestIssueNo": 135,
+      "filePath": "categories/items/cat-57e8bd83.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(71)",
+      "categoryId": "cat-d422b5a1",
+      "articleCount": 1,
+      "latestIssueNo": 135,
+      "filePath": "categories/items/cat-d422b5a1.json"
+    },
+    {
+      "category": "영화 속으로(내가 본 영화)",
+      "categoryId": "cat-63560d45",
+      "articleCount": 1,
+      "latestIssueNo": 135,
+      "filePath": "categories/items/cat-63560d45.json"
+    },
+    {
+      "category": "독자 소감",
+      "categoryId": "cat-3d11bbcc",
+      "articleCount": 1,
+      "latestIssueNo": 134,
+      "filePath": "categories/items/cat-3d11bbcc.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(70)",
+      "categoryId": "cat-d422b580",
+      "articleCount": 1,
+      "latestIssueNo": 134,
+      "filePath": "categories/items/cat-d422b580.json"
+    },
+    {
+      "category": "영화 속의로(내가 본 영화)",
+      "categoryId": "cat-098323a1",
+      "articleCount": 1,
+      "latestIssueNo": 134,
+      "filePath": "categories/items/cat-098323a1.json"
+    },
+    {
+      "category": "답사기(종교문화답사)",
+      "categoryId": "cat-4283942d",
+      "articleCount": 1,
+      "latestIssueNo": 133,
+      "filePath": "categories/items/cat-4283942d.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(68)",
+      "categoryId": "cat-d422b889",
+      "articleCount": 2,
+      "latestIssueNo": 133,
+      "filePath": "categories/items/cat-d422b889.json"
+    },
+    {
+      "category": "영상화보",
+      "categoryId": "cat-5508b105",
+      "articleCount": 3,
+      "latestIssueNo": 133,
+      "filePath": "categories/items/cat-5508b105.json"
+    },
+    {
+      "category": "기획 인터뷰",
+      "categoryId": "cat-e1497720",
+      "articleCount": 2,
+      "latestIssueNo": 132,
+      "filePath": "categories/items/cat-e1497720.json"
+    },
+    {
+      "category": "28수 별자리",
+      "categoryId": "cat-d14fb6af",
+      "articleCount": 28,
+      "latestIssueNo": 131,
+      "filePath": "categories/items/cat-d14fb6af.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(67)",
+      "categoryId": "cat-d422baa6",
+      "articleCount": 1,
+      "latestIssueNo": 131,
+      "filePath": "categories/items/cat-d422baa6.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(66)",
+      "categoryId": "cat-d422ba47",
+      "articleCount": 1,
+      "latestIssueNo": 130,
+      "filePath": "categories/items/cat-d422ba47.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(64)",
+      "categoryId": "cat-d422ba05",
+      "articleCount": 2,
+      "latestIssueNo": 129,
+      "filePath": "categories/items/cat-d422ba05.json"
+    },
+    {
+      "category": "신(新)생활관",
+      "categoryId": "cat-4b1ac915",
+      "articleCount": 2,
+      "latestIssueNo": 129,
+      "filePath": "categories/items/cat-4b1ac915.json"
+    },
+    {
+      "category": "지식공유(TED)",
+      "categoryId": "cat-75c96199",
+      "articleCount": 1,
+      "latestIssueNo": 129,
+      "filePath": "categories/items/cat-75c96199.json"
+    },
+    {
+      "category": "『典經』지명 답사",
+      "categoryId": "cat-868ae953",
+      "articleCount": 1,
+      "latestIssueNo": 128,
+      "filePath": "categories/items/cat-868ae953.json"
+    },
+    {
+      "category": "대순문예 입선작",
+      "categoryId": "cat-93a68dfd",
+      "articleCount": 3,
+      "latestIssueNo": 128,
+      "filePath": "categories/items/cat-93a68dfd.json"
+    },
+    {
+      "category": "지식공유의 창 - TED",
+      "categoryId": "cat-e0088a50",
+      "articleCount": 1,
+      "latestIssueNo": 128,
+      "filePath": "categories/items/cat-e0088a50.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(63)",
+      "categoryId": "cat-d422ba22",
+      "articleCount": 1,
+      "latestIssueNo": 127,
+      "filePath": "categories/items/cat-d422ba22.json"
+    },
+    {
+      "category": "「전경」속 역사인물",
+      "categoryId": "cat-0e02dd35",
+      "articleCount": 4,
+      "latestIssueNo": 126,
+      "filePath": "categories/items/cat-0e02dd35.json"
+    },
+    {
+      "category": "금강산 이야기(77)",
+      "categoryId": "cat-ed2e8851",
+      "articleCount": 1,
+      "latestIssueNo": 126,
+      "filePath": "categories/items/cat-ed2e8851.json"
+    },
+    {
+      "category": "대순문예 입상작",
+      "categoryId": "cat-93a6893c",
+      "articleCount": 3,
+      "latestIssueNo": 126,
+      "filePath": "categories/items/cat-93a6893c.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(62)",
+      "categoryId": "cat-d422b9c3",
+      "articleCount": 1,
+      "latestIssueNo": 126,
+      "filePath": "categories/items/cat-d422b9c3.json"
+    },
+    {
+      "category": "취재기",
+      "categoryId": "cat-0a7aa051",
+      "articleCount": 8,
+      "latestIssueNo": 126,
+      "filePath": "categories/items/cat-0a7aa051.json"
+    },
+    {
+      "category": "그림 이야기",
+      "categoryId": "cat-853c0dd9",
+      "articleCount": 13,
+      "latestIssueNo": 125,
+      "filePath": "categories/items/cat-853c0dd9.json"
+    },
+    {
+      "category": "금강산 이야기(76)",
+      "categoryId": "cat-ed2e88b0",
+      "articleCount": 1,
+      "latestIssueNo": 125,
+      "filePath": "categories/items/cat-ed2e88b0.json"
+    },
+    {
+      "category": "독자 코너 / 독자 사연",
+      "categoryId": "cat-3cd1b40a",
+      "articleCount": 2,
+      "latestIssueNo": 125,
+      "filePath": "categories/items/cat-3cd1b40a.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(61)",
+      "categoryId": "cat-d422b9e0",
+      "articleCount": 1,
+      "latestIssueNo": 125,
+      "filePath": "categories/items/cat-d422b9e0.json"
+    },
+    {
+      "category": "우리 놀이의 문화사",
+      "categoryId": "cat-dc9345b5",
+      "articleCount": 5,
+      "latestIssueNo": 125,
+      "filePath": "categories/items/cat-dc9345b5.json"
+    },
+    {
+      "category": "금강산 이야기 (75)",
+      "categoryId": "cat-9276c673",
+      "articleCount": 1,
+      "latestIssueNo": 124,
+      "filePath": "categories/items/cat-9276c673.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서 (60)",
+      "categoryId": "cat-57e87a61",
+      "articleCount": 1,
+      "latestIssueNo": 124,
+      "filePath": "categories/items/cat-57e87a61.json"
+    },
+    {
+      "category": "청소년 캠프",
+      "categoryId": "cat-0d94c2c4",
+      "articleCount": 1,
+      "latestIssueNo": 124,
+      "filePath": "categories/items/cat-0d94c2c4.json"
+    },
+    {
+      "category": "금강산 이야기 (74)",
+      "categoryId": "cat-9276c652",
+      "articleCount": 1,
+      "latestIssueNo": 123,
+      "filePath": "categories/items/cat-9276c652.json"
+    },
+    {
+      "category": "내가 본 영화",
+      "categoryId": "cat-52b30a9c",
+      "articleCount": 1,
+      "latestIssueNo": 123,
+      "filePath": "categories/items/cat-52b30a9c.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서 (59)",
+      "categoryId": "cat-57e88e0b",
+      "articleCount": 1,
+      "latestIssueNo": 123,
+      "filePath": "categories/items/cat-57e88e0b.json"
+    },
+    {
+      "category": "금강산 이야기 (73)",
+      "categoryId": "cat-9276c6b5",
+      "articleCount": 1,
+      "latestIssueNo": 122,
+      "filePath": "categories/items/cat-9276c6b5.json"
+    },
+    {
+      "category": "대학생 코너",
+      "categoryId": "cat-e722c5dd",
+      "articleCount": 29,
+      "latestIssueNo": 122,
+      "filePath": "categories/items/cat-e722c5dd.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서 (58)",
+      "categoryId": "cat-57e88e6a",
+      "articleCount": 1,
+      "latestIssueNo": 122,
+      "filePath": "categories/items/cat-57e88e6a.json"
+    },
+    {
+      "category": "종교학 관점에서 본 민간신앙",
+      "categoryId": "cat-b252d1ec",
+      "articleCount": 1,
+      "latestIssueNo": 122,
+      "filePath": "categories/items/cat-b252d1ec.json"
+    },
+    {
+      "category": "특별기고「이제는 상생이다」",
+      "categoryId": "cat-a750f2f9",
+      "articleCount": 1,
+      "latestIssueNo": 122,
+      "filePath": "categories/items/cat-a750f2f9.json"
+    },
+    {
+      "category": "금강산 이야기 (72)",
+      "categoryId": "cat-9276c694",
+      "articleCount": 1,
+      "latestIssueNo": 121,
+      "filePath": "categories/items/cat-9276c694.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서 (57)",
+      "categoryId": "cat-57e88f45",
+      "articleCount": 1,
+      "latestIssueNo": 121,
+      "filePath": "categories/items/cat-57e88f45.json"
+    },
+    {
+      "category": "신성불보살 이야기",
+      "categoryId": "cat-463b5984",
+      "articleCount": 3,
+      "latestIssueNo": 121,
+      "filePath": "categories/items/cat-463b5984.json"
+    },
+    {
+      "category": "특별기고 『이제는 상생이다』",
+      "categoryId": "cat-58054859",
+      "articleCount": 1,
+      "latestIssueNo": 121,
+      "filePath": "categories/items/cat-58054859.json"
+    },
+    {
+      "category": "28수 이야기",
+      "categoryId": "cat-d226f6af",
+      "articleCount": 1,
+      "latestIssueNo": 120,
+      "filePath": "categories/items/cat-d226f6af.json"
+    },
+    {
+      "category": "금강산 이야기 (71)",
+      "categoryId": "cat-9276c6f7",
+      "articleCount": 1,
+      "latestIssueNo": 120,
+      "filePath": "categories/items/cat-9276c6f7.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서 (56)",
+      "categoryId": "cat-57e88fa4",
+      "articleCount": 1,
+      "latestIssueNo": 120,
+      "filePath": "categories/items/cat-57e88fa4.json"
+    },
+    {
+      "category": "금강산 이야기(70)",
+      "categoryId": "cat-ed2e8976",
+      "articleCount": 1,
+      "latestIssueNo": 119,
+      "filePath": "categories/items/cat-ed2e8976.json"
+    },
+    {
+      "category": "기획연재 - 우리 놀이의 문화사",
+      "categoryId": "cat-3a956399",
+      "articleCount": 1,
+      "latestIssueNo": 119,
+      "filePath": "categories/items/cat-3a956399.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(55)",
+      "categoryId": "cat-d422bea7",
+      "articleCount": 1,
+      "latestIssueNo": 119,
+      "filePath": "categories/items/cat-d422bea7.json"
+    },
+    {
+      "category": "금강산 이야기(69)",
+      "categoryId": "cat-ed2e7bde",
+      "articleCount": 1,
+      "latestIssueNo": 118,
+      "filePath": "categories/items/cat-ed2e7bde.json"
+    },
+    {
+      "category": "기획연재-우리 놀의의 문화사",
+      "categoryId": "cat-0abc5e95",
+      "articleCount": 1,
+      "latestIssueNo": 118,
+      "filePath": "categories/items/cat-0abc5e95.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(54)",
+      "categoryId": "cat-d422be86",
+      "articleCount": 1,
+      "latestIssueNo": 118,
+      "filePath": "categories/items/cat-d422be86.json"
+    },
+    {
+      "category": "Q & A 게시판",
+      "categoryId": "cat-10de5533",
+      "articleCount": 3,
+      "latestIssueNo": 118,
+      "filePath": "categories/items/cat-10de5533.json"
+    },
+    {
+      "category": "『典經』속 옛 이야기",
+      "categoryId": "cat-f4a1dc81",
+      "articleCount": 1,
+      "latestIssueNo": 117,
+      "filePath": "categories/items/cat-f4a1dc81.json"
+    },
+    {
+      "category": "기획연재-우리 놀이의 문화사",
+      "categoryId": "cat-d642c579",
+      "articleCount": 2,
+      "latestIssueNo": 117,
+      "filePath": "categories/items/cat-d642c579.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(53)",
+      "categoryId": "cat-d422bde1",
+      "articleCount": 1,
+      "latestIssueNo": 117,
+      "filePath": "categories/items/cat-d422bde1.json"
+    },
+    {
+      "category": "수기",
+      "categoryId": "cat-0051c16d",
+      "articleCount": 236,
+      "latestIssueNo": 117,
+      "filePath": "categories/items/cat-0051c16d.json"
+    },
+    {
+      "category": "대학생코너",
+      "categoryId": "cat-35a40ddd",
+      "articleCount": 52,
+      "latestIssueNo": 116,
+      "filePath": "categories/items/cat-35a40ddd.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(52)",
+      "categoryId": "cat-d422bdc0",
+      "articleCount": 1,
+      "latestIssueNo": 116,
+      "filePath": "categories/items/cat-d422bdc0.json"
+    },
+    {
+      "category": "설문조사",
+      "categoryId": "cat-5bb81345",
+      "articleCount": 1,
+      "latestIssueNo": 116,
+      "filePath": "categories/items/cat-5bb81345.json"
+    },
+    {
+      "category": "인물소개",
+      "categoryId": "cat-565bd691",
+      "articleCount": 51,
+      "latestIssueNo": 116,
+      "filePath": "categories/items/cat-565bd691.json"
+    },
+    {
+      "category": "학회 참관기",
+      "categoryId": "cat-991ee1d8",
+      "articleCount": 1,
+      "latestIssueNo": 116,
+      "filePath": "categories/items/cat-991ee1d8.json"
+    },
+    {
+      "category": "大巡文藝입상작",
+      "categoryId": "cat-2bbb88cc",
+      "articleCount": 5,
+      "latestIssueNo": 115,
+      "filePath": "categories/items/cat-2bbb88cc.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(51)",
+      "categoryId": "cat-d422be23",
+      "articleCount": 1,
+      "latestIssueNo": 115,
+      "filePath": "categories/items/cat-d422be23.json"
+    },
+    {
+      "category": "다시보는 우리문화",
+      "categoryId": "cat-31bff6ad",
+      "articleCount": 15,
+      "latestIssueNo": 114,
+      "filePath": "categories/items/cat-31bff6ad.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(50)",
+      "categoryId": "cat-d422be02",
+      "articleCount": 1,
+      "latestIssueNo": 114,
+      "filePath": "categories/items/cat-d422be02.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(49)",
+      "categoryId": "cat-d422c16a",
+      "articleCount": 1,
+      "latestIssueNo": 113,
+      "filePath": "categories/items/cat-d422c16a.json"
+    },
+    {
+      "category": "기획연재-숨겨진 이야기(결의편)",
+      "categoryId": "cat-e2a56e04",
+      "articleCount": 1,
+      "latestIssueNo": 112,
+      "filePath": "categories/items/cat-e2a56e04.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(48)",
+      "categoryId": "cat-d422c10b",
+      "articleCount": 1,
+      "latestIssueNo": 112,
+      "filePath": "categories/items/cat-d422c10b.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(47)",
+      "categoryId": "cat-d422c2a4",
+      "articleCount": 1,
+      "latestIssueNo": 111,
+      "filePath": "categories/items/cat-d422c2a4.json"
+    },
+    {
+      "category": "함께하는 공간",
+      "categoryId": "cat-906030e8",
+      "articleCount": 2,
+      "latestIssueNo": 111,
+      "filePath": "categories/items/cat-906030e8.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(46)",
+      "categoryId": "cat-d422c245",
+      "articleCount": 1,
+      "latestIssueNo": 110,
+      "filePath": "categories/items/cat-d422c245.json"
+    },
+    {
+      "category": "『典經』속 지명",
+      "categoryId": "cat-28b82987",
+      "articleCount": 2,
+      "latestIssueNo": 109,
+      "filePath": "categories/items/cat-28b82987.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(45)",
+      "categoryId": "cat-d422c2e6",
+      "articleCount": 1,
+      "latestIssueNo": 109,
+      "filePath": "categories/items/cat-d422c2e6.json"
+    },
+    {
+      "category": "『典經』민속자료",
+      "categoryId": "cat-24855f62",
+      "articleCount": 23,
+      "latestIssueNo": 108,
+      "filePath": "categories/items/cat-24855f62.json"
+    },
+    {
+      "category": "대순진리회 춘계체육대회",
+      "categoryId": "cat-36df7b98",
+      "articleCount": 1,
+      "latestIssueNo": 108,
+      "filePath": "categories/items/cat-36df7b98.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(44)",
+      "categoryId": "cat-d422c287",
+      "articleCount": 1,
+      "latestIssueNo": 108,
+      "filePath": "categories/items/cat-d422c287.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(43)",
+      "categoryId": "cat-d422c220",
+      "articleCount": 1,
+      "latestIssueNo": 107,
+      "filePath": "categories/items/cat-d422c220.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(42)",
+      "categoryId": "cat-d422c1c1",
+      "articleCount": 1,
+      "latestIssueNo": 106,
+      "filePath": "categories/items/cat-d422c1c1.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(41)",
+      "categoryId": "cat-d422c262",
+      "articleCount": 1,
+      "latestIssueNo": 105,
+      "filePath": "categories/items/cat-d422c262.json"
+    },
+    {
+      "category": "온고지신(溫故知新)",
+      "categoryId": "cat-3fb91d77",
+      "articleCount": 14,
+      "latestIssueNo": 105,
+      "filePath": "categories/items/cat-3fb91d77.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(40)",
+      "categoryId": "cat-d422c203",
+      "articleCount": 1,
+      "latestIssueNo": 104,
+      "filePath": "categories/items/cat-d422c203.json"
+    },
+    {
+      "category": "시론",
+      "categoryId": "cat-0051def9",
+      "articleCount": 12,
+      "latestIssueNo": 104,
+      "filePath": "categories/items/cat-0051def9.json"
+    },
+    {
+      "category": "기자탐방",
+      "categoryId": "cat-26c43d1c",
+      "articleCount": 6,
+      "latestIssueNo": 103,
+      "filePath": "categories/items/cat-26c43d1c.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(39)",
+      "categoryId": "cat-d422c5ad",
+      "articleCount": 1,
+      "latestIssueNo": 103,
+      "filePath": "categories/items/cat-d422c5ad.json"
+    },
+    {
+      "category": "이달의 책",
+      "categoryId": "cat-249d1400",
+      "articleCount": 14,
+      "latestIssueNo": 103,
+      "filePath": "categories/items/cat-249d1400.json"
+    },
+    {
+      "category": "2009 대순문예전 입상작",
+      "categoryId": "cat-b8315d53",
+      "articleCount": 3,
+      "latestIssueNo": 102,
+      "filePath": "categories/items/cat-b8315d53.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(38)",
+      "categoryId": "cat-d422c58c",
+      "articleCount": 1,
+      "latestIssueNo": 102,
+      "filePath": "categories/items/cat-d422c58c.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(37)",
+      "categoryId": "cat-d422c663",
+      "articleCount": 1,
+      "latestIssueNo": 101,
+      "filePath": "categories/items/cat-d422c663.json"
+    },
+    {
+      "category": "격려사",
+      "categoryId": "cat-08f51704",
+      "articleCount": 3,
+      "latestIssueNo": 100,
+      "filePath": "categories/items/cat-08f51704.json"
+    },
+    {
+      "category": "대순회보 100호 특집1",
+      "categoryId": "cat-07b85491",
+      "articleCount": 1,
+      "latestIssueNo": 100,
+      "filePath": "categories/items/cat-07b85491.json"
+    },
+    {
+      "category": "대순회보 100호 특집2",
+      "categoryId": "cat-07b85492",
+      "articleCount": 1,
+      "latestIssueNo": 100,
+      "filePath": "categories/items/cat-07b85492.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(36)",
+      "categoryId": "cat-d422c642",
+      "articleCount": 1,
+      "latestIssueNo": 100,
+      "filePath": "categories/items/cat-d422c642.json"
+    },
+    {
+      "category": "세계는 지금",
+      "categoryId": "cat-cbdea005",
+      "articleCount": 4,
+      "latestIssueNo": 100,
+      "filePath": "categories/items/cat-cbdea005.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(35)",
+      "categoryId": "cat-d422c621",
+      "articleCount": 1,
+      "latestIssueNo": 99,
+      "filePath": "categories/items/cat-d422c621.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(34)",
+      "categoryId": "cat-d422c600",
+      "articleCount": 1,
+      "latestIssueNo": 98,
+      "filePath": "categories/items/cat-d422c600.json"
+    },
+    {
+      "category": "제주도 답사(3)",
+      "categoryId": "cat-3fb0926a",
+      "articleCount": 1,
+      "latestIssueNo": 98,
+      "filePath": "categories/items/cat-3fb0926a.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(33)",
+      "categoryId": "cat-d422c6e7",
+      "articleCount": 1,
+      "latestIssueNo": 97,
+      "filePath": "categories/items/cat-d422c6e7.json"
+    },
+    {
+      "category": "제주도 답사(2)",
+      "categoryId": "cat-3fb0920b",
+      "articleCount": 1,
+      "latestIssueNo": 97,
+      "filePath": "categories/items/cat-3fb0920b.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(32)",
+      "categoryId": "cat-d422c6c6",
+      "articleCount": 1,
+      "latestIssueNo": 96,
+      "filePath": "categories/items/cat-d422c6c6.json"
+    },
+    {
+      "category": "인물 돋보기",
+      "categoryId": "cat-f0d074ee",
+      "articleCount": 1,
+      "latestIssueNo": 96,
+      "filePath": "categories/items/cat-f0d074ee.json"
+    },
+    {
+      "category": "제주도 답사(1)",
+      "categoryId": "cat-3fb09228",
+      "articleCount": 1,
+      "latestIssueNo": 96,
+      "filePath": "categories/items/cat-3fb09228.json"
+    },
+    {
+      "category": "춘계체육대회 사진전",
+      "categoryId": "cat-3b18a64c",
+      "articleCount": 1,
+      "latestIssueNo": 96,
+      "filePath": "categories/items/cat-3b18a64c.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(31)",
+      "categoryId": "cat-d422c6a5",
+      "articleCount": 1,
+      "latestIssueNo": 95,
+      "filePath": "categories/items/cat-d422c6a5.json"
+    },
+    {
+      "category": "지남거(指南車)",
+      "categoryId": "cat-2be04ce6",
+      "articleCount": 4,
+      "latestIssueNo": 95,
+      "filePath": "categories/items/cat-2be04ce6.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(30)",
+      "categoryId": "cat-d422c684",
+      "articleCount": 1,
+      "latestIssueNo": 94,
+      "filePath": "categories/items/cat-d422c684.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(29)",
+      "categoryId": "cat-d422c9ec",
+      "articleCount": 1,
+      "latestIssueNo": 93,
+      "filePath": "categories/items/cat-d422c9ec.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(28)",
+      "categoryId": "cat-d422c98d",
+      "articleCount": 1,
+      "latestIssueNo": 92,
+      "filePath": "categories/items/cat-d422c98d.json"
+    },
+    {
+      "category": "정보마당",
+      "categoryId": "cat-5f3e3d75",
+      "articleCount": 1,
+      "latestIssueNo": 92,
+      "filePath": "categories/items/cat-5f3e3d75.json"
+    },
+    {
+      "category": "금강산이야기",
+      "categoryId": "cat-88c3d150",
+      "articleCount": 14,
+      "latestIssueNo": 91,
+      "filePath": "categories/items/cat-88c3d150.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(27)",
+      "categoryId": "cat-d422caa2",
+      "articleCount": 1,
+      "latestIssueNo": 91,
+      "filePath": "categories/items/cat-d422caa2.json"
+    },
+    {
+      "category": "전경 민속자료",
+      "categoryId": "cat-079a2f31",
+      "articleCount": 1,
+      "latestIssueNo": 91,
+      "filePath": "categories/items/cat-079a2f31.json"
+    },
+    {
+      "category": "전경 용어",
+      "categoryId": "cat-4d55c821",
+      "articleCount": 1,
+      "latestIssueNo": 91,
+      "filePath": "categories/items/cat-4d55c821.json"
+    },
+    {
+      "category": "법무소식",
+      "categoryId": "cat-1f91b4d5",
+      "articleCount": 1,
+      "latestIssueNo": 90,
+      "filePath": "categories/items/cat-1f91b4d5.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(26)",
+      "categoryId": "cat-d422ca43",
+      "articleCount": 1,
+      "latestIssueNo": 90,
+      "filePath": "categories/items/cat-d422ca43.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(25)",
+      "categoryId": "cat-d422ca60",
+      "articleCount": 1,
+      "latestIssueNo": 89,
+      "filePath": "categories/items/cat-d422ca60.json"
+    },
+    {
+      "category": "수칙(守則)",
+      "categoryId": "cat-21557fea",
+      "articleCount": 1,
+      "latestIssueNo": 89,
+      "filePath": "categories/items/cat-21557fea.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(24)",
+      "categoryId": "cat-d422ca01",
+      "articleCount": 1,
+      "latestIssueNo": 88,
+      "filePath": "categories/items/cat-d422ca01.json"
+    },
+    {
+      "category": "가을 테마기획",
+      "categoryId": "cat-2749d678",
+      "articleCount": 2,
+      "latestIssueNo": 87,
+      "filePath": "categories/items/cat-2749d678.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(23)",
+      "categoryId": "cat-d422cb26",
+      "articleCount": 1,
+      "latestIssueNo": 87,
+      "filePath": "categories/items/cat-d422cb26.json"
+    },
+    {
+      "category": "기행문",
+      "categoryId": "cat-08f06804",
+      "articleCount": 4,
+      "latestIssueNo": 86,
+      "filePath": "categories/items/cat-08f06804.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(22)",
+      "categoryId": "cat-d422cac7",
+      "articleCount": 1,
+      "latestIssueNo": 86,
+      "filePath": "categories/items/cat-d422cac7.json"
+    },
+    {
+      "category": "훈회",
+      "categoryId": "cat-004e0781",
+      "articleCount": 2,
+      "latestIssueNo": 86,
+      "filePath": "categories/items/cat-004e0781.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(21)",
+      "categoryId": "cat-d422cae4",
+      "articleCount": 1,
+      "latestIssueNo": 85,
+      "filePath": "categories/items/cat-d422cae4.json"
+    },
+    {
+      "category": "외부기고 _ 내가 본 대순진리회",
+      "categoryId": "cat-45437d06",
+      "articleCount": 1,
+      "latestIssueNo": 85,
+      "filePath": "categories/items/cat-45437d06.json"
+    },
+    {
+      "category": "대만학술답사기",
+      "categoryId": "cat-0c620db9",
+      "articleCount": 1,
+      "latestIssueNo": 84,
+      "filePath": "categories/items/cat-0c620db9.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(20)",
+      "categoryId": "cat-d422ca85",
+      "articleCount": 1,
+      "latestIssueNo": 84,
+      "filePath": "categories/items/cat-d422ca85.json"
+    },
+    {
+      "category": "춘계대순한마당 사진전",
+      "categoryId": "cat-9c207404",
+      "articleCount": 2,
+      "latestIssueNo": 84,
+      "filePath": "categories/items/cat-9c207404.json"
+    },
+    {
+      "category": "과학_그곳에서",
+      "categoryId": "cat-b5605fb8",
+      "articleCount": 2,
+      "latestIssueNo": 83,
+      "filePath": "categories/items/cat-b5605fb8.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(19)",
+      "categoryId": "cat-d422ce2f",
+      "articleCount": 1,
+      "latestIssueNo": 83,
+      "filePath": "categories/items/cat-d422ce2f.json"
+    },
+    {
+      "category": "수기-춘계백일장 당선작",
+      "categoryId": "cat-14e5fcfc",
+      "articleCount": 4,
+      "latestIssueNo": 83,
+      "filePath": "categories/items/cat-14e5fcfc.json"
+    },
+    {
+      "category": "춘계대순한마당 취재",
+      "categoryId": "cat-fcf887ac",
+      "articleCount": 1,
+      "latestIssueNo": 83,
+      "filePath": "categories/items/cat-fcf887ac.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(18)",
+      "categoryId": "cat-d422ce0e",
+      "articleCount": 1,
+      "latestIssueNo": 82,
+      "filePath": "categories/items/cat-d422ce0e.json"
+    },
+    {
+      "category": "감사원장 담화",
+      "categoryId": "cat-30d9e6cc",
+      "articleCount": 1,
+      "latestIssueNo": 81,
+      "filePath": "categories/items/cat-30d9e6cc.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(17)",
+      "categoryId": "cat-d422ce61",
+      "articleCount": 1,
+      "latestIssueNo": 81,
+      "filePath": "categories/items/cat-d422ce61.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(16)",
+      "categoryId": "cat-d422ce40",
+      "articleCount": 1,
+      "latestIssueNo": 80,
+      "filePath": "categories/items/cat-d422ce40.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(15)",
+      "categoryId": "cat-d422cea3",
+      "articleCount": 1,
+      "latestIssueNo": 79,
+      "filePath": "categories/items/cat-d422cea3.json"
+    },
+    {
+      "category": "『전경』 속 역사인물",
+      "categoryId": "cat-4af23a75",
+      "articleCount": 2,
+      "latestIssueNo": 78,
+      "filePath": "categories/items/cat-4af23a75.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(14)",
+      "categoryId": "cat-d422ce82",
+      "articleCount": 1,
+      "latestIssueNo": 78,
+      "filePath": "categories/items/cat-d422ce82.json"
+    },
+    {
+      "category": "이달의 책 & 십자말 맞추기",
+      "categoryId": "cat-5f218551",
+      "articleCount": 27,
+      "latestIssueNo": 78,
+      "filePath": "categories/items/cat-5f218551.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(13)",
+      "categoryId": "cat-d422cee5",
+      "articleCount": 1,
+      "latestIssueNo": 77,
+      "filePath": "categories/items/cat-d422cee5.json"
+    },
+    {
+      "category": "아름다운 세시풍속",
+      "categoryId": "cat-74dab1d1",
+      "articleCount": 13,
+      "latestIssueNo": 77,
+      "filePath": "categories/items/cat-74dab1d1.json"
+    },
+    {
+      "category": "『전경』속의 옛 땅을 찾아서",
+      "categoryId": "cat-51e62cf4",
+      "articleCount": 1,
+      "latestIssueNo": 76,
+      "filePath": "categories/items/cat-51e62cf4.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(12)",
+      "categoryId": "cat-d422cec4",
+      "articleCount": 1,
+      "latestIssueNo": 76,
+      "filePath": "categories/items/cat-d422cec4.json"
+    },
+    {
+      "category": "답사기 _ 중국",
+      "categoryId": "cat-7f61672f",
+      "articleCount": 1,
+      "latestIssueNo": 75,
+      "filePath": "categories/items/cat-7f61672f.json"
+    },
+    {
+      "category": "대순사상 탐구",
+      "categoryId": "cat-9016fda8",
+      "articleCount": 1,
+      "latestIssueNo": 75,
+      "filePath": "categories/items/cat-9016fda8.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(11)",
+      "categoryId": "cat-d422cf27",
+      "articleCount": 1,
+      "latestIssueNo": 75,
+      "filePath": "categories/items/cat-d422cf27.json"
+    },
+    {
+      "category": "『典經』속의 옛 땅을 찾아",
+      "categoryId": "cat-61be1d3a",
+      "articleCount": 3,
+      "latestIssueNo": 74,
+      "filePath": "categories/items/cat-61be1d3a.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(10)",
+      "categoryId": "cat-d422cf06",
+      "articleCount": 1,
+      "latestIssueNo": 74,
+      "filePath": "categories/items/cat-d422cf06.json"
+    },
+    {
+      "category": "중국학술방문답사기",
+      "categoryId": "cat-6d074778",
+      "articleCount": 1,
+      "latestIssueNo": 74,
+      "filePath": "categories/items/cat-6d074778.json"
+    },
+    {
+      "category": "과학코너",
+      "categoryId": "cat-27e679fc",
+      "articleCount": 1,
+      "latestIssueNo": 73,
+      "filePath": "categories/items/cat-27e679fc.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(9)",
+      "categoryId": "cat-c85e245e",
+      "articleCount": 1,
+      "latestIssueNo": 73,
+      "filePath": "categories/items/cat-c85e245e.json"
+    },
+    {
+      "category": "답사기_금강산",
+      "categoryId": "cat-d38302be",
+      "articleCount": 1,
+      "latestIssueNo": 72,
+      "filePath": "categories/items/cat-d38302be.json"
+    },
+    {
+      "category": "대순진리회 방문 감상기",
+      "categoryId": "cat-506677cd",
+      "articleCount": 2,
+      "latestIssueNo": 72,
+      "filePath": "categories/items/cat-506677cd.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(8)",
+      "categoryId": "cat-c85e247f",
+      "articleCount": 1,
+      "latestIssueNo": 72,
+      "filePath": "categories/items/cat-c85e247f.json"
+    },
+    {
+      "category": "춘계체육대회 백일장 수상작",
+      "categoryId": "cat-e7e92cc0",
+      "articleCount": 6,
+      "latestIssueNo": 72,
+      "filePath": "categories/items/cat-e7e92cc0.json"
+    },
+    {
+      "category": "2007 춘계체육대회",
+      "categoryId": "cat-bb2ee465",
+      "articleCount": 2,
+      "latestIssueNo": 71,
+      "filePath": "categories/items/cat-bb2ee465.json"
+    },
+    {
+      "category": "대만도교방문단 취재기",
+      "categoryId": "cat-026af0d0",
+      "articleCount": 1,
+      "latestIssueNo": 71,
+      "filePath": "categories/items/cat-026af0d0.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(7)",
+      "categoryId": "cat-c85e2490",
+      "articleCount": 1,
+      "latestIssueNo": 71,
+      "filePath": "categories/items/cat-c85e2490.json"
+    },
+    {
+      "category": "춘계체육대회 사진전 당선작",
+      "categoryId": "cat-ca39b224",
+      "articleCount": 1,
+      "latestIssueNo": 71,
+      "filePath": "categories/items/cat-ca39b224.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(6)",
+      "categoryId": "cat-c85e24b1",
+      "articleCount": 1,
+      "latestIssueNo": 70,
+      "filePath": "categories/items/cat-c85e24b1.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(5)",
+      "categoryId": "cat-c85e24d2",
+      "articleCount": 1,
+      "latestIssueNo": 69,
+      "filePath": "categories/items/cat-c85e24d2.json"
+    },
+    {
+      "category": "포덕교화기본원리 2",
+      "categoryId": "cat-7379c09e",
+      "articleCount": 1,
+      "latestIssueNo": 69,
+      "filePath": "categories/items/cat-7379c09e.json"
+    },
+    {
+      "category": "『대학』에 대하여(4)",
+      "categoryId": "cat-fc77ee0c",
+      "articleCount": 1,
+      "latestIssueNo": 68,
+      "filePath": "categories/items/cat-fc77ee0c.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(4)",
+      "categoryId": "cat-c85e24f3",
+      "articleCount": 1,
+      "latestIssueNo": 68,
+      "filePath": "categories/items/cat-c85e24f3.json"
+    },
+    {
+      "category": "『대학』에 대하여(3)",
+      "categoryId": "cat-fc77edeb",
+      "articleCount": 1,
+      "latestIssueNo": 67,
+      "filePath": "categories/items/cat-fc77edeb.json"
+    },
+    {
+      "category": "대순학생회 코너",
+      "categoryId": "cat-92d0840d",
+      "articleCount": 1,
+      "latestIssueNo": 67,
+      "filePath": "categories/items/cat-92d0840d.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서(3)",
+      "categoryId": "cat-c85e2514",
+      "articleCount": 1,
+      "latestIssueNo": 67,
+      "filePath": "categories/items/cat-c85e2514.json"
+    },
+    {
+      "category": "새해 단상(斷想)",
+      "categoryId": "cat-261cdcb5",
+      "articleCount": 1,
+      "latestIssueNo": 67,
+      "filePath": "categories/items/cat-261cdcb5.json"
+    },
+    {
+      "category": "중국 기행문",
+      "categoryId": "cat-4b3529d8",
+      "articleCount": 1,
+      "latestIssueNo": 67,
+      "filePath": "categories/items/cat-4b3529d8.json"
+    },
+    {
+      "category": "상제님의 발자취를 찾아서",
+      "categoryId": "cat-ec4f1306",
+      "articleCount": 2,
+      "latestIssueNo": 66,
+      "filePath": "categories/items/cat-ec4f1306.json"
+    },
+    {
+      "category": "28수 신명의 생애",
+      "categoryId": "cat-c73f87f7",
+      "articleCount": 29,
+      "latestIssueNo": 64,
+      "filePath": "categories/items/cat-c73f87f7.json"
+    },
+    {
+      "category": "논단",
+      "categoryId": "cat-00422d11",
+      "articleCount": 46,
+      "latestIssueNo": 64,
+      "filePath": "categories/items/cat-00422d11.json"
+    },
+    {
+      "category": "대순사상과 21세기(II)",
+      "categoryId": "cat-04b6a502",
+      "articleCount": 1,
+      "latestIssueNo": 64,
+      "filePath": "categories/items/cat-04b6a502.json"
+    },
+    {
+      "category": "대순지침",
+      "categoryId": "cat-19378ab1",
+      "articleCount": 24,
+      "latestIssueNo": 64,
+      "filePath": "categories/items/cat-19378ab1.json"
+    },
+    {
+      "category": "상제님의 일대기",
+      "categoryId": "cat-9b778e14",
+      "articleCount": 28,
+      "latestIssueNo": 64,
+      "filePath": "categories/items/cat-9b778e14.json"
+    },
+    {
+      "category": "詩",
+      "categoryId": "cat-00023fcc",
+      "articleCount": 33,
+      "latestIssueNo": 64,
+      "filePath": "categories/items/cat-00023fcc.json"
+    },
+    {
+      "category": "신선ㆍ도인 이야기",
+      "categoryId": "cat-1d12874c",
+      "articleCount": 6,
+      "latestIssueNo": 64,
+      "filePath": "categories/items/cat-1d12874c.json"
+    },
+    {
+      "category": "회보 1면",
+      "categoryId": "cat-05929bd8",
+      "articleCount": 64,
+      "latestIssueNo": 64,
+      "filePath": "categories/items/cat-05929bd8.json"
+    },
+    {
+      "category": "대순사상과 21세기(I)",
+      "categoryId": "cat-b2912bab",
+      "articleCount": 1,
+      "latestIssueNo": 63,
+      "filePath": "categories/items/cat-b2912bab.json"
+    },
+    {
+      "category": "분당 제생병원",
+      "categoryId": "cat-9ecef3f8",
+      "articleCount": 2,
+      "latestIssueNo": 61,
+      "filePath": "categories/items/cat-9ecef3f8.json"
+    },
+    {
+      "category": "24절후 신명의 생애",
+      "categoryId": "cat-c9a94d8f",
+      "articleCount": 30,
+      "latestIssueNo": 60,
+      "filePath": "categories/items/cat-c9a94d8f.json"
+    },
+    {
+      "category": "도인 신선 이야기",
+      "categoryId": "cat-f369b4e1",
+      "articleCount": 1,
+      "latestIssueNo": 60,
+      "filePath": "categories/items/cat-f369b4e1.json"
+    },
+    {
+      "category": "전경속 역사인물 소개",
+      "categoryId": "cat-edbf4fe4",
+      "articleCount": 4,
+      "latestIssueNo": 53,
+      "filePath": "categories/items/cat-edbf4fe4.json"
+    },
+    {
+      "category": "전경속 지명을 찾아서",
+      "categoryId": "cat-c55ea5b6",
+      "articleCount": 2,
+      "latestIssueNo": 53,
+      "filePath": "categories/items/cat-c55ea5b6.json"
+    },
+    {
+      "category": "정축년 신년사",
+      "categoryId": "cat-3eb0cc69",
+      "articleCount": 2,
+      "latestIssueNo": 53,
+      "filePath": "categories/items/cat-3eb0cc69.json"
+    },
+    {
+      "category": "금강산 기행",
+      "categoryId": "cat-87c3ba71",
+      "articleCount": 1,
+      "latestIssueNo": 45,
+      "filePath": "categories/items/cat-87c3ba71.json"
+    },
+    {
+      "category": "대순문단",
+      "categoryId": "cat-19455589",
+      "articleCount": 158,
+      "latestIssueNo": 45,
+      "filePath": "categories/items/cat-19455589.json"
+    },
+    {
+      "category": "천계탑",
+      "categoryId": "cat-0a7270ec",
+      "articleCount": 47,
+      "latestIssueNo": 45,
+      "filePath": "categories/items/cat-0a7270ec.json"
+    },
+    {
+      "category": "24절후 소개",
+      "categoryId": "cat-08cfae5f",
+      "articleCount": 9,
+      "latestIssueNo": 44,
+      "filePath": "categories/items/cat-08cfae5f.json"
+    },
+    {
+      "category": "대순진리회(大巡眞理會)",
+      "categoryId": "cat-13109da1",
+      "articleCount": 1,
+      "latestIssueNo": 44,
+      "filePath": "categories/items/cat-13109da1.json"
+    },
+    {
+      "category": "3요체(三要諦)",
+      "categoryId": "cat-5469caf9",
+      "articleCount": 1,
+      "latestIssueNo": 43,
+      "filePath": "categories/items/cat-5469caf9.json"
+    },
+    {
+      "category": "전경속의 역사인물 소개",
+      "categoryId": "cat-34a534dc",
+      "articleCount": 3,
+      "latestIssueNo": 43,
+      "filePath": "categories/items/cat-34a534dc.json"
+    },
+    {
+      "category": "祝詩",
+      "categoryId": "cat-005ce191",
+      "articleCount": 2,
+      "latestIssueNo": 43,
+      "filePath": "categories/items/cat-005ce191.json"
+    },
+    {
+      "category": "4강령(四綱領)",
+      "categoryId": "cat-e1a0f3ee",
+      "articleCount": 1,
+      "latestIssueNo": 42,
+      "filePath": "categories/items/cat-e1a0f3ee.json"
+    },
+    {
+      "category": "제주도연수",
+      "categoryId": "cat-8003f2e9",
+      "articleCount": 2,
+      "latestIssueNo": 42,
+      "filePath": "categories/items/cat-8003f2e9.json"
+    },
+    {
+      "category": "신앙의 대상",
+      "categoryId": "cat-495c1105",
+      "articleCount": 1,
+      "latestIssueNo": 41,
+      "filePath": "categories/items/cat-495c1105.json"
+    },
+    {
+      "category": "대순시론",
+      "categoryId": "cat-1936e325",
+      "articleCount": 5,
+      "latestIssueNo": 40,
+      "filePath": "categories/items/cat-1936e325.json"
+    },
+    {
+      "category": "대순지침훈시",
+      "categoryId": "cat-452e3be5",
+      "articleCount": 8,
+      "latestIssueNo": 40,
+      "filePath": "categories/items/cat-452e3be5.json"
+    },
+    {
+      "category": "대순진리회 훈회",
+      "categoryId": "cat-93809799",
+      "articleCount": 1,
+      "latestIssueNo": 40,
+      "filePath": "categories/items/cat-93809799.json"
+    },
+    {
+      "category": "대원종의 글",
+      "categoryId": "cat-070a51c8",
+      "articleCount": 1,
+      "latestIssueNo": 40,
+      "filePath": "categories/items/cat-070a51c8.json"
+    },
+    {
+      "category": "심우도(尋牛圖)",
+      "categoryId": "cat-d67cd43a",
+      "articleCount": 1,
+      "latestIssueNo": 40,
+      "filePath": "categories/items/cat-d67cd43a.json"
+    },
+    {
+      "category": "대순진리회 취지",
+      "categoryId": "cat-937fda35",
+      "articleCount": 1,
+      "latestIssueNo": 39,
+      "filePath": "categories/items/cat-937fda35.json"
+    },
+    {
+      "category": "도장성화",
+      "categoryId": "cat-19135d61",
+      "articleCount": 2,
+      "latestIssueNo": 39,
+      "filePath": "categories/items/cat-19135d61.json"
+    },
+    {
+      "category": "성지순례",
+      "categoryId": "cat-5bf86c08",
+      "articleCount": 23,
+      "latestIssueNo": 39,
+      "filePath": "categories/items/cat-5bf86c08.json"
+    },
+    {
+      "category": "24절후 신명 이야기",
+      "categoryId": "cat-5f86f6f2",
+      "articleCount": 2,
+      "latestIssueNo": 38,
+      "filePath": "categories/items/cat-5f86f6f2.json"
+    },
+    {
+      "category": "기고",
+      "categoryId": "cat-004522d5",
+      "articleCount": 2,
+      "latestIssueNo": 38,
+      "filePath": "categories/items/cat-004522d5.json"
+    },
+    {
+      "category": "대순진리회",
+      "categoryId": "cat-40374d9d",
+      "articleCount": 1,
+      "latestIssueNo": 38,
+      "filePath": "categories/items/cat-40374d9d.json"
+    },
+    {
+      "category": "선단수상",
+      "categoryId": "cat-5b9622d4",
+      "articleCount": 4,
+      "latestIssueNo": 38,
+      "filePath": "categories/items/cat-5b9622d4.json"
+    },
+    {
+      "category": "일념교",
+      "categoryId": "cat-0a60bc99",
+      "articleCount": 4,
+      "latestIssueNo": 38,
+      "filePath": "categories/items/cat-0a60bc99.json"
+    },
+    {
+      "category": "대진대학교 개교식",
+      "categoryId": "cat-b4da8c79",
+      "articleCount": 4,
+      "latestIssueNo": 37,
+      "filePath": "categories/items/cat-b4da8c79.json"
+    },
+    {
+      "category": "대진회탐방",
+      "categoryId": "cat-3c99b094",
+      "articleCount": 7,
+      "latestIssueNo": 37,
+      "filePath": "categories/items/cat-3c99b094.json"
+    },
+    {
+      "category": "도장벽화",
+      "categoryId": "cat-19047e6d",
+      "articleCount": 2,
+      "latestIssueNo": 37,
+      "filePath": "categories/items/cat-19047e6d.json"
+    },
+    {
+      "category": "인사말",
+      "categoryId": "cat-0a515121",
+      "articleCount": 2,
+      "latestIssueNo": 37,
+      "filePath": "categories/items/cat-0a515121.json"
+    },
+    {
+      "category": "대진대학교",
+      "categoryId": "cat-3d194ec8",
+      "articleCount": 2,
+      "latestIssueNo": 36,
+      "filePath": "categories/items/cat-3d194ec8.json"
+    },
+    {
+      "category": "24절후 신명이야기",
+      "categoryId": "cat-e70cec92",
+      "articleCount": 7,
+      "latestIssueNo": 35,
+      "filePath": "categories/items/cat-e70cec92.json"
+    },
+    {
+      "category": "93년은 닭띠해",
+      "categoryId": "cat-93f60e32",
+      "articleCount": 1,
+      "latestIssueNo": 35,
+      "filePath": "categories/items/cat-93f60e32.json"
+    },
+    {
+      "category": "종의회 의장 신년사",
+      "categoryId": "cat-8de1e541",
+      "articleCount": 2,
+      "latestIssueNo": 35,
+      "filePath": "categories/items/cat-8de1e541.json"
+    },
+    {
+      "category": "대순탐방",
+      "categoryId": "cat-193895e0",
+      "articleCount": 3,
+      "latestIssueNo": 32,
+      "filePath": "categories/items/cat-193895e0.json"
+    },
+    {
+      "category": "왕방산 기행",
+      "categoryId": "cat-91d70af0",
+      "articleCount": 1,
+      "latestIssueNo": 32,
+      "filePath": "categories/items/cat-91d70af0.json"
+    },
+    {
+      "category": "대순장학금",
+      "categoryId": "cat-3fdac4ad",
+      "articleCount": 2,
+      "latestIssueNo": 31,
+      "filePath": "categories/items/cat-3fdac4ad.json"
+    },
+    {
+      "category": "제언",
+      "categoryId": "cat-0052f161",
+      "articleCount": 3,
+      "latestIssueNo": 31,
+      "filePath": "categories/items/cat-0052f161.json"
+    },
+    {
+      "category": "대진대학교 입학식",
+      "categoryId": "cat-b676cc09",
+      "articleCount": 3,
+      "latestIssueNo": 30,
+      "filePath": "categories/items/cat-b676cc09.json"
+    },
+    {
+      "category": "종무원장 말씀",
+      "categoryId": "cat-d4ee7b31",
+      "articleCount": 12,
+      "latestIssueNo": 30,
+      "filePath": "categories/items/cat-d4ee7b31.json"
+    },
+    {
+      "category": "『전경』속 역사인물 소개",
+      "categoryId": "cat-4ff08be5",
+      "articleCount": 1,
+      "latestIssueNo": 29,
+      "filePath": "categories/items/cat-4ff08be5.json"
+    },
+    {
+      "category": "대순122년",
+      "categoryId": "cat-1bd7bccc",
+      "articleCount": 1,
+      "latestIssueNo": 29,
+      "filePath": "categories/items/cat-1bd7bccc.json"
+    },
+    {
+      "category": "도전님 연두훈시",
+      "categoryId": "cat-ca6264c9",
+      "articleCount": 3,
+      "latestIssueNo": 29,
+      "filePath": "categories/items/cat-ca6264c9.json"
+    },
+    {
+      "category": "신년축시",
+      "categoryId": "cat-5c703b08",
+      "articleCount": 1,
+      "latestIssueNo": 29,
+      "filePath": "categories/items/cat-5c703b08.json"
+    },
+    {
+      "category": "고사성어",
+      "categoryId": "cat-27a213ec",
+      "articleCount": 2,
+      "latestIssueNo": 28,
+      "filePath": "categories/items/cat-27a213ec.json"
+    },
+    {
+      "category": "고전성구",
+      "categoryId": "cat-27b6405c",
+      "articleCount": 1,
+      "latestIssueNo": 28,
+      "filePath": "categories/items/cat-27b6405c.json"
+    },
+    {
+      "category": "도인논단",
+      "categoryId": "cat-191043ed",
+      "articleCount": 8,
+      "latestIssueNo": 28,
+      "filePath": "categories/items/cat-191043ed.json"
+    },
+    {
+      "category": "상제님의 발자취",
+      "categoryId": "cat-9cced73c",
+      "articleCount": 1,
+      "latestIssueNo": 28,
+      "filePath": "categories/items/cat-9cced73c.json"
+    },
+    {
+      "category": "대순사상 강화",
+      "categoryId": "cat-901312f5",
+      "articleCount": 2,
+      "latestIssueNo": 27,
+      "filePath": "categories/items/cat-901312f5.json"
+    },
+    {
+      "category": "미분류",
+      "categoryId": "cat-08af4ac1",
+      "articleCount": 1,
+      "latestIssueNo": 27,
+      "filePath": "categories/items/cat-08af4ac1.json"
+    },
+    {
+      "category": "일심정",
+      "categoryId": "cat-0a5139a0",
+      "articleCount": 11,
+      "latestIssueNo": 27,
+      "filePath": "categories/items/cat-0a5139a0.json"
+    },
+    {
+      "category": "전경속의 고사성어",
+      "categoryId": "cat-c4f8f220",
+      "articleCount": 8,
+      "latestIssueNo": 27,
+      "filePath": "categories/items/cat-c4f8f220.json"
+    },
+    {
+      "category": "전경속의 고전성구",
+      "categoryId": "cat-c5187c10",
+      "articleCount": 1,
+      "latestIssueNo": 27,
+      "filePath": "categories/items/cat-c5187c10.json"
+    },
+    {
+      "category": "전경속의 옛땅",
+      "categoryId": "cat-571c1277",
+      "articleCount": 2,
+      "latestIssueNo": 27,
+      "filePath": "categories/items/cat-571c1277.json"
+    },
+    {
+      "category": "전경속의 인물",
+      "categoryId": "cat-571c008d",
+      "articleCount": 6,
+      "latestIssueNo": 27,
+      "filePath": "categories/items/cat-571c008d.json"
+    },
+    {
+      "category": "장손무기의 고사",
+      "categoryId": "cat-db3f9420",
+      "articleCount": 3,
+      "latestIssueNo": 26,
+      "filePath": "categories/items/cat-db3f9420.json"
+    },
+    {
+      "category": "전경속 고사성어",
+      "categoryId": "cat-3eea5d98",
+      "articleCount": 1,
+      "latestIssueNo": 26,
+      "filePath": "categories/items/cat-3eea5d98.json"
+    },
+    {
+      "category": "전경속 고전성구",
+      "categoryId": "cat-3f1ae028",
+      "articleCount": 1,
+      "latestIssueNo": 26,
+      "filePath": "categories/items/cat-3f1ae028.json"
+    },
+    {
+      "category": "칼럼",
+      "categoryId": "cat-00514105",
+      "articleCount": 2,
+      "latestIssueNo": 26,
+      "filePath": "categories/items/cat-00514105.json"
+    },
+    {
+      "category": "문단",
+      "categoryId": "cat-004350d5",
+      "articleCount": 284,
+      "latestIssueNo": 25,
+      "filePath": "categories/items/cat-004350d5.json"
+    },
+    {
+      "category": "전경속의 고사성구",
+      "categoryId": "cat-c4f89af8",
+      "articleCount": 1,
+      "latestIssueNo": 25,
+      "filePath": "categories/items/cat-c4f89af8.json"
+    },
+    {
+      "category": "전경속의 옛땅을 찾아서",
+      "categoryId": "cat-1803c395",
+      "articleCount": 1,
+      "latestIssueNo": 25,
+      "filePath": "categories/items/cat-1803c395.json"
+    },
+    {
+      "category": "종의회 의장 말씀",
+      "categoryId": "cat-88312af9",
+      "articleCount": 1,
+      "latestIssueNo": 25,
+      "filePath": "categories/items/cat-88312af9.json"
+    },
+    {
+      "category": "전경속의 고전ㆍ성구",
+      "categoryId": "cat-675bfbfd",
+      "articleCount": 1,
+      "latestIssueNo": 24,
+      "filePath": "categories/items/cat-675bfbfd.json"
+    },
+    {
+      "category": "논문",
+      "categoryId": "cat-004224c1",
+      "articleCount": 8,
+      "latestIssueNo": 23,
+      "filePath": "categories/items/cat-004224c1.json"
+    },
+    {
+      "category": "답사",
+      "categoryId": "cat-004231fc",
+      "articleCount": 1,
+      "latestIssueNo": 23,
+      "filePath": "categories/items/cat-004231fc.json"
+    },
+    {
+      "category": "고전산책",
+      "categoryId": "cat-27b61094",
+      "articleCount": 1,
+      "latestIssueNo": 22,
+      "filePath": "categories/items/cat-27b61094.json"
+    },
+    {
+      "category": "신미년 신년사",
+      "categoryId": "cat-d4b83b91",
+      "articleCount": 2,
+      "latestIssueNo": 22,
+      "filePath": "categories/items/cat-d4b83b91.json"
+    },
+    {
+      "category": "전경속의 옛땅을 찾아",
+      "categoryId": "cat-f8f85569",
+      "articleCount": 5,
+      "latestIssueNo": 22,
+      "filePath": "categories/items/cat-f8f85569.json"
+    },
+    {
+      "category": "인물연구",
+      "categoryId": "cat-565a47dd",
+      "articleCount": 1,
+      "latestIssueNo": 21,
+      "filePath": "categories/items/cat-565a47dd.json"
+    },
+    {
+      "category": "전경속의 인물을 찾아",
+      "categoryId": "cat-fa0a5f93",
+      "articleCount": 3,
+      "latestIssueNo": 20,
+      "filePath": "categories/items/cat-fa0a5f93.json"
+    },
+    {
+      "category": "상제님의 생애와 사상",
+      "categoryId": "cat-2ef16608",
+      "articleCount": 4,
+      "latestIssueNo": 19,
+      "filePath": "categories/items/cat-2ef16608.json"
+    },
+    {
+      "category": "꽁트",
+      "categoryId": "cat-0045a5dc",
+      "articleCount": 1,
+      "latestIssueNo": 17,
+      "filePath": "categories/items/cat-0045a5dc.json"
+    },
+    {
+      "category": "생애와 사상(16)",
+      "categoryId": "cat-bb66a653",
+      "articleCount": 1,
+      "latestIssueNo": 16,
+      "filePath": "categories/items/cat-bb66a653.json"
+    },
+    {
+      "category": "신년詩",
+      "categoryId": "cat-0a8f48a8",
+      "articleCount": 1,
+      "latestIssueNo": 16,
+      "filePath": "categories/items/cat-0a8f48a8.json"
+    },
+    {
+      "category": "신년좌담",
+      "categoryId": "cat-5c70e119",
+      "articleCount": 1,
+      "latestIssueNo": 16,
+      "filePath": "categories/items/cat-5c70e119.json"
+    },
+    {
+      "category": "생애와 사상(15)",
+      "categoryId": "cat-bb66a670",
+      "articleCount": 1,
+      "latestIssueNo": 15,
+      "filePath": "categories/items/cat-bb66a670.json"
+    },
+    {
+      "category": "생애와 사상(14)",
+      "categoryId": "cat-bb66a611",
+      "articleCount": 1,
+      "latestIssueNo": 14,
+      "filePath": "categories/items/cat-bb66a611.json"
+    },
+    {
+      "category": "설문지 분석",
+      "categoryId": "cat-2db646e0",
+      "articleCount": 1,
+      "latestIssueNo": 14,
+      "filePath": "categories/items/cat-2db646e0.json"
+    },
+    {
+      "category": "학생논단",
+      "categoryId": "cat-4cf32fb5",
+      "articleCount": 9,
+      "latestIssueNo": 14,
+      "filePath": "categories/items/cat-4cf32fb5.json"
+    },
+    {
+      "category": "학생코너",
+      "categoryId": "cat-4ceabf3d",
+      "articleCount": 2,
+      "latestIssueNo": 14,
+      "filePath": "categories/items/cat-4ceabf3d.json"
+    },
+    {
+      "category": "대진연합회",
+      "categoryId": "cat-3c411194",
+      "articleCount": 8,
+      "latestIssueNo": 13,
+      "filePath": "categories/items/cat-3c411194.json"
+    },
+    {
+      "category": "생애와 사상(13)",
+      "categoryId": "cat-bb66a736",
+      "articleCount": 1,
+      "latestIssueNo": 13,
+      "filePath": "categories/items/cat-bb66a736.json"
+    },
+    {
+      "category": "대학생 동계수강",
+      "categoryId": "cat-4f377f71",
+      "articleCount": 3,
+      "latestIssueNo": 12,
+      "filePath": "categories/items/cat-4f377f71.json"
+    },
+    {
+      "category": "생애와 사상(12)",
+      "categoryId": "cat-bb66a6d7",
+      "articleCount": 1,
+      "latestIssueNo": 12,
+      "filePath": "categories/items/cat-bb66a6d7.json"
+    },
+    {
+      "category": "해원상생운동 전개",
+      "categoryId": "cat-8c242408",
+      "articleCount": 1,
+      "latestIssueNo": 12,
+      "filePath": "categories/items/cat-8c242408.json"
+    },
+    {
+      "category": "교리해설",
+      "categoryId": "cat-27e744e9",
+      "articleCount": 1,
+      "latestIssueNo": 11,
+      "filePath": "categories/items/cat-27e744e9.json"
+    },
+    {
+      "category": "생애와 사상(11)",
+      "categoryId": "cat-bb66a6f4",
+      "articleCount": 1,
+      "latestIssueNo": 11,
+      "filePath": "categories/items/cat-bb66a6f4.json"
+    },
+    {
+      "category": "송년사",
+      "categoryId": "cat-0a583d6c",
+      "articleCount": 1,
+      "latestIssueNo": 11,
+      "filePath": "categories/items/cat-0a583d6c.json"
+    },
+    {
+      "category": "학생란",
+      "categoryId": "cat-0a16e341",
+      "articleCount": 5,
+      "latestIssueNo": 11,
+      "filePath": "categories/items/cat-0a16e341.json"
+    },
+    {
+      "category": "담화문",
+      "categoryId": "cat-0887b0fd",
+      "articleCount": 1,
+      "latestIssueNo": 10,
+      "filePath": "categories/items/cat-0887b0fd.json"
+    },
+    {
+      "category": "대순진리회 요지",
+      "categoryId": "cat-937eee89",
+      "articleCount": 1,
+      "latestIssueNo": 10,
+      "filePath": "categories/items/cat-937eee89.json"
+    },
+    {
+      "category": "대학생 하계수강",
+      "categoryId": "cat-3e5fc1d0",
+      "articleCount": 4,
+      "latestIssueNo": 10,
+      "filePath": "categories/items/cat-3e5fc1d0.json"
+    },
+    {
+      "category": "생애와 사상(10)",
+      "categoryId": "cat-bb66a695",
+      "articleCount": 1,
+      "latestIssueNo": 10,
+      "filePath": "categories/items/cat-bb66a695.json"
+    },
+    {
+      "category": "종단특집",
+      "categoryId": "cat-5f616540",
+      "articleCount": 6,
+      "latestIssueNo": 10,
+      "filePath": "categories/items/cat-5f616540.json"
+    },
+    {
+      "category": "학술논문",
+      "categoryId": "cat-4cdd6b98",
+      "articleCount": 2,
+      "latestIssueNo": 10,
+      "filePath": "categories/items/cat-4cdd6b98.json"
+    },
+    {
+      "category": "사회봉사활동",
+      "categoryId": "cat-240dc165",
+      "articleCount": 1,
+      "latestIssueNo": 9,
+      "filePath": "categories/items/cat-240dc165.json"
+    },
+    {
+      "category": "생애와 사상(9)",
+      "categoryId": "cat-898ebe2d",
+      "articleCount": 1,
+      "latestIssueNo": 9,
+      "filePath": "categories/items/cat-898ebe2d.json"
+    },
+    {
+      "category": "학교소식",
+      "categoryId": "cat-4c75b5fd",
+      "articleCount": 5,
+      "latestIssueNo": 9,
+      "filePath": "categories/items/cat-4c75b5fd.json"
+    },
+    {
+      "category": "대진고교문원",
+      "categoryId": "cat-d988a159",
+      "articleCount": 2,
+      "latestIssueNo": 8,
+      "filePath": "categories/items/cat-d988a159.json"
+    },
+    {
+      "category": "상제님의 생애와 사상(8)",
+      "categoryId": "cat-cd446e31",
+      "articleCount": 1,
+      "latestIssueNo": 8,
+      "filePath": "categories/items/cat-cd446e31.json"
+    },
+    {
+      "category": "신앙수기",
+      "categoryId": "cat-5b0a9a94",
+      "articleCount": 3,
+      "latestIssueNo": 8,
+      "filePath": "categories/items/cat-5b0a9a94.json"
+    },
+    {
+      "category": "여주라는 곳",
+      "categoryId": "cat-e36f6aae",
+      "articleCount": 1,
+      "latestIssueNo": 8,
+      "filePath": "categories/items/cat-e36f6aae.json"
+    },
+    {
+      "category": "상제님의 생애와 사상(7)",
+      "categoryId": "cat-cd446dde",
+      "articleCount": 1,
+      "latestIssueNo": 7,
+      "filePath": "categories/items/cat-cd446dde.json"
+    },
+    {
+      "category": "생활과 신앙",
+      "categoryId": "cat-152becc1",
+      "articleCount": 9,
+      "latestIssueNo": 7,
+      "filePath": "categories/items/cat-152becc1.json"
+    },
+    {
+      "category": "여주수도장",
+      "categoryId": "cat-3c759e8c",
+      "articleCount": 3,
+      "latestIssueNo": 7,
+      "filePath": "categories/items/cat-3c759e8c.json"
+    },
+    {
+      "category": "학술",
+      "categoryId": "cat-004e425c",
+      "articleCount": 12,
+      "latestIssueNo": 7,
+      "filePath": "categories/items/cat-004e425c.json"
+    },
+    {
+      "category": "해원 상생 운동 전개",
+      "categoryId": "cat-dff61448",
+      "articleCount": 5,
+      "latestIssueNo": 7,
+      "filePath": "categories/items/cat-dff61448.json"
+    },
+    {
+      "category": "상제님의 생애와 사상(6)",
+      "categoryId": "cat-cd446dff",
+      "articleCount": 1,
+      "latestIssueNo": 6,
+      "filePath": "categories/items/cat-cd446dff.json"
+    },
+    {
+      "category": "여주 수도장",
+      "categoryId": "cat-36c97d0c",
+      "articleCount": 1,
+      "latestIssueNo": 6,
+      "filePath": "categories/items/cat-36c97d0c.json"
+    },
+    {
+      "category": "인사말씀",
+      "categoryId": "cat-547bb041",
+      "articleCount": 9,
+      "latestIssueNo": 6,
+      "filePath": "categories/items/cat-547bb041.json"
+    },
+    {
+      "category": "해원상생 운동전개",
+      "categoryId": "cat-22a811a8",
+      "articleCount": 5,
+      "latestIssueNo": 6,
+      "filePath": "categories/items/cat-22a811a8.json"
+    },
+    {
+      "category": "미리 가 본 여주도장",
+      "categoryId": "cat-b8a0fcd8",
+      "articleCount": 1,
+      "latestIssueNo": 5,
+      "filePath": "categories/items/cat-b8a0fcd8.json"
+    },
+    {
+      "category": "대진의 건아들",
+      "categoryId": "cat-6866c54d",
+      "articleCount": 2,
+      "latestIssueNo": 4,
+      "filePath": "categories/items/cat-6866c54d.json"
+    },
+    {
+      "category": "상제님의 생애와 사상(4)",
+      "categoryId": "cat-cd446dbd",
+      "articleCount": 1,
+      "latestIssueNo": 4,
+      "filePath": "categories/items/cat-cd446dbd.json"
+    },
+    {
+      "category": "기자 탐방기",
+      "categoryId": "cat-d0e75bec",
+      "articleCount": 1,
+      "latestIssueNo": 3,
+      "filePath": "categories/items/cat-d0e75bec.json"
+    },
+    {
+      "category": "대진고등학교",
+      "categoryId": "cat-d93677b9",
+      "articleCount": 1,
+      "latestIssueNo": 3,
+      "filePath": "categories/items/cat-d93677b9.json"
+    },
+    {
+      "category": "상제님의 생애와 사상(3)",
+      "categoryId": "cat-cd446d5a",
+      "articleCount": 1,
+      "latestIssueNo": 3,
+      "filePath": "categories/items/cat-cd446d5a.json"
+    },
+    {
+      "category": "종운해설",
+      "categoryId": "cat-60903a44",
+      "articleCount": 1,
+      "latestIssueNo": 3,
+      "filePath": "categories/items/cat-60903a44.json"
+    },
+    {
+      "category": "체험기",
+      "categoryId": "cat-0a7b8239",
+      "articleCount": 1,
+      "latestIssueNo": 3,
+      "filePath": "categories/items/cat-0a7b8239.json"
+    },
+    {
+      "category": "화평의 길",
+      "categoryId": "cat-e1ed2198",
+      "articleCount": 1,
+      "latestIssueNo": 3,
+      "filePath": "categories/items/cat-e1ed2198.json"
+    },
+    {
+      "category": "경석규원장에게 듣는다",
+      "categoryId": "cat-a75c6de3",
+      "articleCount": 1,
+      "latestIssueNo": 2,
+      "filePath": "categories/items/cat-a75c6de3.json"
+    },
+    {
+      "category": "교양",
+      "categoryId": "cat-0045f204",
+      "articleCount": 4,
+      "latestIssueNo": 2,
+      "filePath": "categories/items/cat-0045f204.json"
+    },
+    {
+      "category": "상제님의 생애와 사상(2)",
+      "categoryId": "cat-cd446d7b",
+      "articleCount": 1,
+      "latestIssueNo": 2,
+      "filePath": "categories/items/cat-cd446d7b.json"
+    },
+    {
+      "category": "인존철학",
+      "categoryId": "cat-5451a9f0",
+      "articleCount": 1,
+      "latestIssueNo": 2,
+      "filePath": "categories/items/cat-5451a9f0.json"
+    },
+    {
+      "category": "종단 3대사업",
+      "categoryId": "cat-bc6241d2",
+      "articleCount": 1,
+      "latestIssueNo": 2,
+      "filePath": "categories/items/cat-bc6241d2.json"
+    },
+    {
+      "category": "종의회의장ㆍ감사원장 말씀",
+      "categoryId": "cat-bd4983bd",
+      "articleCount": 5,
+      "latestIssueNo": 2,
+      "filePath": "categories/items/cat-bd4983bd.json"
+    },
+    {
+      "category": "현장",
+      "categoryId": "cat-004e1064",
+      "articleCount": 2,
+      "latestIssueNo": 2,
+      "filePath": "categories/items/cat-004e1064.json"
+    },
+    {
+      "category": "교리편",
+      "categoryId": "cat-08f786e1",
+      "articleCount": 4,
+      "latestIssueNo": 1,
+      "filePath": "categories/items/cat-08f786e1.json"
+    },
+    {
+      "category": "대순진리회의 상생운동",
+      "categoryId": "cat-486e2db4",
+      "articleCount": 1,
+      "latestIssueNo": 1,
+      "filePath": "categories/items/cat-486e2db4.json"
+    },
+    {
+      "category": "상제님의 생애와 사상(1)",
+      "categoryId": "cat-cd446d18",
+      "articleCount": 1,
+      "latestIssueNo": 1,
+      "filePath": "categories/items/cat-cd446d18.json"
+    },
+    {
+      "category": "성지를 찾아서",
+      "categoryId": "cat-7b3e7aee",
+      "articleCount": 1,
+      "latestIssueNo": 1,
+      "filePath": "categories/items/cat-7b3e7aee.json"
+    },
+    {
+      "category": "인터뷰",
+      "categoryId": "cat-0a54b51d",
+      "articleCount": 1,
+      "latestIssueNo": 1,
+      "filePath": "categories/items/cat-0a54b51d.json"
+    },
+    {
+      "category": "전경연구",
+      "categoryId": "cat-5f7707e0",
+      "articleCount": 1,
+      "latestIssueNo": 1,
+      "filePath": "categories/items/cat-5f7707e0.json"
+    },
+    {
+      "category": "좌담회",
+      "categoryId": "cat-0aa47ed1",
+      "articleCount": 1,
+      "latestIssueNo": 1,
+      "filePath": "categories/items/cat-0aa47ed1.json"
+    },
+    {
+      "category": "창간사",
+      "categoryId": "cat-0a71d4b0",
+      "articleCount": 2,
+      "latestIssueNo": 1,
+      "filePath": "categories/items/cat-0a71d4b0.json"
+    }
+  ]
+}

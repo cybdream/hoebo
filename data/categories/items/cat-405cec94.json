@@ -1,0 +1,50 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.871Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "인문고전 산책",
+  "categoryId": "cat-405cec94",
+  "articleCount": 3,
+  "latestIssueNo": 148,
+  "articles": [
+    {
+      "id": "w185-b5418-m3060",
+      "issueNo": 148,
+      "issueLabel": "148호",
+      "issueDateLabel": "대순143년(2013) 9월",
+      "webzineId": 185,
+      "order": 27,
+      "category": "인문고전 산책",
+      "title": "원효의『보살영락본업경소(菩薩瓔珞本業經疏)』",
+      "author": "연구원 김태수",
+      "summary": "원효의『보살영락본업경소(菩薩瓔珞本業經疏)』 연구원 김태수 1. 들어가며 원효(元曉, 617∼689로 추정)는 7세기 이후 동아시아 불교의 흐름에 커다란 영향을 끼친 이론가이자 모든 이론과 종파를 초월하는 회통 불교적 차원에서 수행과 제도를 행한 수행자...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=185&menu_no=3060&bno=5418&page=1"
+    },
+    {
+      "id": "w184-b5386-m3044",
+      "issueNo": 147,
+      "issueLabel": "147호",
+      "issueDateLabel": "대순143년(2013) 8월",
+      "webzineId": 184,
+      "order": 24,
+      "category": "인문고전 산책",
+      "title": "『노자(老子)』",
+      "author": "연구원 전성기",
+      "summary": "『노자(老子)』 연구원 전성기 현대인은 바쁜 일상과 넘쳐나는 지식과 정보, 그리고 물질만능주의로 대변되는 사회 속에서 하루하루를 살고 있다. 이러한 삶은 오히려 올바른 인간의 본성이 가려지기 쉽고 삶의 진정한 가치를 망각하게 한다. 그러므로 일상의 틀...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=184&menu_no=3044&bno=5386&page=1"
+    },
+    {
+      "id": "w180-b5253-m2964",
+      "issueNo": 143,
+      "issueLabel": "143호",
+      "issueDateLabel": "대순143년(2013) 4월",
+      "webzineId": 180,
+      "order": 20,
+      "category": "인문고전 산책",
+      "title": "『장자(莊子)』",
+      "author": "연구원 전성기",
+      "summary": "『장자(莊子)』 연구원 전성기 1. 들어가며 상제님께서는 유불선음양참위(儒佛仙陰陽讖緯)를 통독하시고 천하를 광구함에 한 도움이 되리라 하셨다. 01 대순진리에는 유불선이 내포되어 있으며 그중에서 선(仙) 02 은 도교(道敎)적 신선(神仙)신앙과 도가(...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=180&menu_no=2964&bno=5253&page=1"
+    }
+  ]
+}

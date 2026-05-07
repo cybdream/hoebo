@@ -1,0 +1,50 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.825Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "치성음식 이야기",
+  "categoryId": "cat-8b97b3a5",
+  "articleCount": 3,
+  "latestIssueNo": 174,
+  "articles": [
+    {
+      "id": "w213-b6369-m3569",
+      "issueNo": 174,
+      "issueLabel": "174호",
+      "issueDateLabel": "대순145년(2015) 10월",
+      "webzineId": 213,
+      "order": 21,
+      "category": "치성음식 이야기",
+      "title": "추석치성과 송편",
+      "author": "",
+      "summary": "추석치성과 송편 연구위원 류병무 ‘추석(秋夕)’은 음력 팔월 보름을 일컫는 말로, 우리나라의 세시풍속 중에서 으뜸 명절로 손꼽히는 날이다. 우리 민족에게 오랫동안 사랑받아 온 큰 명절답게 불리는 이름 또한 다양하다. 가위, 한가위 01 , 가배(嘉俳)...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=213&menu_no=3569&bno=6369&page=1"
+    },
+    {
+      "id": "w205-b6043-m3398",
+      "issueNo": 166,
+      "issueLabel": "166호",
+      "issueDateLabel": "대순145년(2015) 2월",
+      "webzineId": 205,
+      "order": 22,
+      "category": "치성음식 이야기",
+      "title": "치성음식 이야기를 연재하며",
+      "author": "",
+      "summary": "치성음식 이야기를 연재하며 연구위원 류병무 치성(致誠)이란 인간이 천지신명께 지극(至極)한 마음으로 힘을 다하여 정성을 들이는 것을 말한다. 치성은 신령스러운 존재나 돌아가신 조상에게 음식물을 올려 정성을 들이는 제사의 한 형태로, 신령스러운 존재[지...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=205&menu_no=3398&bno=6043&page=1"
+    },
+    {
+      "id": "w205-b6044-m3398",
+      "issueNo": 166,
+      "issueLabel": "166호",
+      "issueDateLabel": "대순145년(2015) 2월",
+      "webzineId": 205,
+      "order": 23,
+      "category": "치성음식 이야기",
+      "title": "원단치성과 떡국",
+      "author": "",
+      "summary": "원단치성과 떡국 음력 1월 1일은 우리 민족의 4대 명절 중 하나인 설날이다. 이날에 대한 명칭은 원일(元日), 원단(元旦), 상일(上日), 정삭(正朔), 삼원(三元), 삼삭(三朔), 정조(正朝), 원조(元朝), 정원(正元) 등으로 다양하다. 07 이...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=205&menu_no=3398&bno=6044&page=2"
+    }
+  ]
+}

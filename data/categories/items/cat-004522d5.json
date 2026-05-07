@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:30.116Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "기고",
+  "categoryId": "cat-004522d5",
+  "articleCount": 2,
+  "latestIssueNo": 38,
+  "articles": [
+    {
+      "id": "w86-b3228-m1415",
+      "issueNo": 38,
+      "issueLabel": "38호",
+      "issueDateLabel": "대순123년(1993) 7월",
+      "webzineId": 86,
+      "order": 19,
+      "category": "기고",
+      "title": "인간의 선과 악",
+      "author": "",
+      "summary": "인간의 선과 악 윤지현 <한국정신문화연구원 책임편수원ㆍ법학전공> 서언 오늘날 인류의 생활은 산업과 과학 기술의 고도한 발달에 따라 물질적으로는 풍요하고 다양해져 청황의 미덕이 풍비되고 있지만, 반면에 그만치 정신적으로는 사람의 인식력과 판단력이 흐려져...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=86&menu_no=1415&bno=3228&page=1"
+    },
+    {
+      "id": "w96-b3147-m1538",
+      "issueNo": 28,
+      "issueLabel": "28호",
+      "issueDateLabel": "대순121년(1991) 10월",
+      "webzineId": 96,
+      "order": 10,
+      "category": "기고",
+      "title": "강성상제 일본국에 현창(顯彰)",
+      "author": "장병길 <대순종교문화연구소 소장>",
+      "summary": "강성상제 일본국에 현창(顯彰) 「강증산 선생 현창회」 창립한 富岡興永씨, 일본 중외일보에 상제님 사상을 밝혀 장병길 <대순종교문화연구소 소장> ▲ 상제님을 소개한 일본 中外日報 기사 일본의 유력한 일간신문 中外日報(6월 24일자)는 「朝鮮의 聖者 姜甑...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=96&menu_no=1538&bno=3147&page=1"
+    }
+  ]
+}

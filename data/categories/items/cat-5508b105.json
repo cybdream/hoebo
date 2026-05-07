@@ -1,0 +1,50 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.907Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "영상화보",
+  "categoryId": "cat-5508b105",
+  "articleCount": 3,
+  "latestIssueNo": 133,
+  "articles": [
+    {
+      "id": "w170-b4932-m2756",
+      "issueNo": 133,
+      "issueLabel": "133호",
+      "issueDateLabel": "대순142년(2012) 6월",
+      "webzineId": 170,
+      "order": 29,
+      "category": "영상화보",
+      "title": "영상화보",
+      "author": "",
+      "summary": "",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=170&menu_no=2756&bno=4932&page=1"
+    },
+    {
+      "id": "w126-b3443-m1980",
+      "issueNo": 95,
+      "issueLabel": "95호",
+      "issueDateLabel": "대순139년(2009) 5월",
+      "webzineId": 126,
+      "order": 27,
+      "category": "영상화보",
+      "title": "도장의 봄",
+      "author": "",
+      "summary": "",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=126&menu_no=1980&bno=3443&page=1"
+    },
+    {
+      "id": "w54-b1665-m869",
+      "issueNo": 70,
+      "issueLabel": "70호",
+      "issueDateLabel": "대순137년(2007) 5월",
+      "webzineId": 54,
+      "order": 14,
+      "category": "영상화보",
+      "title": "영상화보",
+      "author": "",
+      "summary": "",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=54&menu_no=869&bno=1665&page=1"
+    }
+  ]
+}

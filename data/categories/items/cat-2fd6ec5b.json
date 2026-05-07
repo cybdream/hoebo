@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.669Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "2026학년도 대순종학과 수시모집",
+  "categoryId": "cat-2fd6ec5b",
+  "articleCount": 2,
+  "latestIssueNo": 296,
+  "articles": [
+    {
+      "id": "w340-b10425-m5599",
+      "issueNo": 296,
+      "issueLabel": "296호",
+      "issueDateLabel": "대순155년(2025) 8월",
+      "webzineId": 340,
+      "order": 16,
+      "category": "2026학년도 대순종학과 수시모집",
+      "title": "2026학년도 대진대학교 대순종학과 신입생 수시모집",
+      "author": "",
+      "summary": "",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=340&menu_no=5599&bno=10425&page=1"
+    },
+    {
+      "id": "w339-b10409-m5590",
+      "issueNo": 295,
+      "issueLabel": "295호",
+      "issueDateLabel": "대순155년(2025) 7월",
+      "webzineId": 339,
+      "order": 17,
+      "category": "2026학년도 대순종학과 수시모집",
+      "title": "2026학년도 대진대학교 대순종학과 신입생 수시모집",
+      "author": "",
+      "summary": "",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=339&menu_no=5590&bno=10409&page=1"
+    }
+  ]
+}

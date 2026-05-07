@@ -1,0 +1,50 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.648Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "대순문예공모전 안내",
+  "categoryId": "cat-1663f70c",
+  "articleCount": 3,
+  "latestIssueNo": 302,
+  "articles": [
+    {
+      "id": "w346-b10597-m5682",
+      "issueNo": 302,
+      "issueLabel": "302호",
+      "issueDateLabel": "대순156년(2026) 2월",
+      "webzineId": 346,
+      "order": 25,
+      "category": "대순문예공모전 안내",
+      "title": "2026년 제18회 대순문예공모전",
+      "author": "",
+      "summary": "2026년 제18회 대순문예공모전",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=346&menu_no=5682&bno=10597&page=1"
+    },
+    {
+      "id": "w345-b10572-m5670",
+      "issueNo": 301,
+      "issueLabel": "301호",
+      "issueDateLabel": "대순156년(2026) 1월",
+      "webzineId": 345,
+      "order": 25,
+      "category": "대순문예공모전 안내",
+      "title": "2026년 제18회 대순문예공모전",
+      "author": "",
+      "summary": "",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=345&menu_no=5670&bno=10572&page=1"
+    },
+    {
+      "id": "w344-b10539-m5656",
+      "issueNo": 300,
+      "issueLabel": "300호",
+      "issueDateLabel": "대순155년(2025) 12월",
+      "webzineId": 344,
+      "order": 27,
+      "category": "대순문예공모전 안내",
+      "title": "2026년 제18회대순문예공모전",
+      "author": "",
+      "summary": "2026년 제18회대순문예공모전",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=344&menu_no=5656&bno=10539&page=1"
+    }
+  ]
+}

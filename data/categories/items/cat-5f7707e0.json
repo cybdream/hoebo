@@ -1,0 +1,24 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:30.301Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "전경연구",
+  "categoryId": "cat-5f7707e0",
+  "articleCount": 1,
+  "latestIssueNo": 1,
+  "articles": [
+    {
+      "id": "w123-b1211-m1893",
+      "issueNo": 1,
+      "issueLabel": "1호",
+      "issueDateLabel": "대순113년(1983) 7월",
+      "webzineId": 123,
+      "order": 16,
+      "category": "전경연구",
+      "title": "전경연구(구조와 내용)",
+      "author": "大巡宗敎文化硏 제공",
+      "summary": "전경연구(구조와 내용) 신앙과 행위의 條規를 낱낱이 수록 7書17章8백96節로 나눠 大巡宗敎文化硏 제공 典經은 상제께서 스스로 말씀하신 말씀과 그 종지를 종도들에게 밝히시고, 말하게 하신 말씀의 기록이다. 그 전경에 기록된 말씀은 신앙과 행위의 확실한...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=123&menu_no=1893&bno=1211&page=1"
+    }
+  ]
+}

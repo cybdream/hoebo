@@ -1,0 +1,89 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:30.228Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "종단특집",
+  "categoryId": "cat-5f616540",
+  "articleCount": 6,
+  "latestIssueNo": 10,
+  "articles": [
+    {
+      "id": "w114-b2095-m1761",
+      "issueNo": 10,
+      "issueLabel": "10호",
+      "issueDateLabel": "대순118년(1988) 10월",
+      "webzineId": 114,
+      "order": 11,
+      "category": "종단특집",
+      "title": "재단법인 대순진리회",
+      "author": "이사장 선감 박희규<br>",
+      "summary": "재단법인 대순진리회 종단의 모든 재산은 법인의 정관에 따라 보존 &#65381; 유지 &#65381; 관리한다. 본 종단의 재산은 도전님의 승인없이는 마음대로 할 수 없다. 이사장 선감 박희규 금번 전국 도인들에게 본 종단이 재단법인으로 성장하게 된 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=114&menu_no=1761&bno=2095&page=1"
+    },
+    {
+      "id": "w114-b2096-m1761",
+      "issueNo": 10,
+      "issueLabel": "10호",
+      "issueDateLabel": "대순118년(1988) 10월",
+      "webzineId": 114,
+      "order": 12,
+      "category": "종단특집",
+      "title": "학교법인 대진학원",
+      "author": "이사장 교감 조태룡<br>",
+      "summary": "학교법인 대진학원 교육 기회의 평등화 실현과 미래지향적인 젊은이를 양성키 위해 교육시설에 계속 투자 이사장 교감 조태룡 1. 학교법인의 설립동기 및 목적 오늘날 현대사회의 실상을 보면 산업화의 과정에서 물질 문명은 크게 발전하였지만 반면에 정신문화는 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=114&menu_no=1761&bno=2096&page=2"
+    },
+    {
+      "id": "w114-b2099-m1761",
+      "issueNo": 10,
+      "issueLabel": "10호",
+      "issueDateLabel": "대순118년(1988) 10월",
+      "webzineId": 114,
+      "order": 13,
+      "category": "종단특집",
+      "title": "기획부",
+      "author": "",
+      "summary": "기획부 황금만증주의의 폐단에 지친 사람들이 정신적인 가치를 강력히 모색하는 경향 국내포덕에서 국외포덕으로 포덕사업 활발 기획부에서는 우리 대순진리회가 설립된 이래 지금까지의 “도세증가현황”과 현재의 “도세현황”을 상세히 분석하였다. 그리고 현재의 도세...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=114&menu_no=1761&bno=2099&page=3"
+    },
+    {
+      "id": "w114-b2100-m1761",
+      "issueNo": 10,
+      "issueLabel": "10호",
+      "issueDateLabel": "대순118년(1988) 10월",
+      "webzineId": 114,
+      "order": 14,
+      "category": "종단특집",
+      "title": "총무부",
+      "author": "",
+      "summary": "총무부 총수입액의 70%가 국민을 위한 사회복지사업비로 쓰여 복지국가 건설에 기여 본 종단의 재정은 여러분도 이미 주지하고 계시는 바와 같이 본 종단 도헌 95조에 “도인들의 성금과 기타 수입금으로 충당한다”라고 명시되어 있다. 그러므로 대순 종단의 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=114&menu_no=1761&bno=2100&page=4"
+    },
+    {
+      "id": "w114-b2103-m1761",
+      "issueNo": 10,
+      "issueLabel": "10호",
+      "issueDateLabel": "대순118년(1988) 10월",
+      "webzineId": 114,
+      "order": 15,
+      "category": "종단특집",
+      "title": "교무부",
+      "author": "",
+      "summary": "교무부 세계포덕을 목적으로 대순화보 편찬예정, 4개국어(영어·일어·독어 ·중국어로) 번역 대학생수강, 강연회 개최를 계속 추진 대외적으로 종교업무를 담당하고 이쓴 교무부는 내적으로 출판, 연구, 수강, 강연회를 주관하고 있다. 그 동안의 활동상황과 앞...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=114&menu_no=1761&bno=2103&page=5"
+    },
+    {
+      "id": "w114-b2104-m1761",
+      "issueNo": 10,
+      "issueLabel": "10호",
+      "issueDateLabel": "대순118년(1988) 10월",
+      "webzineId": 114,
+      "order": 16,
+      "category": "종단특집",
+      "title": "수도부",
+      "author": "",
+      "summary": "수도부 공부의 중요성 공부는 우리의 목적을 달성하기 위해서는 반드시 거쳐야 할 과정 수도부는 도장의 가장 깊숙히 자리잡아 외부적으로는 별로 나타나지는 않지만 실제 도인들과 가장 가까이서 도인들의 수도생활 전반에 걸쳐 불편함이 없도록 제반사항을 제공한다...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=114&menu_no=1761&bno=2104&page=6"
+    }
+  ]
+}

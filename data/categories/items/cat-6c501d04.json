@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.656Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "2025 대순청소년 겨울캠프 일정",
+  "categoryId": "cat-6c501d04",
+  "articleCount": 2,
+  "latestIssueNo": 300,
+  "articles": [
+    {
+      "id": "w344-b10543-m5654",
+      "issueNo": 300,
+      "issueLabel": "300호",
+      "issueDateLabel": "대순155년(2025) 12월",
+      "webzineId": 344,
+      "order": 25,
+      "category": "2025 대순청소년 겨울캠프 일정",
+      "title": "제35회 대순청소년 겨울캠프 초ㆍ중ㆍ고 일정표",
+      "author": "",
+      "summary": "제35회 대순청소년 겨울캠프 초ㆍ중ㆍ고 일정표",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=344&menu_no=5654&bno=10543&page=1"
+    },
+    {
+      "id": "w331-b10166-m5488",
+      "issueNo": 287,
+      "issueLabel": "287호",
+      "issueDateLabel": "대순154년(2024) 12월",
+      "webzineId": 331,
+      "order": 22,
+      "category": "2025 대순청소년 겨울캠프 일정",
+      "title": "제33회 대순청소년 겨울캠프 일정표",
+      "author": "",
+      "summary": "제33회 대순청소년 겨·울·캠·프",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=331&menu_no=5488&bno=10166&page=1"
+    }
+  ]
+}

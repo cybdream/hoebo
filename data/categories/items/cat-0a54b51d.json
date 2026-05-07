@@ -1,0 +1,24 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:30.298Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "인터뷰",
+  "categoryId": "cat-0a54b51d",
+  "articleCount": 1,
+  "latestIssueNo": 1,
+  "articles": [
+    {
+      "id": "w123-b1223-m1896",
+      "issueNo": 1,
+      "issueLabel": "1호",
+      "issueDateLabel": "대순113년(1983) 7월",
+      "webzineId": 123,
+      "order": 20,
+      "category": "인터뷰",
+      "title": "인터뷰-金玉子 교감",
+      "author": "",
+      "summary": "인터뷰 - 청송부인회장 金玉子 교감 회원들의 봉사, 뜨겁게 감사 청송부인회장 金玉子 교감은 부인회서 하는일을 소개해 준다. 『회원은 대순진리회의 도인들로 구성됐지요. 부인회는 회원간 상호친목과 길흉사에 서로 돕고 또 해원상생의 종교윤리에 따라 지역사회...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=123&menu_no=1896&bno=1223&page=1"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.827Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "2015 대순문예공모전",
+  "categoryId": "cat-9bbc7936",
+  "articleCount": 3,
+  "latestIssueNo": 173,
+  "articles": [
+    {
+      "id": "w212-b6329-m3548",
+      "issueNo": 173,
+      "issueLabel": "173호",
+      "issueDateLabel": "대순145년(2015) 9월",
+      "webzineId": 212,
+      "order": 21,
+      "category": "2015 대순문예공모전",
+      "title": "대순문예공고",
+      "author": "",
+      "summary": "",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=212&menu_no=3548&bno=6329&page=1"
+    },
+    {
+      "id": "w211-b6291-m3529",
+      "issueNo": 172,
+      "issueLabel": "172호",
+      "issueDateLabel": "대순145년(2015) 8월",
+      "webzineId": 211,
+      "order": 23,
+      "category": "2015 대순문예공모전",
+      "title": "2015년 대순문예(大巡文藝) 공모전",
+      "author": "",
+      "summary": "",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=211&menu_no=3529&bno=6291&page=1"
+    },
+    {
+      "id": "w210-b6256-m3509",
+      "issueNo": 171,
+      "issueLabel": "171호",
+      "issueDateLabel": "대순145년(2015) 7월",
+      "webzineId": 210,
+      "order": 21,
+      "category": "2015 대순문예공모전",
+      "title": "2015년 대순문예(大巡文藝) 공모전",
+      "author": "",
+      "summary": "2015년 대순문예(大巡文藝) 공모전",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=210&menu_no=3509&bno=6256&page=1"
+    }
+  ]
+}

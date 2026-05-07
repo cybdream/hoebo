@@ -1,0 +1,63 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.763Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "포토 에세이",
+  "categoryId": "cat-8f1ceef5",
+  "articleCount": 4,
+  "latestIssueNo": 218,
+  "articles": [
+    {
+      "id": "w258-b8357-m4505",
+      "issueNo": 218,
+      "issueLabel": "218호",
+      "issueDateLabel": "대순149년(2019) 5월",
+      "webzineId": 258,
+      "order": 19,
+      "category": "포토 에세이",
+      "title": "금강산토성수련도장 포정문 벽화",
+      "author": "",
+      "summary": "▲ 금강산토성수련도장 포정문 벽화",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=258&menu_no=4505&bno=8357&page=1"
+    },
+    {
+      "id": "w255-b8217-m4435",
+      "issueNo": 215,
+      "issueLabel": "215호",
+      "issueDateLabel": "대순149년(2019) 2월",
+      "webzineId": 255,
+      "order": 23,
+      "category": "포토 에세이",
+      "title": "포토 에세이",
+      "author": "",
+      "summary": "",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=255&menu_no=4435&bno=8217&page=1"
+    },
+    {
+      "id": "w225-b6914-m3824",
+      "issueNo": 186,
+      "issueLabel": "186호",
+      "issueDateLabel": "대순146년(2016) 10월",
+      "webzineId": 225,
+      "order": 17,
+      "category": "포토 에세이",
+      "title": "말복 치성",
+      "author": "",
+      "summary": "말복 치성 연구원 정석균 이번 치성은 무더운 말복 더위입니다. 말복 치성을 참으로 오랜만에 하게 됩니다. 우리는 여느 때와 같이 치성 참여를 합니다. 어느 누구는 복을 쌓는다고 하기도하고 어느 누구는 수행에 도움이 된다고 하기도 하고 어느 누구는 선경...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=225&menu_no=3824&bno=6914&page=1"
+    },
+    {
+      "id": "w171-b4966-m2776",
+      "issueNo": 134,
+      "issueLabel": "134호",
+      "issueDateLabel": "대순142년(2012) 7월",
+      "webzineId": 171,
+      "order": 26,
+      "category": "포토 에세이",
+      "title": "결속(結束)",
+      "author": "",
+      "summary": "결속 (結束) 글 &#8228; 사진, 선감 정석균 하나가 있어 둘이 있고 셋이 있어요. 서로서로를 의지하며 결속하여 서로를 연결해 평지를 이루어갑니다. 한 단이 있어 두 단이 있고 세단이 있어요. 위아래를 의지하며 허공을 향해서 올라갑니다. 한 묶음...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=171&menu_no=2776&bno=4966&page=1"
+    }
+  ]
+}

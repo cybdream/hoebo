@@ -1,0 +1,37 @@
+{
+  "version": "20260504.0732",
+  "generatedAt": "2026-05-07T17:57:29.730Z",
+  "source": "https://webzine.daesoon.org/",
+  "category": "영화속으로",
+  "categoryId": "cat-03bb269d",
+  "articleCount": 2,
+  "latestIssueNo": 252,
+  "articles": [
+    {
+      "id": "w296-b9303-m5022",
+      "issueNo": 252,
+      "issueLabel": "252호",
+      "issueDateLabel": "대순152년(2022) 2월",
+      "webzineId": 296,
+      "order": 22,
+      "category": "영화속으로",
+      "title": "영화 ‘127시간’-시련과 역경을 대하는 자세에 대하여",
+      "author": "잠실10 방면 선사 변현지",
+      "summary": "영화 ‘127시간’ -시련과 역경을 대하는 자세에 대하여 잠실10 방면 선사 변현지 ▲ 영화 ‘127시간’ 장면 캡처 얼마 전 ‘127시간’이란 영화를 다시 보았습니다. 주인공은 아론 랠스톤이란 미국인입니다. 그가 바위로 이루어진 협곡을 홀로 여행하다...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=296&menu_no=5022&bno=9303&page=1"
+    },
+    {
+      "id": "w235-b7334-m4042",
+      "issueNo": 196,
+      "issueLabel": "196호",
+      "issueDateLabel": "대순147년(2017) 8월",
+      "webzineId": 235,
+      "order": 31,
+      "category": "영화속으로",
+      "title": "인간의 한계를 뛰어넘은 ‘루시(Lucy)’",
+      "author": "",
+      "summary": "인간의 한계를 뛰어넘은 ‘루시(Lucy)’ 연구위원 이광주 인류의 과학기술이 급속도로 발전하고 있는 가운데 최근 4차 산업혁명에 따른 로봇과 인공지능, 생명공학의 융합이 크게 주목받고 있다. 여기에 뇌과학은 인간에 대한 이해를 넓히고, 로봇이나 인공지...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=235&menu_no=4042&bno=7334&page=1"
+    }
+  ]
+}
