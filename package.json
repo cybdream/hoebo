@@ -11,6 +11,8 @@
     "build:data:all": "node scripts/scrape-webzine.mjs --latest 999 --output data && node scripts/build-categories.mjs --output data",
     "build:categories": "node scripts/build-categories.mjs --output data",
     "clean:data:authors": "node scripts/clean-authors.mjs --output data && node scripts/build-categories.mjs --output data",
-    "verify:data": "node scripts/scrape-webzine.mjs --latest 1 --output data --check-only"
+    "verify:data": "node scripts/scrape-webzine.mjs --latest 1 --output data --check-only",
+    "chat:save": "node scripts/save-chat-log.mjs",
+    "chat:watch": "node scripts/save-chat-log.mjs --watch"
   }
 }

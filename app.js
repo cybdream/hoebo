@@ -52,7 +52,11 @@ const el = {
   issueSelect: document.querySelector("#issueSelect"),
   issueCoverWrap: document.querySelector("#issueCoverWrap"),
   issueCoverImg: document.querySelector("#issueCoverImg"),
-  issueCoverToggle: document.querySelector("#issueCoverToggle")
+  issueCoverToggle: document.querySelector("#issueCoverToggle"),
+  quickNav: document.querySelector("#quickNav"),
+  quickToListTopBtn: document.querySelector("#quickToListTopBtn"),
+  quickToTopBtn: document.querySelector("#quickToTopBtn"),
+  quickToMenuBtn: document.querySelector("#quickToMenuBtn")
 };
 
 boot();
@@ -142,6 +146,25 @@ function bindEvents() {
     }
 
     updateIssueNavVisibility();
+    updateQuickNavVisibility();
+  });
+
+  // 본문이 길 때 빠른 이동 버튼 노출 상태를 스크롤에 맞춰 갱신한다.
+  window.addEventListener("scroll", updateQuickNavVisibility, { passive: true });
+  el.articleBody.addEventListener("scroll", updateQuickNavVisibility, { passive: true });
+  el.articleList.addEventListener("scroll", updateQuickNavVisibility, { passive: true });
+  el.issuePanel.addEventListener("scroll", updateQuickNavVisibility, { passive: true });
+
+  el.quickToListTopBtn?.addEventListener("click", () => {
+    scrollArticleListTop();
+  });
+
+  el.quickToTopBtn?.addEventListener("click", () => {
+    scrollArticleTop();
+  });
+
+  el.quickToMenuBtn?.addEventListener("click", () => {
+    scrollToTopMenu();
   });
 }
 
@@ -172,6 +195,63 @@ function scrollReaderIntoViewIfMobile() {
   requestAnimationFrame(() => {
     el.readerPanel?.scrollIntoView({ behavior: "smooth", block: "start" });
   });
+}
+
+function articleScrollTop() {
+  if (window.innerWidth <= 1100) {
+    return window.scrollY || document.documentElement.scrollTop || 0;
+  }
+
+  return el.articleBody?.scrollTop || 0;
+}
+
+function articleListScrollTop() {
+  if (window.innerWidth <= 1100) {
+    if (state.isMobileIssuePanelOpen) {
+      return el.issuePanel?.scrollTop || 0;
+    }
+    return window.scrollY || document.documentElement.scrollTop || 0;
+  }
+
+  return el.articleList?.scrollTop || 0;
+}
+
+function updateQuickNavVisibility() {
+  const hasArticle = !el.articleView.classList.contains("is-hidden");
+  const shouldShow = articleScrollTop() > 220 || articleListScrollTop() > 220 || (hasArticle && articleScrollTop() > 120);
+  if (el.quickNav) {
+    el.quickNav.hidden = !shouldShow;
+  }
+}
+
+function scrollArticleListTop() {
+  if (window.innerWidth <= 1100) {
+    if (state.isMobileIssuePanelOpen) {
+      el.issuePanel?.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+
+    el.articleList?.scrollIntoView({ behavior: "smooth", block: "start" });
+    return;
+  }
+
+  el.articleList?.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function scrollArticleTop() {
+  if (window.innerWidth <= 1100) {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
+
+  el.articleBody?.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function scrollToTopMenu() {
+  el.tabIssue?.scrollIntoView({ behavior: "smooth", block: "start" });
+  if (window.innerWidth > 1100) {
+    el.articleBody?.scrollTo({ top: 0, behavior: "smooth" });
+  }
 }
 
 async function loadData() {
@@ -592,10 +672,24 @@ function renderCategoryOptions() {
     return;
   }
 
-  const categories = [...new Set(filteredArticlesForIssue().map((article) => article.category).filter(Boolean))].sort((left, right) => left.localeCompare(right, "ko"));
-  const nextValue = categories.includes(state.selectedCategory) ? state.selectedCategory : "all";
+  const pinnedCorner = "도전님 훈시";
+  const rawCategories = [...new Set(filteredArticlesForIssue().map((article) => article.category).filter(Boolean))];
+  const sortedCategories = rawCategories
+    .filter((category) => category !== pinnedCorner)
+    .sort((left, right) => left.localeCompare(right, "ko"));
+  // 호수별 모드: 도전님 훈시를 최상단에 고정하고 그 다음 전체, 나머지는 가나다순으로 배치.
+  const categories = rawCategories.includes(pinnedCorner)
+    ? [pinnedCorner, ...sortedCategories]
+    : sortedCategories;
+  const nextValue = categories.includes(state.selectedCategory) || state.selectedCategory === "all" ? state.selectedCategory : "all";
   state.selectedCategory = nextValue;
-  el.categorySelect.innerHTML = `<option value="all">전체</option>${categories.map((category) => `<option value="${escapeAttribute(category)}">${escapeHtml(category)}</option>`).join("")}`;
+  const pinnedOption = rawCategories.includes(pinnedCorner)
+    ? `<option value="${escapeAttribute(pinnedCorner)}">${escapeHtml(pinnedCorner)}</option>`
+    : "";
+  const otherOptions = sortedCategories
+    .map((category) => `<option value="${escapeAttribute(category)}">${escapeHtml(category)}</option>`)
+    .join("");
+  el.categorySelect.innerHTML = `${pinnedOption}<option value="all">전체</option>${otherOptions}`;
   el.categorySelect.value = state.selectedCategory;
 }
 
@@ -732,6 +826,7 @@ function renderArticleList() {
   });
 
   renderArticleDetail();
+  updateQuickNavVisibility();
 }
 
 function findArticleById(id) {
@@ -751,6 +846,7 @@ function renderArticleDetail() {
   if (!article) {
     el.articleEmpty.classList.remove("is-hidden");
     el.articleView.classList.add("is-hidden");
+    updateQuickNavVisibility();
     return;
   }
 
@@ -762,6 +858,15 @@ function renderArticleDetail() {
   el.articleAuthor.textContent = article.author || "필자 정보 없음";
   el.articleSourceLink.href = article.sourceUrl;
   el.articleBody.innerHTML = article.bodyHtml || `<p>${escapeHtml(article.bodyText || "본문이 없습니다.")}</p>`;
+  
+  // 모바일 최적화: 기사 이미지에 lazy loading 적용
+  const articleImages = el.articleBody.querySelectorAll('img');
+  articleImages.forEach(img => {
+    img.setAttribute('loading', 'lazy');
+    img.setAttribute('decoding', 'async');
+  });
+
+  updateQuickNavVisibility();
 }
 
 function currentIssue() {

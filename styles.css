@@ -305,7 +305,8 @@ body {
 
 .issue-nav-btn {
   flex-shrink: 0;
-  padding: 6px 10px;
+  /* 모바일 터치 타겟: 최소 44px */
+  padding: 10px 14px;
   border: 1px solid var(--line);
   border-radius: 10px;
   background: #fffdf8;
@@ -316,6 +317,10 @@ body {
   cursor: pointer;
   white-space: nowrap;
   transition: background 0.15s;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .issue-nav-btn:hover:not(:disabled) {
@@ -330,13 +335,15 @@ body {
 .issue-select {
   flex: 1;
   min-width: 0;
-  padding: 6px 10px;
+  /* 모바일 터치 타겟 */
+  padding: 10px 14px;
   border: 1px solid var(--line);
   border-radius: 10px;
   font: inherit;
   font-size: 13px;
   background: #fffdf8;
   cursor: pointer;
+  min-height: 44px;
 }
 
 /* 표지 영역 */
@@ -535,7 +542,8 @@ body {
 }
 
 .view-tab {
-  padding: 13px 0;
+  /* 모바일 터치 타겟 44px 이상 */
+  padding: 16px 0;
   border: none;
   border-radius: 0;
   background: transparent;
@@ -546,6 +554,10 @@ body {
   cursor: pointer;
   transition: background 0.15s, color 0.15s;
   letter-spacing: 0.03em;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .view-tab:first-child {
@@ -772,6 +784,35 @@ body {
   border-radius: 16px;
 }
 
+.quick-nav {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 55;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.quick-nav-btn {
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid rgba(92, 38, 18, 0.25);
+  border-radius: 999px;
+  background: rgba(92, 38, 18, 0.96);
+  color: #fff;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(66, 44, 24, 0.24);
+}
+
+.quick-nav-btn:hover {
+  background: #6b3018;
+}
+
 @media (max-width: 1100px) {
   .workspace {
     grid-template-columns: 1fr;
@@ -858,8 +899,9 @@ body {
     font-size: 14px;
   }
 
+  /* 코너 제목: 반응형 스케일 */
   .corner-title {
-    font-size: 16px;
+    font-size: clamp(14px, 1.1vw, 18px);
   }
 }
 
@@ -878,8 +920,9 @@ body {
     border-radius: 20px;
   }
 
+  /* 모바일 본문 폰트: 반응형 스케일 */
   .article-body {
-    font-size: 17px;
+    font-size: clamp(16px, 1.05vw, 18px);
   }
 
   .hero-brand {
@@ -901,21 +944,36 @@ body {
     max-width: none;
   }
 
+  /* 터치 타겟 44px 최소 높이 */
   .field input,
   .field select {
-    min-height: 32px;
+    min-height: 44px;
     font-size: 13px;
   }
 
   #categoryField {
-    flex-basis: 108px;
-    width: 108px;
-    max-width: 108px;
+    flex-basis: auto;
+    width: auto;
+    max-width: none;
+    flex: 0.8 1 auto;
   }
 
   #cornerFilterField {
-    flex-basis: 108px;
-    width: 108px;
-    max-width: 108px;
+    flex-basis: auto;
+    width: auto;
+    max-width: none;
+    flex: 0.8 1 auto;
+  }
+
+  .quick-nav {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    justify-content: flex-end;
+  }
+
+  .quick-nav-btn {
+    min-height: 46px;
+    padding: 0 12px;
   }
 }
