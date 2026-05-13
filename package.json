@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "description": "대순회보 웹진 뷰어와 데이터 수집 스크립트",
   "scripts": {
+    "check:latest": "node scripts/check-latest-issue.mjs --output data",
+    "ops:update:auto": "powershell -ExecutionPolicy Bypass -File scripts/update-hoebo-data.ps1",
     "build:data": "node scripts/scrape-webzine.mjs --latest 1 --output data && node scripts/build-categories.mjs --output data",
     "build:data:latest3": "node scripts/scrape-webzine.mjs --latest 3 --output data && node scripts/build-categories.mjs --output data",
     "build:data:latest6": "node scripts/scrape-webzine.mjs --latest 6 --output data && node scripts/build-categories.mjs --output data",

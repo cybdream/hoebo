@@ -10,6 +10,8 @@ main().catch((error) => {
   process.exit(1);
 });
 
+// [KO] 카테고리별 기사 묶음을 만들고 카테고리 인덱스 파일을 생성합니다.
+// [EN] Build category-wise article bundles and write category index files.
 async function main() {
   const indexPath = path.join(outputDir, "index.json");
   const indexRaw = await fs.readFile(indexPath, "utf-8");
@@ -122,11 +124,15 @@ async function main() {
   console.log(`[build-categories] done: ${indexItems.length} categories`);
 }
 
+// [KO] 비어 있거나 누락된 카테고리를 기본 라벨로 정규화합니다.
+// [EN] Normalize empty or missing categories to a default label.
 function normalizeCategory(value) {
   const text = String(value || "").trim();
   return text.length > 0 ? text : "미분류";
 }
 
+// [KO] 카테고리 이름에서 안정적인 짧은 카테고리 ID를 생성합니다.
+// [EN] Generate a stable short category id from category name.
 function makeCategoryId(name) {
   let hash = 5381;
   for (const ch of name) {
@@ -135,6 +141,8 @@ function makeCategoryId(name) {
   return `cat-${(hash >>> 0).toString(16).padStart(8, "0")}`;
 }
 
+// [KO] --key value 또는 --flag 형태의 CLI 인자를 파싱합니다.
+// [EN] Parse CLI flags like --key value or --flag.
 function parseArgs(argv) {
   const output = {};
 

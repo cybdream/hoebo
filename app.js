@@ -18,7 +18,8 @@ const state = {
   viewMode: "issue",
   selectedCorner: "",
   query: "",
-  isMobileIssuePanelOpen: false
+  isMobileIssuePanelOpen: false,
+  lastRenderedArticleId: null
 };
 
 const el = {
@@ -252,6 +253,17 @@ function scrollToTopMenu() {
   if (window.innerWidth > 1100) {
     el.articleBody?.scrollTo({ top: 0, behavior: "smooth" });
   }
+}
+
+// [KO] 본문이 바뀔 때 데스크톱/모바일 환경에 맞춰 읽기 위치를 상단으로 초기화합니다.
+// [EN] Reset reading position to the top when article content changes, for desktop and mobile.
+function resetArticleScrollPosition() {
+  if (window.innerWidth <= 1100) {
+    el.readerPanel?.scrollIntoView({ behavior: "auto", block: "start" });
+    return;
+  }
+
+  el.articleBody?.scrollTo({ top: 0, behavior: "auto" });
 }
 
 async function loadData() {
@@ -846,9 +858,12 @@ function renderArticleDetail() {
   if (!article) {
     el.articleEmpty.classList.remove("is-hidden");
     el.articleView.classList.add("is-hidden");
+    state.lastRenderedArticleId = null;
     updateQuickNavVisibility();
     return;
   }
+
+  const isArticleChanged = state.lastRenderedArticleId !== article.id;
 
   el.articleEmpty.classList.add("is-hidden");
   el.articleView.classList.remove("is-hidden");
@@ -865,6 +880,13 @@ function renderArticleDetail() {
     img.setAttribute('loading', 'lazy');
     img.setAttribute('decoding', 'async');
   });
+
+  // 다른 기사로 전환된 경우에만 본문 위치를 상단으로 이동한다.
+  if (isArticleChanged) {
+    resetArticleScrollPosition();
+  }
+
+  state.lastRenderedArticleId = article.id;
 
   updateQuickNavVisibility();
 }

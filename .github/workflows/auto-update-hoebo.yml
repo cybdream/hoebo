@@ -1,0 +1,71 @@
+name: Auto Update Hoebo Data
+
+on:
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hoebo-auto-update
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check latest issue
+        id: check
+        run: node scripts/check-latest-issue.mjs --output data
+
+      - name: Build latest data
+        if: steps.check.outputs.has_new_issue == 'true'
+        run: npm run build:data
+
+      - name: Commit and push changes
+        if: steps.check.outputs.has_new_issue == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/index.json data/issues data/categories
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore(data): auto update hoebo issue ${{ steps.check.outputs.remote_latest_issue_no }}"
+          git push origin HEAD:master
+
+      - name: Notify success
+        if: steps.check.outputs.has_new_issue == 'true' && success() && secrets.HOEBO_ALERT_WEBHOOK != ''
+        env:
+          HOEBO_ALERT_WEBHOOK: ${{ secrets.HOEBO_ALERT_WEBHOOK }}
+        run: |
+          payload=$(printf '{"text":"[hoebo][success] GitHub Actions updated issue %s (local was %s)."}' "${{ steps.check.outputs.remote_latest_issue_no }}" "${{ steps.check.outputs.local_latest_issue_no }}")
+          curl -sS -X POST "$HOEBO_ALERT_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
+
+      - name: Notify failure
+        if: failure() && secrets.HOEBO_ALERT_WEBHOOK != ''
+        env:
+          HOEBO_ALERT_WEBHOOK: ${{ secrets.HOEBO_ALERT_WEBHOOK }}
+        run: |
+          payload='{"text":"[hoebo][error] GitHub Actions auto-update failed. Check workflow logs."}'
+          curl -sS -X POST "$HOEBO_ALERT_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
+
+      - name: Summary
+        run: |
+          echo "has_new_issue=${{ steps.check.outputs.has_new_issue }}"
+          echo "remote_latest_issue_no=${{ steps.check.outputs.remote_latest_issue_no }}"
+          echo "local_latest_issue_no=${{ steps.check.outputs.local_latest_issue_no }}"
