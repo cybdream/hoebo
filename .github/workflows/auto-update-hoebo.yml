@@ -15,6 +15,9 @@ concurrency:
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    env:
+      # Map secret to env first; use env in if-conditions to avoid parser errors.
+      HOEBO_ALERT_WEBHOOK: ${{ secrets.HOEBO_ALERT_WEBHOOK }}
 
     steps:
       - name: Checkout repository
@@ -49,17 +52,13 @@ jobs:
           git push origin HEAD:master
 
       - name: Notify success
-        if: steps.check.outputs.has_new_issue == 'true' && success() && secrets.HOEBO_ALERT_WEBHOOK != ''
-        env:
-          HOEBO_ALERT_WEBHOOK: ${{ secrets.HOEBO_ALERT_WEBHOOK }}
+        if: steps.check.outputs.has_new_issue == 'true' && success() && env.HOEBO_ALERT_WEBHOOK != ''
         run: |
           payload=$(printf '{"text":"[hoebo][success] GitHub Actions updated issue %s (local was %s)."}' "${{ steps.check.outputs.remote_latest_issue_no }}" "${{ steps.check.outputs.local_latest_issue_no }}")
           curl -sS -X POST "$HOEBO_ALERT_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
 
       - name: Notify failure
-        if: failure() && secrets.HOEBO_ALERT_WEBHOOK != ''
-        env:
-          HOEBO_ALERT_WEBHOOK: ${{ secrets.HOEBO_ALERT_WEBHOOK }}
+        if: failure() && env.HOEBO_ALERT_WEBHOOK != ''
         run: |
           payload='{"text":"[hoebo][error] GitHub Actions auto-update failed. Check workflow logs."}'
           curl -sS -X POST "$HOEBO_ALERT_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
