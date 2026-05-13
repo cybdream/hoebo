@@ -2,7 +2,9 @@ name: Auto Update Hoebo Data
 
 on:
   schedule:
-    - cron: "15 */6 * * *"
+    # [KO] GitHub Actions cron은 UTC 기준이므로, 아래 값은 매일 00:15 UTC(한국시간 09:15)에 실행됩니다.
+    # [EN] GitHub Actions cron uses UTC; this runs once daily at 00:15 UTC (09:15 KST).
+    - cron: "15 0 * * *"
   workflow_dispatch:
 
 permissions:

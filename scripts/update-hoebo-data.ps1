@@ -46,9 +46,9 @@ function Get-CheckResult {
   return ($raw | ConvertFrom-Json)
 }
 
-# [KO] 자동 갱신 전 작업트리가 깨끗한지 확인해 예기치 않은 충돌을 방지합니다.
-# [EN] Ensure the working tree is clean before auto-update to avoid unexpected pull/merge conflicts.
-function Ensure-CleanWorkingTree {
+# [KO] 자동 갱신 전 작업트리가 깨끗한지 테스트해 예기치 않은 충돌을 방지합니다.
+# [EN] Test that the working tree is clean before auto-update to avoid unexpected pull/merge conflicts.
+function Test-CleanWorkingTree {
   $status = git status --porcelain
   if ($LASTEXITCODE -ne 0) {
     throw "git status failed"
@@ -59,9 +59,9 @@ function Ensure-CleanWorkingTree {
   }
 }
 
-# [KO] 데이터 갱신 후 변경된 산출물을 커밋하고 원격 브랜치로 푸시합니다.
-# [EN] Commit changed data artifacts after update and push to the remote branch.
-function Commit-And-Push {
+# [KO] 데이터 갱신 후 변경된 산출물을 커밋하고 원격 브랜치로 반영합니다.
+# [EN] Update the repository with changed artifacts and push to the remote branch.
+function Update-RepositoryData {
   param(
     [int]$IssueNo,
     [int]$WebzineId
@@ -98,7 +98,7 @@ function Commit-And-Push {
 Push-Location $ProjectRoot
 try {
   Write-Log "Starting hoebo data update workflow"
-  Ensure-CleanWorkingTree
+  Test-CleanWorkingTree
 
   git pull --rebase origin $Branch
   if ($LASTEXITCODE -ne 0) {
@@ -123,7 +123,7 @@ try {
     throw "npm run build:data failed"
   }
 
-  $pushed = Commit-And-Push -IssueNo $remoteIssueNo -WebzineId $remoteWebzineId
+  $pushed = Update-RepositoryData -IssueNo $remoteIssueNo -WebzineId $remoteWebzineId
   if ($pushed) {
     Write-Log "Update completed and pushed for issue $remoteIssueNo"
     Send-Alert -Text "Updated and pushed issue $remoteIssueNo (webzine $remoteWebzineId)." -Level "success"
