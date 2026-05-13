@@ -59,6 +59,14 @@ jobs:
           payload=$(printf '{"text":"[hoebo][success] GitHub Actions updated issue %s (local was %s)."}' "${{ steps.check.outputs.remote_latest_issue_no }}" "${{ steps.check.outputs.local_latest_issue_no }}")
           curl -sS -X POST "$HOEBO_ALERT_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
 
+      - name: Notify no new issue
+        # [KO] 정상 실행됐지만 신규 회차가 없을 때도 상태 알림을 보낸다.
+        # [EN] Send a status alert when the run succeeds but no new issue is found.
+        if: steps.check.outputs.has_new_issue != 'true' && success() && env.HOEBO_ALERT_WEBHOOK != ''
+        run: |
+          payload=$(printf '{"text":"[hoebo][info] No new issue. remote=%s, local=%s."}' "${{ steps.check.outputs.remote_latest_issue_no }}" "${{ steps.check.outputs.local_latest_issue_no }}")
+          curl -sS -X POST "$HOEBO_ALERT_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
+
       - name: Notify failure
         if: failure() && env.HOEBO_ALERT_WEBHOOK != ''
         run: |
@@ -70,3 +78,7 @@ jobs:
           echo "has_new_issue=${{ steps.check.outputs.has_new_issue }}"
           echo "remote_latest_issue_no=${{ steps.check.outputs.remote_latest_issue_no }}"
           echo "local_latest_issue_no=${{ steps.check.outputs.local_latest_issue_no }}"
+
+      - name: Webhook configuration notice
+        if: env.HOEBO_ALERT_WEBHOOK == ''
+        run: echo "HOEBO_ALERT_WEBHOOK secret is empty or missing; Discord notifications are skipped."
