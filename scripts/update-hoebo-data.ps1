@@ -26,8 +26,10 @@ function Send-Alert {
     return
   }
 
+  # [KO] Discord Webhook은 content 필드를 요구하므로 text 대신 content로 전송합니다.
+  # [EN] Discord Webhook expects the content field, so send content instead of text.
   $payload = @{
-    text = "[hoebo][$Level] $Text"
+    content = "[hoebo][$Level] $Text"
   } | ConvertTo-Json
 
   Invoke-RestMethod -Method Post -Uri $WebhookUrl -ContentType "application/json" -Body $payload | Out-Null

@@ -56,22 +56,24 @@ jobs:
       - name: Notify success
         if: steps.check.outputs.has_new_issue == 'true' && success() && env.HOEBO_ALERT_WEBHOOK != ''
         run: |
-          payload=$(printf '{"text":"[hoebo][success] GitHub Actions updated issue %s (local was %s)."}' "${{ steps.check.outputs.remote_latest_issue_no }}" "${{ steps.check.outputs.local_latest_issue_no }}")
-          curl -sS -X POST "$HOEBO_ALERT_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
+          # [KO] Discord Webhook은 text가 아니라 content 필드를 사용해야 메시지가 전송됩니다.
+          # [EN] Discord Webhook requires the content field (not text) to send a message.
+          payload=$(printf '{"content":"[hoebo][success] GitHub Actions updated issue %s (local was %s)."}' "${{ steps.check.outputs.remote_latest_issue_no }}" "${{ steps.check.outputs.local_latest_issue_no }}")
+          curl --fail-with-body -sS -X POST "$HOEBO_ALERT_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
 
       - name: Notify no new issue
         # [KO] 정상 실행됐지만 신규 회차가 없을 때도 상태 알림을 보낸다.
         # [EN] Send a status alert when the run succeeds but no new issue is found.
         if: steps.check.outputs.has_new_issue != 'true' && success() && env.HOEBO_ALERT_WEBHOOK != ''
         run: |
-          payload=$(printf '{"text":"[hoebo][info] No new issue. remote=%s, local=%s."}' "${{ steps.check.outputs.remote_latest_issue_no }}" "${{ steps.check.outputs.local_latest_issue_no }}")
-          curl -sS -X POST "$HOEBO_ALERT_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
+          payload=$(printf '{"content":"[hoebo][info] No new issue. remote=%s, local=%s."}' "${{ steps.check.outputs.remote_latest_issue_no }}" "${{ steps.check.outputs.local_latest_issue_no }}")
+          curl --fail-with-body -sS -X POST "$HOEBO_ALERT_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
 
       - name: Notify failure
         if: failure() && env.HOEBO_ALERT_WEBHOOK != ''
         run: |
-          payload='{"text":"[hoebo][error] GitHub Actions auto-update failed. Check workflow logs."}'
-          curl -sS -X POST "$HOEBO_ALERT_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
+          payload='{"content":"[hoebo][error] GitHub Actions auto-update failed. Check workflow logs."}'
+          curl --fail-with-body -sS -X POST "$HOEBO_ALERT_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
 
       - name: Summary
         run: |
