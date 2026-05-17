@@ -1,12 +1,25 @@
 {
-  "version": "20260504.0732",
-  "generatedAt": "2026-05-07T18:46:46.192Z",
+  "version": "20260517.0116",
+  "generatedAt": "2026-05-17T01:16:26.850Z",
   "source": "https://webzine.daesoon.org/",
   "category": "전경 속 이야기",
   "categoryId": "cat-7059d749",
-  "articleCount": 33,
-  "latestIssueNo": 303,
+  "articleCount": 34,
+  "latestIssueNo": 305,
   "articles": [
+    {
+      "id": "w349-b10678-m5718",
+      "issueNo": 305,
+      "issueLabel": "305호",
+      "issueDateLabel": "대순156년(2026) 4월",
+      "webzineId": 349,
+      "order": 20,
+      "category": "전경 속 이야기",
+      "title": "차력과 차력약",
+      "author": "교무부 박종식",
+      "summary": "차력과 차력약 교무부 박종식 상제께서 김 병욱이 차력약을 먹고자 하기에 “네가 약을 먹고 차력하여 태전을 지겠느냐. 길품을 팔겠느냐. 난리를 치겠느냐. 그것은 사약이니라”고 이르시고 그런 생각을 버리게 하셨도다. (교법 3장 14절) 위성구에 등장하는...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=349&menu_no=5718&bno=10678&page=1"
+    },
     {
       "id": "w347-b10627-m5693",
       "issueNo": 303,

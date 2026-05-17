@@ -1,8 +1,18 @@
 {
-  "version": "20260504.0732",
-  "generatedAt": "2026-05-03T22:32:15.989Z",
+  "version": "20260517.0116",
+  "generatedAt": "2026-05-17T01:16:25.781Z",
   "source": "https://webzine.daesoon.org/",
   "issues": [
+    {
+      "webzineId": 349,
+      "issueNo": 305,
+      "issueLabel": "305호",
+      "dateLabel": "대순156년(2026) 4월",
+      "coverUrl": "https://file.daesoon.org/webzine/cover/heoho305_cover.jpg",
+      "pdfUrl": "",
+      "articleCount": 26,
+      "filePath": "issues/301-310/305.json"
+    },
     {
       "webzineId": 348,
       "issueNo": 304,

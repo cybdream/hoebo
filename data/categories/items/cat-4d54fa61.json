@@ -1,12 +1,25 @@
 {
-  "version": "20260504.0732",
-  "generatedAt": "2026-05-07T18:46:46.287Z",
+  "version": "20260517.0116",
+  "generatedAt": "2026-05-17T01:16:26.850Z",
   "source": "https://webzine.daesoon.org/",
   "category": "전경 성구",
   "categoryId": "cat-4d54fa61",
-  "articleCount": 75,
-  "latestIssueNo": 280,
+  "articleCount": 76,
+  "latestIssueNo": 305,
   "articles": [
+    {
+      "id": "w349-b10683-m5720",
+      "issueNo": 305,
+      "issueLabel": "305호",
+      "issueDateLabel": "대순156년(2026) 4월",
+      "webzineId": 349,
+      "order": 25,
+      "category": "전경 성구",
+      "title": "속수지지(束手之地)와 와해지여(瓦解之餘)",
+      "author": "교무부 최정락",
+      "summary": "속수지지(束手之地)와 와해지여(瓦解之餘) 교무부 최정락 공사 3장 39절에는 상제님께서 중국 삼국시대 촉한(蜀漢)의 재상인 제갈량(諸葛亮, 181~234)과 한(漢)나라 초의 무장인 한신(韓信, 미상~기원전 196)을 언급하신 구절이 나온다. 바로 “...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=349&menu_no=5720&bno=10683&page=1"
+    },
     {
       "id": "w324-b9950-m5380",
       "issueNo": 280,

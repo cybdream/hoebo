@@ -1,12 +1,25 @@
 {
-  "version": "20260504.0732",
-  "generatedAt": "2026-05-07T18:46:46.144Z",
+  "version": "20260517.0116",
+  "generatedAt": "2026-05-17T01:16:26.846Z",
   "source": "https://webzine.daesoon.org/",
   "category": "생각이 있는 풍경",
   "categoryId": "cat-429aafe1",
-  "articleCount": 78,
-  "latestIssueNo": 304,
+  "articleCount": 79,
+  "latestIssueNo": 305,
   "articles": [
+    {
+      "id": "w349-b10677-m5717",
+      "issueNo": 305,
+      "issueLabel": "305호",
+      "issueDateLabel": "대순156년(2026) 4월",
+      "webzineId": 349,
+      "order": 19,
+      "category": "생각이 있는 풍경",
+      "title": "연못에 발을 담근 정자",
+      "author": "교무부 강대성",
+      "summary": "연못에 발을 담근 정자 교무부 강대성 조선시대의 궁궐에는 특이한 형태의 모습을 한 정자(亭子)가 있다. 바로 창덕궁(昌德宮) 후원의 연못 위에 세워진 부용정(芙蓉亭)이다. 01 이 정자는 숙종 33(1707)년에 택수재(澤水齋)라는 이름으로 지어졌다가...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=349&menu_no=5717&bno=10677&page=1"
+    },
     {
       "id": "w348-b10652-m5705",
       "issueNo": 304,

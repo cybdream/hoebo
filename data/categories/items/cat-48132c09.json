@@ -1,12 +1,25 @@
 {
-  "version": "20260504.0732",
-  "generatedAt": "2026-05-07T18:46:46.156Z",
+  "version": "20260517.0116",
+  "generatedAt": "2026-05-17T01:16:26.851Z",
   "source": "https://webzine.daesoon.org/",
   "category": "종단 역사",
   "categoryId": "cat-48132c09",
-  "articleCount": 5,
-  "latestIssueNo": 304,
+  "articleCount": 6,
+  "latestIssueNo": 305,
   "articles": [
+    {
+      "id": "w349-b10674-m5714",
+      "issueNo": 305,
+      "issueLabel": "305호",
+      "issueDateLabel": "대순156년(2026) 4월",
+      "webzineId": 349,
+      "order": 16,
+      "category": "종단 역사",
+      "title": "도주님의 공부 행적을 찾아서Ⅲ",
+      "author": "교무부 손영배",
+      "summary": "도주님의 공부 행적을 찾아서Ⅲ 1930년대 후반~1958년 교무부 손영배 ▲ 함안 회문리 회문마을 전경 (원 안이 도주님 생가와 회룡재 터, 2019년 4월 6일 촬영) 「도주님의 공부 행적을 찾아서 Ⅱ」에서는 1923년부터 1920년대 말 무극도 활...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=349&menu_no=5714&bno=10674&page=1"
+    },
     {
       "id": "w348-b10649-m5702",
       "issueNo": 304,

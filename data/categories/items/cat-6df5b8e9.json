@@ -1,12 +1,25 @@
 {
-  "version": "20260504.0732",
-  "generatedAt": "2026-05-07T18:46:46.141Z",
+  "version": "20260517.0116",
+  "generatedAt": "2026-05-17T01:16:26.844Z",
   "source": "https://webzine.daesoon.org/",
   "category": "도전님 훈시",
   "categoryId": "cat-6df5b8e9",
-  "articleCount": 251,
-  "latestIssueNo": 304,
+  "articleCount": 252,
+  "latestIssueNo": 305,
   "articles": [
+    {
+      "id": "w349-b10659-m5710",
+      "issueNo": 305,
+      "issueLabel": "305호",
+      "issueDateLabel": "대순156년(2026) 4월",
+      "webzineId": 349,
+      "order": 1,
+      "category": "도전님 훈시",
+      "title": "임원들은 자기 책임을 다하고 해원상생을 실천해야 한다",
+      "author": "1991. 5. 14(음 4. 1)",
+      "summary": "임원들은 자기 책임을 다하고 해원상생을 실천해야 한다 포천 대학교 공사를 선ㆍ교감, 수강생들이 하고 있습니다. 50세 이상은 보내지 말라고 했는데 요즘 나이가 많은 사람들이 들어오고 있습니다. 방면에서 인원수 채우느라고 그러는가 본데, 위험하고 그 일...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=349&menu_no=5710&bno=10659&page=1"
+    },
     {
       "id": "w348-b10634-m5697",
       "issueNo": 304,

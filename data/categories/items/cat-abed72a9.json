@@ -1,12 +1,25 @@
 {
-  "version": "20260504.0732",
-  "generatedAt": "2026-05-07T18:46:46.125Z",
+  "version": "20260517.0116",
+  "generatedAt": "2026-05-17T01:16:26.841Z",
   "source": "https://webzine.daesoon.org/",
   "category": "글로벌 대순",
   "categoryId": "cat-abed72a9",
-  "articleCount": 3,
-  "latestIssueNo": 304,
+  "articleCount": 4,
+  "latestIssueNo": 305,
   "articles": [
+    {
+      "id": "w349-b10672-m5712",
+      "issueNo": 305,
+      "issueLabel": "305호",
+      "issueDateLabel": "대순156년(2026) 4월",
+      "webzineId": 349,
+      "order": 14,
+      "category": "글로벌 대순",
+      "title": "또 만나요, 오오모토",
+      "author": "",
+      "summary": "또 만나요, 오오모토 출판팀 최정훈 3월 29일부터 4월 3일까지 6일간 일본 종교단체 오오모토에서 여주본부도장을 방문하여 상생스테이를 진행했다. 방문단은 오오모토 국제과장 오쿠와키 토시오미(&#22885;脇俊臣)와 대학생 5명으로 구성됐다. 또한 양...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=349&menu_no=5712&bno=10672&page=1"
+    },
     {
       "id": "w348-b10647-m5700",
       "issueNo": 304,

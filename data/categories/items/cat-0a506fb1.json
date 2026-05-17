@@ -1,12 +1,25 @@
 {
-  "version": "20260504.0732",
-  "generatedAt": "2026-05-07T18:46:46.155Z",
+  "version": "20260517.0116",
+  "generatedAt": "2026-05-17T01:16:26.849Z",
   "source": "https://webzine.daesoon.org/",
   "category": "울타리",
   "categoryId": "cat-0a506fb1",
-  "articleCount": 37,
-  "latestIssueNo": 304,
+  "articleCount": 38,
+  "latestIssueNo": 305,
   "articles": [
+    {
+      "id": "w349-b10673-m5713",
+      "issueNo": 305,
+      "issueLabel": "305호",
+      "issueDateLabel": "대순156년(2026) 4월",
+      "webzineId": 349,
+      "order": 15,
+      "category": "울타리",
+      "title": "선배의 경험, 후배의 꿈으로 이어지다",
+      "author": "대진여자고등학교 교사 양주희",
+      "summary": "선배의 경험, 후배의 꿈으로 이어지다 대진여자고등학교 교사 양주희 ▲ 졸업생 강사 소개 현대사회의 개인주의화, 파편화 성향으로 공동체적 모임이 많이 약화되는 분위기다. 그 모임 중에는 동문회도 있다. 과거에는 여고의 특성상 동문회 모임이 잘 안된다고 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=349&menu_no=5713&bno=10673&page=1"
+    },
     {
       "id": "w348-b10648-m5701",
       "issueNo": 304,

@@ -1,12 +1,25 @@
 {
-  "version": "20260504.0732",
-  "generatedAt": "2026-05-07T18:46:46.138Z",
+  "version": "20260517.0116",
+  "generatedAt": "2026-05-17T01:16:26.842Z",
   "source": "https://webzine.daesoon.org/",
   "category": "대순광장",
   "categoryId": "cat-1943d1cd",
-  "articleCount": 192,
-  "latestIssueNo": 304,
+  "articleCount": 193,
+  "latestIssueNo": 305,
   "articles": [
+    {
+      "id": "w349-b10676-m5716",
+      "issueNo": 305,
+      "issueLabel": "305호",
+      "issueDateLabel": "대순156년(2026) 4월",
+      "webzineId": 349,
+      "order": 18,
+      "category": "대순광장",
+      "title": "사회통합과 해원상생",
+      "author": "교무부 곽춘근",
+      "summary": "사회통합과 해원상생 교무부 곽춘근 『전경』에 기록된 상제님의 공사를 보면 천지인 삼계의 도수를 조정하는 넓은 영역의 공사도 있지만 한 사람의 맺힌 원을 풀어주시는 미세한 공사도 있다. ‘물 샐 틈 없는 도수’라는 상제님의 말씀처럼 크고 작은 이 공사들...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=349&menu_no=5716&bno=10676&page=1"
+    },
     {
       "id": "w348-b10651-m5704",
       "issueNo": 304,
