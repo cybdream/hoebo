@@ -1,12 +1,25 @@
 {
-  "version": "20260517.0116",
-  "generatedAt": "2026-05-17T01:16:26.844Z",
+  "version": "20260611.0123",
+  "generatedAt": "2026-06-11T01:23:46.880Z",
   "source": "https://webzine.daesoon.org/",
   "category": "도전님 훈시",
   "categoryId": "cat-6df5b8e9",
-  "articleCount": 252,
-  "latestIssueNo": 305,
+  "articleCount": 253,
+  "latestIssueNo": 306,
   "articles": [
+    {
+      "id": "w350-b10685-m5722",
+      "issueNo": 306,
+      "issueLabel": "306호",
+      "issueDateLabel": "대순156년(2026) 6월",
+      "webzineId": 350,
+      "order": 1,
+      "category": "도전님 훈시",
+      "title": "종단 사업을 바르게 실천하여 수도의 목적을 실현하라",
+      "author": "1991. 8. 26(음 7. 17)",
+      "summary": "종단 사업을 바르게 실천하여 수도의 목적을 실현하라 ▲ 대진대학교 전경 (2016년 11월 11일 촬영) 학생회관을 강의, 영화 상영도 할 수 있도록 극장식으로 만들려 합니다. 극장식으로 하지 않고 보통으로 하되, 단상을 높이는 것은 어떻습니까? 먼저...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=350&menu_no=5722&bno=10685&page=1"
+    },
     {
       "id": "w349-b10659-m5710",
       "issueNo": 305,

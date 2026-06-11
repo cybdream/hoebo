@@ -1,12 +1,25 @@
 {
-  "version": "20260517.0116",
-  "generatedAt": "2026-05-17T01:16:26.846Z",
+  "version": "20260611.0123",
+  "generatedAt": "2026-06-11T01:23:46.882Z",
   "source": "https://webzine.daesoon.org/",
   "category": "생각이 있는 풍경",
   "categoryId": "cat-429aafe1",
-  "articleCount": 79,
-  "latestIssueNo": 305,
+  "articleCount": 80,
+  "latestIssueNo": 306,
   "articles": [
+    {
+      "id": "w350-b10706-m5730",
+      "issueNo": 306,
+      "issueLabel": "306호",
+      "issueDateLabel": "대순156년(2026) 6월",
+      "webzineId": 350,
+      "order": 19,
+      "category": "생각이 있는 풍경",
+      "title": "크다는 것과 작다는 것",
+      "author": "교무부 박종식",
+      "summary": "크다는 것과 작다는 것 교무부 박종식 도술을 쓸 줄 알았던 수도승이 있었다. 그가 크고 작다는 것에 관해서 탐구하던 어느 날, 고양이 앞에서 벌벌 떠는 생쥐 한 마리를 관찰했다. 수도승은 그 모습이 안쓰러워, 생쥐의 앞날을 열어주기 위해 고양이로 만들...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=350&menu_no=5730&bno=10706&page=1"
+    },
     {
       "id": "w349-b10677-m5717",
       "issueNo": 305,

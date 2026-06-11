@@ -1,12 +1,25 @@
 {
-  "version": "20260517.0116",
-  "generatedAt": "2026-05-17T01:16:26.841Z",
+  "version": "20260611.0123",
+  "generatedAt": "2026-06-11T01:23:46.877Z",
   "source": "https://webzine.daesoon.org/",
   "category": "글로벌 대순",
   "categoryId": "cat-abed72a9",
-  "articleCount": 4,
-  "latestIssueNo": 305,
+  "articleCount": 5,
+  "latestIssueNo": 306,
   "articles": [
+    {
+      "id": "w350-b10698-m5725",
+      "issueNo": 306,
+      "issueLabel": "306호",
+      "issueDateLabel": "대순156년(2026) 6월",
+      "webzineId": 350,
+      "order": 14,
+      "category": "글로벌 대순",
+      "title": "프랑스 보르도몽테뉴대학교 학생들과의 만남",
+      "author": "교무부 주소연",
+      "summary": "프랑스 보르도몽테뉴대학교 학생들과의 만남 교무부 주소연 ▲ 보르도몽테뉴대학교 중앙 광장 앞마당, 출처: 위키미디어 2026년 4월의 봄을 프랑스 보르도에서 맞이하게 되었다. 흩날리는 분홍빛 벚꽃 대신 거리마다 포도송이처럼 피어난 보라색 라일락을 보는,...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=350&menu_no=5725&bno=10698&page=1"
+    },
     {
       "id": "w349-b10672-m5712",
       "issueNo": 305,

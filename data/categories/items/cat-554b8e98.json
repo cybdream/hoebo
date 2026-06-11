@@ -1,12 +1,25 @@
 {
-  "version": "20260517.0116",
-  "generatedAt": "2026-05-17T01:16:26.846Z",
+  "version": "20260611.0123",
+  "generatedAt": "2026-06-11T01:23:46.883Z",
   "source": "https://webzine.daesoon.org/",
   "category": "알립니다",
   "categoryId": "cat-554b8e98",
-  "articleCount": 858,
-  "latestIssueNo": 305,
+  "articleCount": 859,
+  "latestIssueNo": 306,
   "articles": [
+    {
+      "id": "w350-b10711-m5733",
+      "issueNo": 306,
+      "issueLabel": "306호",
+      "issueDateLabel": "대순156년(2026) 6월",
+      "webzineId": 350,
+      "order": 24,
+      "category": "알립니다",
+      "title": "2026년 분당재생병원 자원봉사 신규 모집안내",
+      "author": "",
+      "summary": "2026년 분당재생병원 자원봉사 신규 모집안내",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=350&menu_no=5733&bno=10711&page=1"
+    },
     {
       "id": "w349-b10684-m5721",
       "issueNo": 305,

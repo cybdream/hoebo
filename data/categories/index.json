@@ -1,15 +1,92 @@
 {
-  "version": "20260517.0116",
-  "generatedAt": "2026-05-17T01:16:27.008Z",
+  "version": "20260611.0123",
+  "generatedAt": "2026-06-11T01:23:47.032Z",
   "source": "https://webzine.daesoon.org/",
-  "totalCategories": 605,
+  "totalCategories": 607,
   "categories": [
     {
       "category": "글로벌 대순",
       "categoryId": "cat-abed72a9",
-      "articleCount": 4,
-      "latestIssueNo": 305,
+      "articleCount": 5,
+      "latestIssueNo": 306,
       "filePath": "categories/items/cat-abed72a9.json"
+    },
+    {
+      "category": "대순가족캠프",
+      "categoryId": "cat-72e9ee4c",
+      "articleCount": 1,
+      "latestIssueNo": 306,
+      "filePath": "categories/items/cat-72e9ee4c.json"
+    },
+    {
+      "category": "대순문예",
+      "categoryId": "cat-19452169",
+      "articleCount": 206,
+      "latestIssueNo": 306,
+      "filePath": "categories/items/cat-19452169.json"
+    },
+    {
+      "category": "대순청소년 여름캠프 신청 안내",
+      "categoryId": "cat-5325eda1",
+      "articleCount": 1,
+      "latestIssueNo": 306,
+      "filePath": "categories/items/cat-5325eda1.json"
+    },
+    {
+      "category": "도전님 훈시",
+      "categoryId": "cat-6df5b8e9",
+      "articleCount": 253,
+      "latestIssueNo": 306,
+      "filePath": "categories/items/cat-6df5b8e9.json"
+    },
+    {
+      "category": "돋보기",
+      "categoryId": "cat-088f2a2a",
+      "articleCount": 45,
+      "latestIssueNo": 306,
+      "filePath": "categories/items/cat-088f2a2a.json"
+    },
+    {
+      "category": "생각이 있는 풍경",
+      "categoryId": "cat-429aafe1",
+      "articleCount": 80,
+      "latestIssueNo": 306,
+      "filePath": "categories/items/cat-429aafe1.json"
+    },
+    {
+      "category": "알립니다",
+      "categoryId": "cat-554b8e98",
+      "articleCount": 859,
+      "latestIssueNo": 306,
+      "filePath": "categories/items/cat-554b8e98.json"
+    },
+    {
+      "category": "울타리",
+      "categoryId": "cat-0a506fb1",
+      "articleCount": 39,
+      "latestIssueNo": 306,
+      "filePath": "categories/items/cat-0a506fb1.json"
+    },
+    {
+      "category": "전경 지명 답사기",
+      "categoryId": "cat-afd51250",
+      "articleCount": 38,
+      "latestIssueNo": 306,
+      "filePath": "categories/items/cat-afd51250.json"
+    },
+    {
+      "category": "정심원",
+      "categoryId": "cat-0ab1da0c",
+      "articleCount": 25,
+      "latestIssueNo": 306,
+      "filePath": "categories/items/cat-0ab1da0c.json"
+    },
+    {
+      "category": "종단소식",
+      "categoryId": "cat-5f5fb719",
+      "articleCount": 3155,
+      "latestIssueNo": 306,
+      "filePath": "categories/items/cat-5f5fb719.json"
     },
     {
       "category": "기획 연재",
@@ -24,41 +101,6 @@
       "articleCount": 193,
       "latestIssueNo": 305,
       "filePath": "categories/items/cat-1943d1cd.json"
-    },
-    {
-      "category": "대순문예",
-      "categoryId": "cat-19452169",
-      "articleCount": 203,
-      "latestIssueNo": 305,
-      "filePath": "categories/items/cat-19452169.json"
-    },
-    {
-      "category": "도전님 훈시",
-      "categoryId": "cat-6df5b8e9",
-      "articleCount": 252,
-      "latestIssueNo": 305,
-      "filePath": "categories/items/cat-6df5b8e9.json"
-    },
-    {
-      "category": "생각이 있는 풍경",
-      "categoryId": "cat-429aafe1",
-      "articleCount": 79,
-      "latestIssueNo": 305,
-      "filePath": "categories/items/cat-429aafe1.json"
-    },
-    {
-      "category": "알립니다",
-      "categoryId": "cat-554b8e98",
-      "articleCount": 858,
-      "latestIssueNo": 305,
-      "filePath": "categories/items/cat-554b8e98.json"
-    },
-    {
-      "category": "울타리",
-      "categoryId": "cat-0a506fb1",
-      "articleCount": 38,
-      "latestIssueNo": 305,
-      "filePath": "categories/items/cat-0a506fb1.json"
     },
     {
       "category": "전경 성구",
@@ -80,13 +122,6 @@
       "articleCount": 6,
       "latestIssueNo": 305,
       "filePath": "categories/items/cat-48132c09.json"
-    },
-    {
-      "category": "종단소식",
-      "categoryId": "cat-5f5fb719",
-      "articleCount": 3144,
-      "latestIssueNo": 305,
-      "filePath": "categories/items/cat-5f5fb719.json"
     },
     {
       "category": "나누고 싶은 이야기",
@@ -185,13 +220,6 @@
       "articleCount": 9,
       "latestIssueNo": 302,
       "filePath": "categories/items/cat-fab5c75d.json"
-    },
-    {
-      "category": "정심원",
-      "categoryId": "cat-0ab1da0c",
-      "articleCount": 24,
-      "latestIssueNo": 302,
-      "filePath": "categories/items/cat-0ab1da0c.json"
     },
     {
       "category": "대순청소년 겨울캠프 일정표",
@@ -362,13 +390,6 @@
       "filePath": "categories/items/cat-59d9cfa4.json"
     },
     {
-      "category": "돋보기",
-      "categoryId": "cat-088f2a2a",
-      "articleCount": 44,
-      "latestIssueNo": 292,
-      "filePath": "categories/items/cat-088f2a2a.json"
-    },
-    {
       "category": "영화 속으로",
       "categoryId": "cat-1117a43d",
       "articleCount": 59,
@@ -430,13 +451,6 @@
       "articleCount": 7,
       "latestIssueNo": 289,
       "filePath": "categories/items/cat-243bcba9.json"
-    },
-    {
-      "category": "전경 지명 답사기",
-      "categoryId": "cat-afd51250",
-      "articleCount": 37,
-      "latestIssueNo": 289,
-      "filePath": "categories/items/cat-afd51250.json"
     },
     {
       "category": "2025 대순문예 공모전",

@@ -1,12 +1,25 @@
 {
-  "version": "20260517.0116",
-  "generatedAt": "2026-05-17T01:16:26.879Z",
+  "version": "20260611.0123",
+  "generatedAt": "2026-06-11T01:23:46.889Z",
   "source": "https://webzine.daesoon.org/",
   "category": "전경 지명 답사기",
   "categoryId": "cat-afd51250",
-  "articleCount": 37,
-  "latestIssueNo": 289,
+  "articleCount": 38,
+  "latestIssueNo": 306,
   "articles": [
+    {
+      "id": "w350-b10697-m5724",
+      "issueNo": 306,
+      "issueLabel": "306호",
+      "issueDateLabel": "대순156년(2026) 6월",
+      "webzineId": 350,
+      "order": 13,
+      "category": "전경 지명 답사기",
+      "title": "동곡 약방 옛길",
+      "author": "교무부 김현진",
+      "summary": "동곡 약방 옛길 교무부 김현진 ▲ 금평저수지 상제님께서는 1901년부터 천지공사를 시작하신 후 여러 곳을 다니시며 공사를 보셨다. 상제님의 자취가 있던 곳을 보며 상제님의 행적을 되새기는 것은 우리에게 많은 의미를 선사한다. 그중 동곡마을은 동곡 약방...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=350&menu_no=5724&bno=10697&page=1"
+    },
     {
       "id": "w333-b10229-m5510",
       "issueNo": 289,

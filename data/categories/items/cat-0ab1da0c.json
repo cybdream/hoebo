@@ -1,12 +1,25 @@
 {
-  "version": "20260517.0116",
-  "generatedAt": "2026-05-17T01:16:26.870Z",
+  "version": "20260611.0123",
+  "generatedAt": "2026-06-11T01:23:46.890Z",
   "source": "https://webzine.daesoon.org/",
   "category": "정심원",
   "categoryId": "cat-0ab1da0c",
-  "articleCount": 24,
-  "latestIssueNo": 302,
+  "articleCount": 25,
+  "latestIssueNo": 306,
   "articles": [
+    {
+      "id": "w350-b10700-m5727",
+      "issueNo": 306,
+      "issueLabel": "306호",
+      "issueDateLabel": "대순156년(2026) 6월",
+      "webzineId": 350,
+      "order": 16,
+      "category": "정심원",
+      "title": "참된 인간을 육성하는 학교 교육",
+      "author": "교무부 김의성",
+      "summary": "참된 인간을 육성하는 학교 교육 교무부 김의성 학교교육은 전인교육을 통한 국민윤리도덕과 준법정신을 함양하여, 건전한 공민으로서 국리민복에 기여하는 심신이 건실한 참된 인간을 육성하는데 그 목적이 있음을 알아야 한다. (『대순지침』, p.104.) 도전...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=350&menu_no=5727&bno=10700&page=1"
+    },
     {
       "id": "w346-b10589-m5675",
       "issueNo": 302,

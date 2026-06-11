@@ -1,12 +1,25 @@
 {
-  "version": "20260517.0116",
-  "generatedAt": "2026-05-17T01:16:26.849Z",
+  "version": "20260611.0123",
+  "generatedAt": "2026-06-11T01:23:46.889Z",
   "source": "https://webzine.daesoon.org/",
   "category": "울타리",
   "categoryId": "cat-0a506fb1",
-  "articleCount": 38,
-  "latestIssueNo": 305,
+  "articleCount": 39,
+  "latestIssueNo": 306,
   "articles": [
+    {
+      "id": "w350-b10699-m5726",
+      "issueNo": 306,
+      "issueLabel": "306호",
+      "issueDateLabel": "대순156년(2026) 6월",
+      "webzineId": 350,
+      "order": 15,
+      "category": "울타리",
+      "title": "실천하는 효(孝), 대진고등학교 보은상생 경로잔치",
+      "author": "출판팀 최정훈",
+      "summary": "실천하는 효(孝), 대진고등학교 보은상생 경로잔치 출판팀 최정훈 대진고등학교는 가정의 달 5월을 맞아 학생회 주도로 지역 어르신들을 초청하여 학교 강당에서 제8회 ‘보은상생 경로잔치’를 진행했다. 진행하는 행사에 앞서 허의선 교장 선생님은 “효(孝)가...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=350&menu_no=5726&bno=10699&page=1"
+    },
     {
       "id": "w349-b10673-m5713",
       "issueNo": 305,
