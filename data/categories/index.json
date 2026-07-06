@@ -1,9 +1,86 @@
 {
-  "version": "20260611.0123",
-  "generatedAt": "2026-06-11T01:23:47.032Z",
+  "version": "20260706.0104",
+  "generatedAt": "2026-07-06T01:04:48.785Z",
   "source": "https://webzine.daesoon.org/",
   "totalCategories": 607,
   "categories": [
+    {
+      "category": "대순문예",
+      "categoryId": "cat-19452169",
+      "articleCount": 210,
+      "latestIssueNo": 307,
+      "filePath": "categories/items/cat-19452169.json"
+    },
+    {
+      "category": "대순종학과 신입생 수시모집",
+      "categoryId": "cat-2188653c",
+      "articleCount": 4,
+      "latestIssueNo": 307,
+      "filePath": "categories/items/cat-2188653c.json"
+    },
+    {
+      "category": "대순청소년 여름캠프 일정표",
+      "categoryId": "cat-c7992f85",
+      "articleCount": 2,
+      "latestIssueNo": 307,
+      "filePath": "categories/items/cat-c7992f85.json"
+    },
+    {
+      "category": "대원종",
+      "categoryId": "cat-088518b0",
+      "articleCount": 99,
+      "latestIssueNo": 307,
+      "filePath": "categories/items/cat-088518b0.json"
+    },
+    {
+      "category": "도전님 훈시",
+      "categoryId": "cat-6df5b8e9",
+      "articleCount": 254,
+      "latestIssueNo": 307,
+      "filePath": "categories/items/cat-6df5b8e9.json"
+    },
+    {
+      "category": "알립니다",
+      "categoryId": "cat-554b8e98",
+      "articleCount": 860,
+      "latestIssueNo": 307,
+      "filePath": "categories/items/cat-554b8e98.json"
+    },
+    {
+      "category": "울타리",
+      "categoryId": "cat-0a506fb1",
+      "articleCount": 42,
+      "latestIssueNo": 307,
+      "filePath": "categories/items/cat-0a506fb1.json"
+    },
+    {
+      "category": "이슈 터치",
+      "categoryId": "cat-e636cd51",
+      "articleCount": 15,
+      "latestIssueNo": 307,
+      "filePath": "categories/items/cat-e636cd51.json"
+    },
+    {
+      "category": "전경 속 이야기",
+      "categoryId": "cat-7059d749",
+      "articleCount": 35,
+      "latestIssueNo": 307,
+      "filePath": "categories/items/cat-7059d749.json"
+    },
+    {
+      "category": "정심원",
+      "categoryId": "cat-0ab1da0c",
+      "articleCount": 26,
+      "latestIssueNo": 307,
+      "filePath": "categories/items/cat-0ab1da0c.json"
+    },
+    {
+      "category": "종단소식",
+      "categoryId": "cat-5f5fb719",
+      "articleCount": 3164,
+      "latestIssueNo": 307,
+      "filePath": "categories/items/cat-5f5fb719.json"
+    },
     {
       "category": "글로벌 대순",
       "categoryId": "cat-abed72a9",
@@ -19,25 +96,11 @@
       "filePath": "categories/items/cat-72e9ee4c.json"
     },
     {
-      "category": "대순문예",
-      "categoryId": "cat-19452169",
-      "articleCount": 206,
-      "latestIssueNo": 306,
-      "filePath": "categories/items/cat-19452169.json"
-    },
-    {
       "category": "대순청소년 여름캠프 신청 안내",
       "categoryId": "cat-5325eda1",
       "articleCount": 1,
       "latestIssueNo": 306,
       "filePath": "categories/items/cat-5325eda1.json"
-    },
-    {
-      "category": "도전님 훈시",
-      "categoryId": "cat-6df5b8e9",
-      "articleCount": 253,
-      "latestIssueNo": 306,
-      "filePath": "categories/items/cat-6df5b8e9.json"
     },
     {
       "category": "돋보기",
@@ -54,39 +117,11 @@
       "filePath": "categories/items/cat-429aafe1.json"
     },
     {
-      "category": "알립니다",
-      "categoryId": "cat-554b8e98",
-      "articleCount": 859,
-      "latestIssueNo": 306,
-      "filePath": "categories/items/cat-554b8e98.json"
-    },
-    {
-      "category": "울타리",
-      "categoryId": "cat-0a506fb1",
-      "articleCount": 39,
-      "latestIssueNo": 306,
-      "filePath": "categories/items/cat-0a506fb1.json"
-    },
-    {
       "category": "전경 지명 답사기",
       "categoryId": "cat-afd51250",
       "articleCount": 38,
       "latestIssueNo": 306,
       "filePath": "categories/items/cat-afd51250.json"
-    },
-    {
-      "category": "정심원",
-      "categoryId": "cat-0ab1da0c",
-      "articleCount": 25,
-      "latestIssueNo": 306,
-      "filePath": "categories/items/cat-0ab1da0c.json"
-    },
-    {
-      "category": "종단소식",
-      "categoryId": "cat-5f5fb719",
-      "articleCount": 3155,
-      "latestIssueNo": 306,
-      "filePath": "categories/items/cat-5f5fb719.json"
     },
     {
       "category": "기획 연재",
@@ -108,13 +143,6 @@
       "articleCount": 76,
       "latestIssueNo": 305,
       "filePath": "categories/items/cat-4d54fa61.json"
-    },
-    {
-      "category": "전경 속 이야기",
-      "categoryId": "cat-7059d749",
-      "articleCount": 34,
-      "latestIssueNo": 305,
-      "filePath": "categories/items/cat-7059d749.json"
     },
     {
       "category": "종단 역사",
@@ -276,13 +304,6 @@
       "articleCount": 52,
       "latestIssueNo": 299,
       "filePath": "categories/items/cat-7cf65f74.json"
-    },
-    {
-      "category": "대원종",
-      "categoryId": "cat-088518b0",
-      "articleCount": 98,
-      "latestIssueNo": 298,
-      "filePath": "categories/items/cat-088518b0.json"
     },
     {
       "category": "상생스테이 소감문",
@@ -516,13 +537,6 @@
       "filePath": "categories/items/cat-da055510.json"
     },
     {
-      "category": "이슈 터치",
-      "categoryId": "cat-e636cd51",
-      "articleCount": 14,
-      "latestIssueNo": 285,
-      "filePath": "categories/items/cat-e636cd51.json"
-    },
-    {
       "category": "2024년 제16회 대순문예공모전",
       "categoryId": "cat-e5cce867",
       "articleCount": 2,
@@ -530,25 +544,11 @@
       "filePath": "categories/items/cat-e5cce867.json"
     },
     {
-      "category": "대순종학과 신입생 수시모집",
-      "categoryId": "cat-2188653c",
-      "articleCount": 3,
-      "latestIssueNo": 284,
-      "filePath": "categories/items/cat-2188653c.json"
-    },
-    {
       "category": "지방 회관 소개",
       "categoryId": "cat-9c4c63b0",
       "articleCount": 47,
       "latestIssueNo": 284,
       "filePath": "categories/items/cat-9c4c63b0.json"
-    },
-    {
-      "category": "대순청소년 여름캠프 일정표",
-      "categoryId": "cat-c7992f85",
-      "articleCount": 1,
-      "latestIssueNo": 282,
-      "filePath": "categories/items/cat-c7992f85.json"
     },
     {
       "category": "제16회 대순문예공모전",

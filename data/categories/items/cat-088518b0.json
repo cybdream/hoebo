@@ -1,12 +1,25 @@
 {
-  "version": "20260611.0123",
-  "generatedAt": "2026-06-11T01:23:46.914Z",
+  "version": "20260706.0104",
+  "generatedAt": "2026-07-06T01:04:48.591Z",
   "source": "https://webzine.daesoon.org/",
   "category": "대원종",
   "categoryId": "cat-088518b0",
-  "articleCount": 98,
-  "latestIssueNo": 298,
+  "articleCount": 99,
+  "latestIssueNo": 307,
   "articles": [
+    {
+      "id": "w351-b10738-m5743",
+      "issueNo": 307,
+      "issueLabel": "307호",
+      "issueDateLabel": "대순156년(2026) 7월",
+      "webzineId": 351,
+      "order": 23,
+      "category": "대원종",
+      "title": "「대순진리회」(창설 유래문) 해설",
+      "author": "교무부 박병만",
+      "summary": "「대순진리회」(창설 유래문) 해설 교무부 박병만 ▲ 여주본부도장 포정문과 ‘창설 유래문’ (2026년 6월 21일) 여주본부도장의 포정문(布正門) 안쪽 옆 벽면에는 ‘대순진리회’라는 제목의 글이 게시되어 있다. 대순진리회를 창설한 유래가 무엇인가를 상...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=351&menu_no=5743&bno=10738&page=1"
+    },
     {
       "id": "w342-b10481-m5629",
       "issueNo": 298,

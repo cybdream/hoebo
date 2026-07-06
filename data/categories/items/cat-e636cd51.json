@@ -1,12 +1,25 @@
 {
-  "version": "20260611.0123",
-  "generatedAt": "2026-06-11T01:23:46.921Z",
+  "version": "20260706.0104",
+  "generatedAt": "2026-07-06T01:04:48.597Z",
   "source": "https://webzine.daesoon.org/",
   "category": "이슈 터치",
   "categoryId": "cat-e636cd51",
-  "articleCount": 14,
-  "latestIssueNo": 285,
+  "articleCount": 15,
+  "latestIssueNo": 307,
   "articles": [
+    {
+      "id": "w351-b10731-m5739",
+      "issueNo": 307,
+      "issueLabel": "307호",
+      "issueDateLabel": "대순156년(2026) 7월",
+      "webzineId": 351,
+      "order": 16,
+      "category": "이슈 터치",
+      "title": "젠슨 황 “나는 당신이 성공하기를 바랍니다”",
+      "author": "출판팀 최정훈",
+      "summary": "젠슨 황 “나는 당신이 성공하기를 바랍니다” 출판팀 최정훈 ▲ 젠슨 황 (사진: 위키미디어) 2025년 10월 30일, 엔비디아(Nvidia) CEO 젠슨 황이 방한하여 삼성의 이재용 회장과 현대차의 정의선 회장과 치킨집에서 만남을 가졌다. 사람들은 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=351&menu_no=5739&bno=10731&page=1"
+    },
     {
       "id": "w329-b10098-m5457",
       "issueNo": 285,

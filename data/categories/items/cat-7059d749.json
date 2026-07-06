@@ -1,12 +1,25 @@
 {
-  "version": "20260611.0123",
-  "generatedAt": "2026-06-11T01:23:46.905Z",
+  "version": "20260706.0104",
+  "generatedAt": "2026-07-06T01:04:48.597Z",
   "source": "https://webzine.daesoon.org/",
   "category": "전경 속 이야기",
   "categoryId": "cat-7059d749",
-  "articleCount": 34,
-  "latestIssueNo": 305,
+  "articleCount": 35,
+  "latestIssueNo": 307,
   "articles": [
+    {
+      "id": "w351-b10722-m5736",
+      "issueNo": 307,
+      "issueLabel": "307호",
+      "issueDateLabel": "대순156년(2026) 7월",
+      "webzineId": 351,
+      "order": 11,
+      "category": "전경 속 이야기",
+      "title": "원평에 모인 동학당",
+      "author": "교무부 조규제",
+      "summary": "원평에 모인 동학당 교무부 조규제 이해 七월에 동학당원들이 원평에 모였도다. 김 형렬이 상제를 뵈옵고자 이곳을 지나다가 동학당이 모여 있는 것을 보고 상제를 찾아뵈옵고 그 사실을 아뢰니 상제께서 그 모임의 취지와 행동을 알아 오도록 그를 원평으로 보내...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=351&menu_no=5736&bno=10722&page=1"
+    },
     {
       "id": "w349-b10678-m5718",
       "issueNo": 305,

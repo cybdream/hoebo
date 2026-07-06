@@ -1,12 +1,25 @@
 {
-  "version": "20260611.0123",
-  "generatedAt": "2026-06-11T01:23:46.880Z",
+  "version": "20260706.0104",
+  "generatedAt": "2026-07-06T01:04:48.592Z",
   "source": "https://webzine.daesoon.org/",
   "category": "도전님 훈시",
   "categoryId": "cat-6df5b8e9",
-  "articleCount": 253,
-  "latestIssueNo": 306,
+  "articleCount": 254,
+  "latestIssueNo": 307,
   "articles": [
+    {
+      "id": "w351-b10712-m5734",
+      "issueNo": 307,
+      "issueLabel": "307호",
+      "issueDateLabel": "대순156년(2026) 7월",
+      "webzineId": 351,
+      "order": 1,
+      "category": "도전님 훈시",
+      "title": "우리 종단의 일은 천지도수에 따른 것이다",
+      "author": "1991. 9. 28(음 8. 21)",
+      "summary": "우리 종단의 일은 천지도수에 따른 것이다 부정관계에 있어서 전에는 사부정(死不淨), 생부정(生不淨), 몸부정[經度不淨]을 가려왔습니다. 몸부정은 가리지 않아도 되게 했는데, 다른 부정에 대해서도 안 가리는 것을 생각하고 있었습니다. 도주님 재세 시 공...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=351&menu_no=5734&bno=10712&page=1"
+    },
     {
       "id": "w350-b10685-m5722",
       "issueNo": 306,

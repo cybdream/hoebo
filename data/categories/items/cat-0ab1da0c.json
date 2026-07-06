@@ -1,12 +1,25 @@
 {
-  "version": "20260611.0123",
-  "generatedAt": "2026-06-11T01:23:46.890Z",
+  "version": "20260706.0104",
+  "generatedAt": "2026-07-06T01:04:48.598Z",
   "source": "https://webzine.daesoon.org/",
   "category": "정심원",
   "categoryId": "cat-0ab1da0c",
-  "articleCount": 25,
-  "latestIssueNo": 306,
+  "articleCount": 26,
+  "latestIssueNo": 307,
   "articles": [
+    {
+      "id": "w351-b10732-m5740",
+      "issueNo": 307,
+      "issueLabel": "307호",
+      "issueDateLabel": "대순156년(2026) 7월",
+      "webzineId": 351,
+      "order": 17,
+      "category": "정심원",
+      "title": "늘 너그럽게 대하라",
+      "author": "교무부 이은희",
+      "summary": "늘 너그럽게 대하라 교무부 이은희 “비인정(非人情)이면 불가근(不可近)”이라 마음의 정을 베풀어서 도인은 물론 비도인에게도 늘 너그럽게 대하라. (『대순지침』, 28쪽) 누군가가 나에게 너그럽게 대해주면 마음이 한결 따뜻해진다. ‘너그럽다’라는 말 속...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=351&menu_no=5740&bno=10732&page=1"
+    },
     {
       "id": "w350-b10700-m5727",
       "issueNo": 306,

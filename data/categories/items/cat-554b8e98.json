@@ -1,12 +1,25 @@
 {
-  "version": "20260611.0123",
-  "generatedAt": "2026-06-11T01:23:46.883Z",
+  "version": "20260706.0104",
+  "generatedAt": "2026-07-06T01:04:48.593Z",
   "source": "https://webzine.daesoon.org/",
   "category": "알립니다",
   "categoryId": "cat-554b8e98",
-  "articleCount": 859,
-  "latestIssueNo": 306,
+  "articleCount": 860,
+  "latestIssueNo": 307,
   "articles": [
+    {
+      "id": "w351-b10739-m5744",
+      "issueNo": 307,
+      "issueLabel": "307호",
+      "issueDateLabel": "대순156년(2026) 7월",
+      "webzineId": 351,
+      "order": 24,
+      "category": "알립니다",
+      "title": "박물관 카페 OPEN",
+      "author": "",
+      "summary": "박물관 카페 OPEN",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=351&menu_no=5744&bno=10739&page=1"
+    },
     {
       "id": "w350-b10711-m5733",
       "issueNo": 306,
