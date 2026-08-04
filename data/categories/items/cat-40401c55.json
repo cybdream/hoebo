@@ -1,12 +1,25 @@
 {
-  "version": "20260706.0104",
-  "generatedAt": "2026-07-06T01:04:48.626Z",
+  "version": "20260804.0053",
+  "generatedAt": "2026-08-04T00:53:39.452Z",
   "source": "https://webzine.daesoon.org/",
   "category": "대순포커스",
   "categoryId": "cat-40401c55",
-  "articleCount": 30,
-  "latestIssueNo": 300,
+  "articleCount": 31,
+  "latestIssueNo": 308,
   "articles": [
+    {
+      "id": "w352-b10754-m5749",
+      "issueNo": 308,
+      "issueLabel": "308호",
+      "issueDateLabel": "대순156년(2026) 8월",
+      "webzineId": 352,
+      "order": 16,
+      "category": "대순포커스",
+      "title": "따지아하오(大家好),성모궁",
+      "author": "출판팀",
+      "summary": "따지아하오(大家好),성모궁 출판팀 7월 1일부터 7월 5일까지 대만 종교단체 오일성모궁(烏日聖母宮)에서 여주본부도장을 방문하여 상생스테이를 진행했다. 방문단은 정국남(鄭國南) 주지와 학생 5명으로 구성됐다. 이번 방문은 지난 1월 대만에서 진행한 한ㆍ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=352&menu_no=5749&bno=10754&page=1"
+    },
     {
       "id": "w344-b10529-m5648",
       "issueNo": 300,

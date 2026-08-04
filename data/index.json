@@ -1,8 +1,18 @@
 {
-  "version": "20260706.0104",
-  "generatedAt": "2026-07-06T01:04:47.593Z",
+  "version": "20260804.0053",
+  "generatedAt": "2026-08-04T00:53:38.483Z",
   "source": "https://webzine.daesoon.org/",
   "issues": [
+    {
+      "webzineId": 352,
+      "issueNo": 308,
+      "issueLabel": "308호",
+      "dateLabel": "대순156년(2026) 8월",
+      "coverUrl": "https://file.daesoon.org/webzine/cover/heoho208_cover.jpg",
+      "pdfUrl": "",
+      "articleCount": 25,
+      "filePath": "issues/301-310/308.json"
+    },
     {
       "webzineId": 351,
       "issueNo": 307,

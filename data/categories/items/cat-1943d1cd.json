@@ -1,12 +1,25 @@
 {
-  "version": "20260706.0104",
-  "generatedAt": "2026-07-06T01:04:48.617Z",
+  "version": "20260804.0053",
+  "generatedAt": "2026-08-04T00:53:39.422Z",
   "source": "https://webzine.daesoon.org/",
   "category": "대순광장",
   "categoryId": "cat-1943d1cd",
-  "articleCount": 193,
-  "latestIssueNo": 305,
+  "articleCount": 194,
+  "latestIssueNo": 308,
   "articles": [
+    {
+      "id": "w352-b10757-m5752",
+      "issueNo": 308,
+      "issueLabel": "308호",
+      "issueDateLabel": "대순156년(2026) 8월",
+      "webzineId": 352,
+      "order": 19,
+      "category": "대순광장",
+      "title": "심우도의 면이수지를 보며",
+      "author": "교무부 주소연",
+      "summary": "심우도의 면이수지를 보며 교무부 주소연 ▲ 면이수지 (여주본부도장 심우도 벽화) 도장에 참배하러 가면 언제나 대순진리회 수행 과정을 표현한 심우도(尋牛圖) 벽화를 만날 수 있다. ‘심우도’는 수도의 여정을 소를 찾는 과정에 비유하여 상징적으로 표현한 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=352&menu_no=5752&bno=10757&page=1"
+    },
     {
       "id": "w349-b10676-m5716",
       "issueNo": 305,
