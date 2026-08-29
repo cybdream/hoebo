@@ -1,12 +1,25 @@
 {
-  "version": "20260804.0053",
-  "generatedAt": "2026-08-04T00:53:39.495Z",
+  "version": "20260829.0050",
+  "generatedAt": "2026-08-29T00:50:35.678Z",
   "source": "https://webzine.daesoon.org/",
   "category": "전경 속 이야기",
   "categoryId": "cat-7059d749",
-  "articleCount": 35,
-  "latestIssueNo": 307,
+  "articleCount": 36,
+  "latestIssueNo": 309,
   "articles": [
+    {
+      "id": "w353-b10783-m5760",
+      "issueNo": 309,
+      "issueLabel": "309호",
+      "issueDateLabel": "대순156년(2026) 9월",
+      "webzineId": 353,
+      "order": 18,
+      "category": "전경 속 이야기",
+      "title": "전경 속 등장인물들의 인연 Ⅶ 1908년",
+      "author": "교무부 정나연",
+      "summary": "전경 속 등장인물들의 인연 Ⅶ 1908년 교무부 정나연 ▲ 백암리는 현재의 전북 정읍시 칠보면 백암리 원백암마을을 말한다. 《대순회보》 127호 p.12 참조. 지난 글에서는 1907(정미)년이 되어 『전경』에 등장하는 여러 인물의 인연 관계에 대해 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=353&menu_no=5760&bno=10783&page=1"
+    },
     {
       "id": "w351-b10722-m5736",
       "issueNo": 307,

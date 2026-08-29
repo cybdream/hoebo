@@ -1,12 +1,25 @@
 {
-  "version": "20260804.0053",
-  "generatedAt": "2026-08-04T00:53:39.453Z",
+  "version": "20260829.0050",
+  "generatedAt": "2026-08-29T00:50:35.672Z",
   "source": "https://webzine.daesoon.org/",
   "category": "도전님 훈시",
   "categoryId": "cat-6df5b8e9",
-  "articleCount": 255,
-  "latestIssueNo": 308,
+  "articleCount": 256,
+  "latestIssueNo": 309,
   "articles": [
+    {
+      "id": "w353-b10766-m5756",
+      "issueNo": 309,
+      "issueLabel": "309호",
+      "issueDateLabel": "대순156년(2026) 9월",
+      "webzineId": 353,
+      "order": 1,
+      "category": "도전님 훈시",
+      "title": "수도의 근본인 인륜 도덕을 올바르게 실천하여 몸에 배도록 하라",
+      "author": "1991. 10. 30(음 9. 23)",
+      "summary": "수도의 근본인 인륜 도덕을 올바르게 실천하여 몸에 배도록 하라 우리가 원하는 것은 대운 대통입니다. 이것을 달성하려면 첫째, 수도가 잘되어야 합니다. 수도를 안 하고 그냥 되는 것은 아닙니다. 우리가 도를 닦아나가는 데 인륜 도덕이라는 것이 강령이고 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=353&menu_no=5756&bno=10766&page=1"
+    },
     {
       "id": "w352-b10740-m5745",
       "issueNo": 308,

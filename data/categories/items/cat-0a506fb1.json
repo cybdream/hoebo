@@ -1,12 +1,38 @@
 {
-  "version": "20260804.0053",
-  "generatedAt": "2026-08-04T00:53:39.494Z",
+  "version": "20260829.0050",
+  "generatedAt": "2026-08-29T00:50:35.677Z",
   "source": "https://webzine.daesoon.org/",
   "category": "울타리",
   "categoryId": "cat-0a506fb1",
-  "articleCount": 42,
-  "latestIssueNo": 307,
+  "articleCount": 44,
+  "latestIssueNo": 309,
   "articles": [
+    {
+      "id": "w353-b10781-m5759",
+      "issueNo": 309,
+      "issueLabel": "309호",
+      "issueDateLabel": "대순156년(2026) 9월",
+      "webzineId": 353,
+      "order": 16,
+      "category": "울타리",
+      "title": "학교법인 산하 고등학교 학생자치회 리더십캠프 ‘실천으로 이어지는 리더십’",
+      "author": "출판팀 이공균",
+      "summary": "학교법인 산하 고등학교 학생자치회 리더십캠프 ‘실천으로 이어지는 리더십’ 출판팀 이공균 학교 법인 산하 고등학교 학생자치회 리더십캠프가 실천의 단계에 들어섰다. 지난 7월 대진청소년수련원에서 열린 제2회 리더십캠프에서 학생 헌장을 실천하기 위한 아이디...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=353&menu_no=5759&bno=10781&page=1"
+    },
+    {
+      "id": "w353-b10782-m5759",
+      "issueNo": 309,
+      "issueLabel": "309호",
+      "issueDateLabel": "대순156년(2026) 9월",
+      "webzineId": 353,
+      "order": 17,
+      "category": "울타리",
+      "title": "제12대 분당제생병원장 손정환 박사를 만나다",
+      "author": "출판팀 염장선",
+      "summary": "제12대 분당제생병원장 손정환 박사를 만나다 출판팀 염장선 우리나라 의료계는 현재 중증환자를 다루는 응급의학과나 외과 등의 필수의료 인력 부족, 응급실 뺑뺑이 문제를 유발하는 의료시스템의 불안전성, 수도권과 비수도권 간 의료격차에 따른 지역의료의 취약...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=353&menu_no=5759&bno=10782&page=2"
+    },
     {
       "id": "w351-b10728-m5738",
       "issueNo": 307,

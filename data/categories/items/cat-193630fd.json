@@ -1,12 +1,25 @@
 {
-  "version": "20260804.0053",
-  "generatedAt": "2026-08-04T00:53:39.500Z",
+  "version": "20260829.0050",
+  "generatedAt": "2026-08-29T00:50:35.671Z",
   "source": "https://webzine.daesoon.org/",
   "category": "대순캠프",
   "categoryId": "cat-193630fd",
-  "articleCount": 26,
-  "latestIssueNo": 302,
+  "articleCount": 27,
+  "latestIssueNo": 309,
   "articles": [
+    {
+      "id": "w353-b10787-m5764",
+      "issueNo": 309,
+      "issueLabel": "309호",
+      "issueDateLabel": "대순156년(2026) 9월",
+      "webzineId": 353,
+      "order": 22,
+      "category": "대순캠프",
+      "title": "척 풀러 온 그대 36회 대순청소년 여름캠프 상생연극",
+      "author": "출판팀",
+      "summary": "척 풀러 온 그대 36회 대순청소년 여름캠프 상생연극 출판팀 대순청소년캠프는 훈회와 상생을 학생들에게 쉽고 재밌게 전달하려고 노력한다. 그 역할을 가장 톡톡히 해내는 프로그램이 ‘상생연극’이다. 쉽고 재밌을뿐더러 학생들에게 일상생활에서 바람직한 행동이...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=353&menu_no=5764&bno=10787&page=1"
+    },
     {
       "id": "w346-b10593-m5679",
       "issueNo": 302,

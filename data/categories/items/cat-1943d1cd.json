@@ -1,12 +1,25 @@
 {
-  "version": "20260804.0053",
-  "generatedAt": "2026-08-04T00:53:39.422Z",
+  "version": "20260829.0050",
+  "generatedAt": "2026-08-29T00:50:35.669Z",
   "source": "https://webzine.daesoon.org/",
   "category": "대순광장",
   "categoryId": "cat-1943d1cd",
-  "articleCount": 194,
-  "latestIssueNo": 308,
+  "articleCount": 195,
+  "latestIssueNo": 309,
   "articles": [
+    {
+      "id": "w353-b10785-m5762",
+      "issueNo": 309,
+      "issueLabel": "309호",
+      "issueDateLabel": "대순156년(2026) 9월",
+      "webzineId": 353,
+      "order": 20,
+      "category": "대순광장",
+      "title": "대순진리회의 생태적 발자취",
+      "author": "교무부 이은희",
+      "summary": "대순진리회의 생태적 발자취 교무부 이은희 ▲ 여주본부도장 박물관 폭포 개울 (2022년 6월 촬영) 오늘날 지구는 과거 어느 시대보다 거대한 전환의 문턱에 서 있다. 이익을 향한 인간의 과도한 활동으로 환경이 오염되고 생태계가 파괴되면서 여섯 번째 대...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=353&menu_no=5762&bno=10785&page=1"
+    },
     {
       "id": "w352-b10757-m5752",
       "issueNo": 308,

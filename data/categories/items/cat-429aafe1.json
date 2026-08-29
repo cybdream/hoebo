@@ -1,12 +1,25 @@
 {
-  "version": "20260804.0053",
-  "generatedAt": "2026-08-04T00:53:39.496Z",
+  "version": "20260829.0050",
+  "generatedAt": "2026-08-29T00:50:35.673Z",
   "source": "https://webzine.daesoon.org/",
   "category": "생각이 있는 풍경",
   "categoryId": "cat-429aafe1",
-  "articleCount": 80,
-  "latestIssueNo": 306,
+  "articleCount": 81,
+  "latestIssueNo": 309,
   "articles": [
+    {
+      "id": "w353-b10786-m5763",
+      "issueNo": 309,
+      "issueLabel": "309호",
+      "issueDateLabel": "대순156년(2026) 9월",
+      "webzineId": 353,
+      "order": 21,
+      "category": "생각이 있는 풍경",
+      "title": "서툴렀던 나의 통심정",
+      "author": "교무부 류재근",
+      "summary": "서툴렀던 나의 통심정 교무부 류재근 이심전심(以心傳心)이라는 말이 있다. 이는 마음과 마음으로 서로 뜻이 통한다는 의미로, 서로의 생각이나 감정이 소통 과정에서 오해나 왜곡 없이 그대로 전달되는 상태를 나타낸다. 그러나 현실에서 온전히 상대방의 마음을...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=353&menu_no=5763&bno=10786&page=1"
+    },
     {
       "id": "w350-b10706-m5730",
       "issueNo": 306,

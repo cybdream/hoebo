@@ -1,12 +1,25 @@
 {
-  "version": "20260804.0053",
-  "generatedAt": "2026-08-04T00:53:39.421Z",
+  "version": "20260829.0050",
+  "generatedAt": "2026-08-29T00:50:35.668Z",
   "source": "https://webzine.daesoon.org/",
   "category": "기획 연재",
   "categoryId": "cat-06d353c4",
-  "articleCount": 3,
-  "latestIssueNo": 308,
+  "articleCount": 4,
+  "latestIssueNo": 309,
   "articles": [
+    {
+      "id": "w353-b10784-m5761",
+      "issueNo": 309,
+      "issueLabel": "309호",
+      "issueDateLabel": "대순156년(2026) 9월",
+      "webzineId": 353,
+      "order": 19,
+      "category": "기획 연재",
+      "title": "다시 보는 대순회보Ⅶ 우리를 묶어주는 이야기",
+      "author": "출판팀 최정훈",
+      "summary": "다시 보는 대순회보Ⅶ 우리를 묶어주는 이야기 출판팀 최정훈 우리 도는 ‘인산수도(人山修道)’라고 한다. 이는 사람과 사람 사이에서 부대끼며 도를 닦는 것을 뜻한다. 그러나 각자의 소속 방면을 넘어 종단 전체를 보면 다른 방면 도인들이 먼 친척처럼 어색...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=353&menu_no=5761&bno=10784&page=1"
+    },
     {
       "id": "w352-b10756-m5751",
       "issueNo": 308,
