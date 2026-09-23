@@ -1,12 +1,25 @@
 {
-  "version": "20260829.0050",
-  "generatedAt": "2026-08-29T00:50:35.678Z",
+  "version": "20260923.0055",
+  "generatedAt": "2026-09-23T00:56:00.497Z",
   "source": "https://webzine.daesoon.org/",
   "category": "전경 속 이야기",
   "categoryId": "cat-7059d749",
-  "articleCount": 36,
-  "latestIssueNo": 309,
+  "articleCount": 37,
+  "latestIssueNo": 310,
   "articles": [
+    {
+      "id": "w354-b10805-m5769",
+      "issueNo": 310,
+      "issueLabel": "310호",
+      "issueDateLabel": "대순156년(2026) 10월",
+      "webzineId": 354,
+      "order": 13,
+      "category": "전경 속 이야기",
+      "title": "도주님 부친께서 보황당원의 혐의를 받으시다",
+      "author": "교무부 손영배",
+      "summary": "도주님 부친께서 보황당원의 혐의를 받으시다 교무부 손영배 ▲ 도주님 가족이 머무셨던 봉천 유하현의 위치. 봉천성 동쪽(지금의 길림성 지역)에 있다. (Baidu 지도 캡처), 《대순회보》 176호 pp.23~24 참조 도주께서는 경술년에 어린 몸으로 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=354&menu_no=5769&bno=10805&page=1"
+    },
     {
       "id": "w353-b10783-m5760",
       "issueNo": 309,

@@ -1,12 +1,25 @@
 {
-  "version": "20260829.0050",
-  "generatedAt": "2026-08-29T00:50:35.672Z",
+  "version": "20260923.0055",
+  "generatedAt": "2026-09-23T00:56:00.491Z",
   "source": "https://webzine.daesoon.org/",
   "category": "도전님 훈시",
   "categoryId": "cat-6df5b8e9",
-  "articleCount": 256,
-  "latestIssueNo": 309,
+  "articleCount": 257,
+  "latestIssueNo": 310,
   "articles": [
+    {
+      "id": "w354-b10793-m5767",
+      "issueNo": 310,
+      "issueLabel": "310호",
+      "issueDateLabel": "대순156년(2026) 10월",
+      "webzineId": 354,
+      "order": 1,
+      "category": "도전님 훈시",
+      "title": "수도의 기본 원리인 윤리 도덕을 잘 지켜 나가도록 하라",
+      "author": "1991. 12. 5(음 10. 30)",
+      "summary": "수도의 기본 원리인 윤리 도덕을 잘 지켜 나가도록 하라 밖에서는 대진대학 들어가기가 어렵다고들 합니다. 할 수 없습니다. 실력 가지고 하는 거니까. 도인 학생이 반만 되어도 포천에 한옥으로 딱 본전만 하게 집을 지으려고 합니다. 도인 학생들이 반 이상...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=354&menu_no=5767&bno=10793&page=1"
+    },
     {
       "id": "w353-b10766-m5756",
       "issueNo": 309,

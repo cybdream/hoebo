@@ -1,12 +1,25 @@
 {
-  "version": "20260829.0050",
-  "generatedAt": "2026-08-29T00:50:35.669Z",
+  "version": "20260923.0055",
+  "generatedAt": "2026-09-23T00:56:00.488Z",
   "source": "https://webzine.daesoon.org/",
   "category": "대순광장",
   "categoryId": "cat-1943d1cd",
-  "articleCount": 195,
-  "latestIssueNo": 309,
+  "articleCount": 196,
+  "latestIssueNo": 310,
   "articles": [
+    {
+      "id": "w354-b10811-m5774",
+      "issueNo": 310,
+      "issueLabel": "310호",
+      "issueDateLabel": "대순156년(2026) 10월",
+      "webzineId": 354,
+      "order": 19,
+      "category": "대순광장",
+      "title": "몰입을 통해 본 생각의 힘",
+      "author": "교무부 이광주",
+      "summary": "몰입을 통해 본 생각의 힘 교무부 이광주 오늘날 우리는 인공지능, 빅데이터, 사물인터넷 등으로 대표되는 정보통신기술의 발전에 힘입어 언제, 어디서나 다양한 정보들을 손쉽게 찾아볼 수 있다. 이를 통해 필요한 지식을 얻기도 하지만, 끊임없이 쏟아지는 정...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=354&menu_no=5774&bno=10811&page=1"
+    },
     {
       "id": "w353-b10785-m5762",
       "issueNo": 309,

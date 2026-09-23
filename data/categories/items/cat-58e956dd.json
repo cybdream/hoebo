@@ -1,12 +1,25 @@
 {
-  "version": "20260829.0050",
-  "generatedAt": "2026-08-29T00:50:35.717Z",
+  "version": "20260923.0055",
+  "generatedAt": "2026-09-23T00:56:00.486Z",
   "source": "https://webzine.daesoon.org/",
   "category": "고전 에세이",
   "categoryId": "cat-58e956dd",
-  "articleCount": 21,
-  "latestIssueNo": 281,
+  "articleCount": 22,
+  "latestIssueNo": 310,
   "articles": [
+    {
+      "id": "w354-b10816-m5777",
+      "issueNo": 310,
+      "issueLabel": "310호",
+      "issueDateLabel": "대순156년(2026) 10월",
+      "webzineId": 354,
+      "order": 24,
+      "category": "고전 에세이",
+      "title": "우산지목(牛山之木)",
+      "author": "교무부 박종식",
+      "summary": "우산지목(牛山之木) 교무부 박종식 사람들은 흔히 마음을 닦는다고 말한다. 마음을 닦는다는 것은 본래 맑고 깨끗했던 마음에 때가 묻어 있기 때문에 수양을 통해서 본성을 회복하고자 하는 것이다. 때는 본래부터 있었던 것이 아니라 세월이 흐르면서 쌓인 것이...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=354&menu_no=5777&bno=10816&page=1"
+    },
     {
       "id": "w325-b9981-m5396",
       "issueNo": 281,

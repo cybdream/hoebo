@@ -1,12 +1,38 @@
 {
-  "version": "20260829.0050",
-  "generatedAt": "2026-08-29T00:50:35.677Z",
+  "version": "20260923.0055",
+  "generatedAt": "2026-09-23T00:56:00.496Z",
   "source": "https://webzine.daesoon.org/",
   "category": "울타리",
   "categoryId": "cat-0a506fb1",
-  "articleCount": 44,
-  "latestIssueNo": 309,
+  "articleCount": 46,
+  "latestIssueNo": 310,
   "articles": [
+    {
+      "id": "w354-b10808-m5772",
+      "issueNo": 310,
+      "issueLabel": "310호",
+      "issueDateLabel": "대순156년(2026) 10월",
+      "webzineId": 354,
+      "order": 16,
+      "category": "울타리",
+      "title": "대진여고 32인의 사제동행 강원도 인문학 로드트립",
+      "author": "대진여자고등학교 교사 권진숙",
+      "summary": "대진여고 32인의 사제동행 강원도 인문학 로드트립 대진여자고등학교 교사 권진숙 올해도 어김없이 학생들과 함께 짐을 꾸릴 계절이 다가왔다. 8월 13일부터 14일까지, 대진여고 인문사회 아카데미 학생 17명과 교사 15명, 총 32명은 강원도 일대로 ‘...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=354&menu_no=5772&bno=10808&page=1"
+    },
+    {
+      "id": "w354-b10809-m5772",
+      "issueNo": 310,
+      "issueLabel": "310호",
+      "issueDateLabel": "대순156년(2026) 10월",
+      "webzineId": 354,
+      "order": 17,
+      "category": "울타리",
+      "title": "‘대진’의 이름으로 하나 된 시간",
+      "author": "대진전자통신고등학교 학생자치회 2학년장 천연아",
+      "summary": "‘대진’의 이름으로 하나 된 시간 - 역사와 상생 속에서 자라난 대진인의 리더십 - 대진전자통신고등학교 학생자치회 2학년장 천연아 Ⅰ. 시작하며: ‘대진’이라는 이름으로 넓힌 리더십의 지평 올해 학생자치회의 2학년장을 맡아, 학교를 대표하여 ‘학교법인...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=354&menu_no=5772&bno=10809&page=2"
+    },
     {
       "id": "w353-b10781-m5759",
       "issueNo": 309,

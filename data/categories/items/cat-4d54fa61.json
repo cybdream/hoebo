@@ -1,12 +1,25 @@
 {
-  "version": "20260829.0050",
-  "generatedAt": "2026-08-29T00:50:35.697Z",
+  "version": "20260923.0055",
+  "generatedAt": "2026-09-23T00:56:00.496Z",
   "source": "https://webzine.daesoon.org/",
   "category": "전경 성구",
   "categoryId": "cat-4d54fa61",
-  "articleCount": 76,
-  "latestIssueNo": 305,
+  "articleCount": 77,
+  "latestIssueNo": 310,
   "articles": [
+    {
+      "id": "w354-b10807-m5771",
+      "issueNo": 310,
+      "issueLabel": "310호",
+      "issueDateLabel": "대순156년(2026) 10월",
+      "webzineId": 354,
+      "order": 15,
+      "category": "전경 성구",
+      "title": "속담에 발복이라 하나니",
+      "author": "교무부 김의성",
+      "summary": "속담에 발복이라 하나니 교무부 김의성 이때에 경학의 형이 아우를 오라고 사람을 보내온지라. 상제께서 그를 보낸 후에 발을 당기고 가라사대 “속담에 발복이라 하나니 모르고 가는 길에 잘 가면 행이요 잘못 가면 곤란이라” 하시고 곧 그곳을 떠나 최 창조의...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=354&menu_no=5771&bno=10807&page=1"
+    },
     {
       "id": "w349-b10683-m5720",
       "issueNo": 305,
