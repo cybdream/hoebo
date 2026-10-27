@@ -1,12 +1,25 @@
 {
-  "version": "20260923.0055",
-  "generatedAt": "2026-09-23T00:56:00.488Z",
+  "version": "20261027.0056",
+  "generatedAt": "2026-10-27T00:56:56.479Z",
   "source": "https://webzine.daesoon.org/",
   "category": "대순광장",
   "categoryId": "cat-1943d1cd",
-  "articleCount": 196,
-  "latestIssueNo": 310,
+  "articleCount": 197,
+  "latestIssueNo": 311,
   "articles": [
+    {
+      "id": "w355-b10839-m5787",
+      "issueNo": 311,
+      "issueLabel": "311호",
+      "issueDateLabel": "대순156년(2026) 10월",
+      "webzineId": 355,
+      "order": 23,
+      "category": "대순광장",
+      "title": "도덕적 허가 효과에 대한 경계",
+      "author": "",
+      "summary": "도덕적 허가 효과에 대한 경계_ 교무부 한상덕 우리는 자신이 행한 선행을 어떻게 인식하느냐에 따라 삶을 대하는 방식에서 큰 차이를 보인다. 선행을 베푼 후 밀려오는 뿌듯함은 때로 인격 성숙의 자양분이 되기도 하지만, 한편으로는 ‘좋은 일을 했으니, 이...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=355&menu_no=5787&bno=10839&page=1"
+    },
     {
       "id": "w354-b10811-m5774",
       "issueNo": 310,

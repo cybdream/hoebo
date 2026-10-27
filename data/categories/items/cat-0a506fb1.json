@@ -1,12 +1,25 @@
 {
-  "version": "20260923.0055",
-  "generatedAt": "2026-09-23T00:56:00.496Z",
+  "version": "20261027.0056",
+  "generatedAt": "2026-10-27T00:56:56.486Z",
   "source": "https://webzine.daesoon.org/",
   "category": "울타리",
   "categoryId": "cat-0a506fb1",
-  "articleCount": 46,
-  "latestIssueNo": 310,
+  "articleCount": 47,
+  "latestIssueNo": 311,
   "articles": [
+    {
+      "id": "w355-b10835-m5783",
+      "issueNo": 311,
+      "issueLabel": "311호",
+      "issueDateLabel": "대순156년(2026) 10월",
+      "webzineId": 355,
+      "order": 19,
+      "category": "울타리",
+      "title": "AI와 함께 진화하는 교육 현장 대진전자통신고등학교",
+      "author": "",
+      "summary": "AI와 함께 진화하는 교육 현장 대진전자통신고등학교 출판팀 이공균 ▲ 학교 실습 시설 - 바둑 로봇 최근 대진전자통신고등학교(교장 박정근)에 새로운 변화의 소식이 들렸다. 인공지능(AI)의 발전으로 빠르게 달라지는 산업 환경에 발맞춰 교육과정을 새롭게...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=355&menu_no=5783&bno=10835&page=1"
+    },
     {
       "id": "w354-b10808-m5772",
       "issueNo": 310,

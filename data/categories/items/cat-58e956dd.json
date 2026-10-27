@@ -1,12 +1,25 @@
 {
-  "version": "20260923.0055",
-  "generatedAt": "2026-09-23T00:56:00.486Z",
+  "version": "20261027.0056",
+  "generatedAt": "2026-10-27T00:56:56.476Z",
   "source": "https://webzine.daesoon.org/",
   "category": "고전 에세이",
   "categoryId": "cat-58e956dd",
-  "articleCount": 22,
-  "latestIssueNo": 310,
+  "articleCount": 23,
+  "latestIssueNo": 311,
   "articles": [
+    {
+      "id": "w355-b10838-m5786",
+      "issueNo": 311,
+      "issueLabel": "311호",
+      "issueDateLabel": "대순156년(2026) 10월",
+      "webzineId": 355,
+      "order": 22,
+      "category": "고전 에세이",
+      "title": "집대성(集大成)과 금성옥진(金聲玉振)",
+      "author": "",
+      "summary": "집대성(集大成)과 금성옥진(金聲玉振) 교무부 송하명 ▲ 종묘제례악 : 편종, 편경, 해금, 대금, 아쟁, 장구 등 여러 종류의 전통 악기가 조화를 이룬다 공자의 출생지인 중국 산동성 곡부시에 있는 공묘(孔廟)의 첫 관문인 삼문(三門)에는 ‘금성옥진’이...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=355&menu_no=5786&bno=10838&page=1"
+    },
     {
       "id": "w354-b10816-m5777",
       "issueNo": 310,

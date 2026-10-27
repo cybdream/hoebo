@@ -1,12 +1,25 @@
 {
-  "version": "20260923.0055",
-  "generatedAt": "2026-09-23T00:56:00.524Z",
+  "version": "20261027.0056",
+  "generatedAt": "2026-10-27T00:56:56.499Z",
   "source": "https://webzine.daesoon.org/",
   "category": "참관기",
   "categoryId": "cat-0a71a9ed",
-  "articleCount": 6,
-  "latestIssueNo": 303,
+  "articleCount": 7,
+  "latestIssueNo": 311,
   "articles": [
+    {
+      "id": "w355-b10837-m5785",
+      "issueNo": 311,
+      "issueLabel": "311호",
+      "issueDateLabel": "대순156년(2026) 10월",
+      "webzineId": 355,
+      "order": 21,
+      "category": "참관기",
+      "title": "‘한ㆍ일 청소년 교류’ 두 번째 이야기",
+      "author": "",
+      "summary": "‘한ㆍ일 청소년 교류’ 두 번째 이야기 교무부 국제팀 8월 27일부터 31일까지, 일본의 오오모토와 함께하는 두 번째 ‘한ㆍ일 청소년 교류’가 진행됐다. 지난봄 대순진리회 여주본부도장에 방문하여 상생스테이에 참석했던 오오모토의 학생들과 그때 이들을 반...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=355&menu_no=5785&bno=10837&page=1"
+    },
     {
       "id": "w347-b10624-m5690",
       "issueNo": 303,

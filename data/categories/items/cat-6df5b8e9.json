@@ -1,12 +1,25 @@
 {
-  "version": "20260923.0055",
-  "generatedAt": "2026-09-23T00:56:00.491Z",
+  "version": "20261027.0056",
+  "generatedAt": "2026-10-27T00:56:56.481Z",
   "source": "https://webzine.daesoon.org/",
   "category": "도전님 훈시",
   "categoryId": "cat-6df5b8e9",
-  "articleCount": 257,
-  "latestIssueNo": 310,
+  "articleCount": 258,
+  "latestIssueNo": 311,
   "articles": [
+    {
+      "id": "w355-b10818-m5779",
+      "issueNo": 311,
+      "issueLabel": "311호",
+      "issueDateLabel": "대순156년(2026) 10월",
+      "webzineId": 355,
+      "order": 1,
+      "category": "도전님 훈시",
+      "title": "우리는 해원상생을 실천하며 화목ㆍ단결해야 한다",
+      "author": "",
+      "summary": "우리는 해원상생을 실천하며 화목ㆍ단결해야 한다 차량 문제에 대해서는 늘 걱정이 안 될 수 없습니다. 차량은 늘 주의를 해야 합니다. 차에 타는 사람들은 잘 모릅니다. 기사가 무리하면 안 됩니다. 잠을 덜 잔다거나 피로한 데서 늘 사고가 납니다. 강식 ...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=355&menu_no=5779&bno=10818&page=1"
+    },
     {
       "id": "w354-b10793-m5767",
       "issueNo": 310,

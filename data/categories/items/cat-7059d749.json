@@ -1,12 +1,25 @@
 {
-  "version": "20260923.0055",
-  "generatedAt": "2026-09-23T00:56:00.497Z",
+  "version": "20261027.0056",
+  "generatedAt": "2026-10-27T00:56:56.487Z",
   "source": "https://webzine.daesoon.org/",
   "category": "전경 속 이야기",
   "categoryId": "cat-7059d749",
-  "articleCount": 37,
-  "latestIssueNo": 310,
+  "articleCount": 38,
+  "latestIssueNo": 311,
   "articles": [
+    {
+      "id": "w355-b10834-m5782",
+      "issueNo": 311,
+      "issueLabel": "311호",
+      "issueDateLabel": "대순156년(2026) 10월",
+      "webzineId": 355,
+      "order": 18,
+      "category": "전경 속 이야기",
+      "title": "전경 속 등장인물들의 인연 Ⅷ 1908년",
+      "author": "",
+      "summary": "전경 속 등장인물들의 인연 Ⅷ 1908년 교무부 정나연 1908(무신)년이 되어 『전경』에 등장하는 여러 인물 중에서 지난 글에 이어 손병욱, 최덕겸, 김영학, 류찬명, 김송환, 차윤경, 차윤칠, 차공숙, 장성원 등의 인연 관계에 대해 살펴보고자 한다...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=355&menu_no=5782&bno=10834&page=1"
+    },
     {
       "id": "w354-b10805-m5769",
       "issueNo": 310,

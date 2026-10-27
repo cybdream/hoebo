@@ -1,15 +1,92 @@
 {
-  "version": "20260923.0055",
-  "generatedAt": "2026-09-23T00:56:00.682Z",
+  "version": "20261027.0056",
+  "generatedAt": "2026-10-27T00:56:56.838Z",
   "source": "https://webzine.daesoon.org/",
-  "totalCategories": 608,
+  "totalCategories": 609,
   "categories": [
     {
       "category": "고전 에세이",
       "categoryId": "cat-58e956dd",
-      "articleCount": 22,
-      "latestIssueNo": 310,
+      "articleCount": 23,
+      "latestIssueNo": 311,
       "filePath": "categories/items/cat-58e956dd.json"
+    },
+    {
+      "category": "나누고 싶은 이야기",
+      "categoryId": "cat-60ba5977",
+      "articleCount": 299,
+      "latestIssueNo": 311,
+      "filePath": "categories/items/cat-60ba5977.json"
+    },
+    {
+      "category": "대순광장",
+      "categoryId": "cat-1943d1cd",
+      "articleCount": 197,
+      "latestIssueNo": 311,
+      "filePath": "categories/items/cat-1943d1cd.json"
+    },
+    {
+      "category": "대순포커스",
+      "categoryId": "cat-40401c55",
+      "articleCount": 33,
+      "latestIssueNo": 311,
+      "filePath": "categories/items/cat-40401c55.json"
+    },
+    {
+      "category": "도전님 훈시",
+      "categoryId": "cat-6df5b8e9",
+      "articleCount": 258,
+      "latestIssueNo": 311,
+      "filePath": "categories/items/cat-6df5b8e9.json"
+    },
+    {
+      "category": "알립니다",
+      "categoryId": "cat-554b8e98",
+      "articleCount": 864,
+      "latestIssueNo": 311,
+      "filePath": "categories/items/cat-554b8e98.json"
+    },
+    {
+      "category": "울타리",
+      "categoryId": "cat-0a506fb1",
+      "articleCount": 47,
+      "latestIssueNo": 311,
+      "filePath": "categories/items/cat-0a506fb1.json"
+    },
+    {
+      "category": "전경 성구",
+      "categoryId": "cat-4d54fa61",
+      "articleCount": 78,
+      "latestIssueNo": 311,
+      "filePath": "categories/items/cat-4d54fa61.json"
+    },
+    {
+      "category": "전경 속 이야기",
+      "categoryId": "cat-7059d749",
+      "articleCount": 38,
+      "latestIssueNo": 311,
+      "filePath": "categories/items/cat-7059d749.json"
+    },
+    {
+      "category": "제37회 대순청소년 겨울캠프",
+      "categoryId": "cat-1b728c3c",
+      "articleCount": 1,
+      "latestIssueNo": 311,
+      "filePath": "categories/items/cat-1b728c3c.json"
+    },
+    {
+      "category": "종단소식",
+      "categoryId": "cat-5f5fb719",
+      "articleCount": 3215,
+      "latestIssueNo": 311,
+      "filePath": "categories/items/cat-5f5fb719.json"
+    },
+    {
+      "category": "참관기",
+      "categoryId": "cat-0a71a9ed",
+      "articleCount": 7,
+      "latestIssueNo": 311,
+      "filePath": "categories/items/cat-0a71a9ed.json"
     },
     {
       "category": "기획 연재",
@@ -17,13 +94,6 @@
       "articleCount": 5,
       "latestIssueNo": 310,
       "filePath": "categories/items/cat-06d353c4.json"
-    },
-    {
-      "category": "대순광장",
-      "categoryId": "cat-1943d1cd",
-      "articleCount": 196,
-      "latestIssueNo": 310,
-      "filePath": "categories/items/cat-1943d1cd.json"
     },
     {
       "category": "대순문예",
@@ -38,55 +108,6 @@
       "articleCount": 28,
       "latestIssueNo": 310,
       "filePath": "categories/items/cat-193630fd.json"
-    },
-    {
-      "category": "대순포커스",
-      "categoryId": "cat-40401c55",
-      "articleCount": 32,
-      "latestIssueNo": 310,
-      "filePath": "categories/items/cat-40401c55.json"
-    },
-    {
-      "category": "도전님 훈시",
-      "categoryId": "cat-6df5b8e9",
-      "articleCount": 257,
-      "latestIssueNo": 310,
-      "filePath": "categories/items/cat-6df5b8e9.json"
-    },
-    {
-      "category": "알립니다",
-      "categoryId": "cat-554b8e98",
-      "articleCount": 863,
-      "latestIssueNo": 310,
-      "filePath": "categories/items/cat-554b8e98.json"
-    },
-    {
-      "category": "울타리",
-      "categoryId": "cat-0a506fb1",
-      "articleCount": 46,
-      "latestIssueNo": 310,
-      "filePath": "categories/items/cat-0a506fb1.json"
-    },
-    {
-      "category": "전경 성구",
-      "categoryId": "cat-4d54fa61",
-      "articleCount": 77,
-      "latestIssueNo": 310,
-      "filePath": "categories/items/cat-4d54fa61.json"
-    },
-    {
-      "category": "전경 속 이야기",
-      "categoryId": "cat-7059d749",
-      "articleCount": 37,
-      "latestIssueNo": 310,
-      "filePath": "categories/items/cat-7059d749.json"
-    },
-    {
-      "category": "종단소식",
-      "categoryId": "cat-5f5fb719",
-      "articleCount": 3200,
-      "latestIssueNo": 310,
-      "filePath": "categories/items/cat-5f5fb719.json"
     },
     {
       "category": "생각이 있는 풍경",
@@ -180,13 +201,6 @@
       "filePath": "categories/items/cat-afd51250.json"
     },
     {
-      "category": "나누고 싶은 이야기",
-      "categoryId": "cat-60ba5977",
-      "articleCount": 295,
-      "latestIssueNo": 304,
-      "filePath": "categories/items/cat-60ba5977.json"
-    },
-    {
       "category": "내가 읽은 책",
       "categoryId": "cat-710d6449",
       "articleCount": 40,
@@ -234,13 +248,6 @@
       "articleCount": 2,
       "latestIssueNo": 303,
       "filePath": "categories/items/cat-0530447e.json"
-    },
-    {
-      "category": "참관기",
-      "categoryId": "cat-0a71a9ed",
-      "articleCount": 6,
-      "latestIssueNo": 303,
-      "filePath": "categories/items/cat-0a71a9ed.json"
     },
     {
       "category": "청계탑",

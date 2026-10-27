@@ -1,12 +1,25 @@
 {
-  "version": "20260923.0055",
-  "generatedAt": "2026-09-23T00:56:00.491Z",
+  "version": "20261027.0056",
+  "generatedAt": "2026-10-27T00:56:56.480Z",
   "source": "https://webzine.daesoon.org/",
   "category": "대순포커스",
   "categoryId": "cat-40401c55",
-  "articleCount": 32,
-  "latestIssueNo": 310,
+  "articleCount": 33,
+  "latestIssueNo": 311,
   "articles": [
+    {
+      "id": "w355-b10833-m5781",
+      "issueNo": 311,
+      "issueLabel": "311호",
+      "issueDateLabel": "대순156년(2026) 10월",
+      "webzineId": 355,
+      "order": 17,
+      "category": "대순포커스",
+      "title": "대진국제자원봉사단의 도깨비방망이 마음까지 채우는 덕천면 공유냉장고",
+      "author": "",
+      "summary": "대진국제자원봉사단의 도깨비방망이 마음까지 채우는 덕천면 공유냉장고 출판팀 차익제 ▲ 덕천면 공유냉장고 “오늘은 어떤 맛있는 음식으로 채워질까?” 정읍시 덕천면의 공유냉장고가 요즘 부쩍 풍성해졌다. 처음 문을 열었을 때만 해도 주민들이 기부한 소박한 간...",
+      "sourceUrl": "https://webzine.daesoon.org/board/readcnt.asp?webzine=355&menu_no=5781&bno=10833&page=1"
+    },
     {
       "id": "w354-b10806-m5770",
       "issueNo": 310,
